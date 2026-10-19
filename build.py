@@ -187,9 +187,12 @@ def nav_html(current_url):
     return f'<ul class="nav-list">{"".join(lis)}</ul>'
 
 
-def logo(eager=True):
-    return ('<img class="school-logo" src="/img/logo/zsmr-logo-photo.svg" alt="Maltézský řád – Základní škola Maltézských rytířů" width="364" height="136"'
-            + (' fetchpriority="high"' if eager else ' loading="lazy"') + ">")
+def logo():
+    """The school lockup in the banner, sized and placed exactly as on the Prague and Skutec school sites (.lockup: shield at
+    the Grand Magistry web size; --h and --t carry the SVG's height and its accents above the shield top, in shield units)."""
+    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', (STATIC / "img" / "logo" / "zsmr-logo-photo.svg").read_text()).group(1).split()]
+    return (f'<img class="lockup" src="/img/logo/zsmr-logo-photo.svg" alt="Maltézský řád – Základní škola Maltézských rytířů" width="{vb[2]:.0f}" height="{vb[3]:.0f}"'
+            f' style="--h:{vb[3] / 126:.4f};--t:{vb[1] / 126:.4f}" fetchpriority="high">')
 
 
 def layout(*, url, title, body, description="", image=None, status=None, main_class=""):
@@ -254,9 +257,9 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
   <a class="topbar-home" href="https://www.maltezskyrad.cz/">Maltézský řád · České velkopřevorství</a>
   <span class="topbar-social"><a href="tel:{c['phones'][0][1].replace(' ', '')}">{c['phones'][0][1]}</a><a href="mailto:{c['email']}">{c['email']}</a></span>
  </div></div>
- <div class="idband"><div class="wrap">
-  <a class="idband-home" href="/">{logo()}</a>
-  <p class="idband-meta"><span>{esc(names['tagline'])}</span><span>Zřizovatel: {esc(names['founder'])}</span></p>
+ <div class="banner"><div class="wrap">
+  <a class="banner-home" href="/">{logo()}</a>
+  <p class="fullname">{esc(names['tagline'])}<span>{esc(names['founder'])} · zřizovatel školy</span></p>
  </div></div>
  <nav class="mainnav" aria-label="Hlavní menu"><div class="wrap">
   <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>

@@ -478,22 +478,25 @@ button.btn[disabled]{opacity:.65;cursor:progress}
   .ne-submit{padding:var(--s5)}
 }
 
-/* ---------- zsmr.eu: school identity band and components (same tokens as maltezskyrad.cz) ----------
-   A school is a work of the Order, so the white identity band carries the school lockup (red shield + name) in place of
-   the Grand Magistry banner photograph; the red top bar, graphite menu and grey / white / red footer stay. */
-.idband{background:#fff;border-bottom:1px solid var(--rule)}
-.idband .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--s4) var(--s6);padding-block:var(--s5)}
-.idband-home{line-height:0;flex:none}
-/* shield at the Grand Magistry web size (107px), the same as on the Prague and Skutec sites; 135.51/126 = logo height per shield.
-   Small screens keep the logo's 66px minimum (shield 61px, the sister sites use 60px). */
-.school-logo{height:calc(107px * 135.51 / 126);width:auto}
-@media (max-width:960px){.school-logo{height:66px}}
-.idband-meta{margin:0;display:grid;gap:2px;text-align:right;font-size:.82rem;color:var(--muted);border-left:1px solid var(--rule);padding-left:var(--s5)}
-.idband-meta span:first-child{font:500 1.05rem/1.3 var(--display);color:var(--ink-strong)}
-@media (max-width:760px){
-  .idband .wrap{padding-block:var(--s4)}
-  .idband-meta{display:none}
+/* ---------- zsmr.eu: school banner and components (same tokens as maltezskyrad.cz) ----------
+   The banner is the sister sites' (maltezskyrad.cz, the Prague and Skutec school sites): 218px tall, the school lockup anchored
+   at the Grand Magistry lockup position (top 30px, shield 107px; 16px and 60px on small screens), the founder in white capitals
+   on the right. Only the photograph differs: the school's own (Krkonoše trip, Oct 2026) under a veil, deepest behind the logo
+   so the red school name stays readable. */
+.banner{position:relative;--shield:107px;background:linear-gradient(90deg,rgba(14,22,30,.86) 0%,rgba(14,22,30,.78) 32%,rgba(14,22,30,.55) 60%,rgba(14,22,30,.68) 100%),#2d3a44 url(/img/header/krajina.webp) center 62%/cover no-repeat}
+.banner .wrap{display:flex;align-items:center;justify-content:flex-end;min-height:218px;padding-block:var(--s4);position:relative}
+.banner-home{position:absolute;left:max(var(--gutter),env(safe-area-inset-left,0px));top:30px;line-height:0}
+.lockup{display:block;width:auto;height:calc(var(--shield)*var(--h));margin-top:calc(var(--shield)*var(--t))}
+.fullname{color:#fff;text-align:right;font:600 clamp(.74rem,1.2vw,1rem)/1.32 var(--ui);letter-spacing:.035em;text-transform:uppercase;max-width:31em;text-shadow:0 1px 2px rgba(0,0,0,.45),0 0 14px rgba(14,28,46,.5)}
+.fullname span{display:block;margin-top:5px;font-size:.86em;letter-spacing:.09em}
+@media (max-width:960px){
+  /* photo strip 128px fading into the menu grey, as on the sister sites; the name sits below the logo */
+  .banner{--shield:60px;background:linear-gradient(180deg,rgba(14,22,30,.75) 0,rgba(14,22,30,.8) 60px,var(--ink) 124px),var(--ink) url(/img/header/krajina.webp) center 0/100% auto no-repeat}
+  .banner .wrap{justify-content:flex-start;align-items:flex-end;min-height:0;padding-top:104px;padding-bottom:var(--s3)}
+  .banner-home{top:16px}
+  .fullname{text-align:left;font-size:.72rem}
 }
+@media print{.banner{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
 /* home: news as a lead story with photograph and a ruled list of four */
 .section-head--row{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:var(--s3) var(--s5);margin-bottom:var(--s5)}
@@ -560,7 +563,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .f-nav ul ul{display:grid;gap:2px;padding:var(--s2) 0 0;grid-template-columns:1fr}
 .f-nav ul ul a{font:400 .85rem var(--ui);letter-spacing:0;text-transform:none;opacity:.92}
 @media (max-width:960px){.f-id-grid{grid-template-columns:minmax(0,1fr)}.f-nav ul ul{display:none}}
-@media print{.idband-meta,.f-projects,.f-licence{display:none!important}}
+@media print{.f-projects,.f-licence{display:none!important}}
 .band-grey .works a{color:var(--ink)}
 /* critique round 1 */
 .topbar-social{display:flex}
@@ -574,14 +577,6 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .f-nav a{display:inline-block;padding-block:5px}
 .btn:focus-visible{outline-color:var(--ink-strong)}
 .photo-run a{display:block;line-height:0;height:100%}
-/* identity band on a school photograph (Krkonoše trip, Oct 2026): the shield's white edge and the Order's white words
-   need a dark ground; the veil is deepest behind the logo so the red school name stays readable */
-.idband{background:#2d3a44 url(/img/header/krajina.webp) center 62%/cover no-repeat;border-bottom:0;position:relative}
-.idband::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,22,30,.86) 0%,rgba(14,22,30,.78) 32%,rgba(14,22,30,.55) 60%,rgba(14,22,30,.68) 100%)}
-.idband .wrap{position:relative;padding-block:clamp(var(--s5),3vw,var(--s6))}
-.idband-meta{color:rgba(255,255,255,.86);border-left-color:rgba(255,255,255,.35)}
-.idband-meta span:first-child{color:#fff}
-@media print{.idband{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 /* audit 2026-10-19 */
 .stories-list .story-img{align-self:start}
 .band-grey .class-grid a{color:var(--ink-strong)}
@@ -600,5 +595,4 @@ button.btn[disabled]{opacity:.65;cursor:progress}
   .pagination{padding-left:0}
 }
 @media (max-width:960px){.f-projects{margin-top:var(--s5)}}
-@media (max-width:760px){.idband::before{background:linear-gradient(90deg,rgba(14,22,30,.9) 0%,rgba(14,22,30,.82) 60%,rgba(14,22,30,.72) 100%)}}
 .file-pair{white-space:nowrap}
