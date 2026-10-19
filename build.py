@@ -140,7 +140,9 @@ def enhance_body(body):
     # any other link that holds only an undescribed photo still needs a name for screen readers
     body = re.sub(r'<a href="([^"]+)">(<img (?:(?! alt="[^"]+")[^>])*>)</a>', r'<a href="\1" aria-label="Zobrazit fotografii">\2</a>', body)
     body = re.sub(r"<img [^>]+>", fix_img, body)
-    body = body.replace('<figure><ul class="gallery"></ul></figure>', "")  # empty gallery blocks, empty on the old site too
+    body = body.replace('<figure><ul class="gallery"></ul></figure>', "")
+    # ".odt .pdf" download pairs stay on one line
+    body = re.sub(r'(<a href="[^"]+">\.odt</a>)\s*(<a href="[^"]+">\.pdf</a>)', r'<span class="file-pair">\1 \2</span>', body)  # empty gallery blocks, empty on the old site too
     photo = r'(?:<figure><img [^>]+></figure>|<p><img [^>]+></p>|<img [^>]+>)'
     body = re.sub(rf"(?:{photo}\s*){{2,}}", lambda m: '<div class="photo-run">' + re.sub(
         r'<img src="([^"]+)"[^>]*>', lambda i: f'<a href="{i.group(1)}" aria-label="Zobrazit celou fotografii">{i.group(0)}</a>', m.group(0)) + "</div>", body)

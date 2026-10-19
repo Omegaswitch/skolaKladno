@@ -596,3 +596,6 @@ button.btn[disabled]{opacity:.65;cursor:progress}
   .tabs a{flex:none}
   .pagination{padding-left:0}
 }
+@media (max-width:960px){.f-projects{margin-top:var(--s5)}}
+@media (max-width:760px){.idband::before{background:linear-gradient(90deg,rgba(14,22,30,.9) 0%,rgba(14,22,30,.82) 60%,rgba(14,22,30,.72) 100%)}}
+.file-pair{white-space:nowrap}

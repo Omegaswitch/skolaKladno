@@ -36,3 +36,37 @@ Everything below was run against the built site (`python3 build.py serve`, Chrom
 - **Deploy size:** `static/media` is about 0.9 GB (2,422 photos after recompression, plus 19 videos). Check it against the Vercel plan's limits before launch; if needed, move the videos to YouTube or Vercel Blob.
 - The enrolment booking app (`/php/zapis/register_child.php`) and two large videos stay on the old server. **Before DNS moves to Vercel, give the old server its own hostname** (e.g. `stary.zsmr.eu`) and update `ORIGIN` links, or the links in those articles will break.
 - Two images were already missing (404) on the old server; the articles show their other photos.
+
+## Pre-presentation audit — 19 October 2026 (second round)
+
+Two independent reviews (design review compared with maltezskyrad.cz and velkoprevorskypalac.eu; detector + motion + interaction QA), fixes, then an independent re-check by the same reviewers.
+
+| | Before | After fixes |
+|---|---|---|
+| Visual quality | 74/100 | **84/100** |
+| Functional quality | 86/100 | **94/100** |
+| Nielsen heuristics | 28/40 | — |
+| axe WCAG 2.2 AA | 1 violation (split link on /rozvrh/) | 0 on all 513 pages (390 px) and a sample at 1280 px |
+| CLS (home, 1280 px) | 0.0061 | 0.0033 |
+| Horizontal overflow (360, 390, 768, 1024 px) | none | none |
+
+Fixed:
+- **Logo:** rebuilt on the VOS pattern (official "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA" lockup, rule and tick); header size raised to meet the logo's minimum width; deeper veil behind the red name.
+- **Home:** thumbnails without grey bars; facts aligned; class numerals graphite.
+- **Inner pages:** /pedagogove/ table readable; /skola/ one-line descriptions; clear download links that keep ".odt .pdf" pairs on one line.
+- **Articles:** unified photo grids; empty gallery blocks hidden.
+- **Footer:** six columns; ends on the red band; phone numbers never broken.
+- **Archive:** tabs scroll on phones; pagination aligned; category breadcrumbs follow the menu.
+- **Keyboard and motion:** closed mobile menu out of the tab order; Escape closes hover dropdowns and the mobile menu; cached images no longer re-fade; story images fade; consistent hover transitions.
+- **Fonts:** Czech font subset preloaded.
+- **Content:** /rozvrh/ links point to the 2026/27 timetables; a dead ODT link removed.
+
+Detector: 56 "cramped-padding" / "flat-type-hierarchy" findings, all false positives (full-bleed bands padded by their inner `.wrap`; the detector does not apply CSS).
+
+Remaining (minor or content):
+- Project posters as small thumbnails.
+- Identity-band text style differs slightly from the sister sites.
+- Long desktop tab path through the open-on-focus menu (skip link provided).
+- Typos in imported texts.
+- The GDPR page's old e-mail domain.
+- See `docs/content-inventory.md`.
