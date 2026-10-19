@@ -1,17 +1,17 @@
-# Graph Report - skolaKladno  (2026-10-19)
+# Graph Report - skolakladno  (2026-10-19)
 
 ## Corpus Check
-- 26 files · ~25,246,196 words
+- 26 files · ~25,246,689 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 41 file(s) not represented in the graph (top: .woff2 16, .odt 15, .otf 4)
 
 ## Summary
-- 737 nodes · 2020 edges · 35 communities (29 shown, 6 thin omitted)
+- 737 nodes · 2021 edges · 35 communities (29 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 28 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4adf96ce`
+- Built from commit: `67552210`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
