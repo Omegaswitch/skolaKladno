@@ -140,6 +140,9 @@ def enhance_body(body):
     # any other link that holds only an undescribed photo still needs a name for screen readers
     body = re.sub(r'<a href="([^"]+)">(<img (?:(?! alt="[^"]+")[^>])*>)</a>', r'<a href="\1" aria-label="Zobrazit fotografii">\2</a>', body)
     body = re.sub(r"<img [^>]+>", fix_img, body)
+    photo = r'(?:<figure><img [^>]+></figure>|<p><img [^>]+></p>|<img [^>]+>)'
+    body = re.sub(rf"(?:{photo}\s*){{2,}}", lambda m: '<div class="photo-run">' + re.sub(
+        r'<img src="([^"]+)"[^>]*>', lambda i: f'<a href="{i.group(1)}" aria-label="Zobrazit celou fotografii">{i.group(0)}</a>', m.group(0)) + "</div>", body)
     body = re.sub(r"<table>", '<div class="table-wrap" tabindex="0"><table>', body)
     return body.replace("</table>", "</table></div>")
 
@@ -207,7 +210,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
         status_bar = f'<p class="content-status content-status--{esc(status)}"><span>{esc(STATUS.get(status, status))}</span></p>'
     footer_nav = "".join(
         f'<li><a href="{n["url"]}">{esc(n["title"])}</a>'
-        + ("<ul>" + "".join(f'<li><a href="{k["url"]}">{esc(k["title"])}</a></li>' for k in n.get("children", [])[:6]) + "</ul>" if n.get("children") else "")
+        + ("<ul>" + "".join(f'<li><a href="{k["url"]}">{esc(k["title"])}</a></li>' for k in n.get("children", []) if not k["url"].startswith("/aktuality/")) + "</ul>" if n.get("children") else "")
         + "</li>" for n in SITE["nav"])
     projects = "".join(
         (f'<a href="{esc(p["url"])}" rel="noopener">' if p.get("url") else "<span>") + img(p["img"], p["alt"], "proj-img") + ("</a>" if p.get("url") else "</span>")
@@ -376,7 +379,7 @@ def render_home():
     names, c = SITE["names"], SITE["contact"]
     profile = PAGES["/profil-skoly/"]
     paras = re.findall(r"<p>(.*?)</p>", profile["body"], re.S)
-    intro = "".join(f"<p>{p}</p>" for p in paras[1:4])
+    intro = f"<p>{paras[1]}</p>" if len(paras) > 1 else ""
     lead, rest = (NEWS[0], NEWS[1:7]) if NEWS else (None, [])
     parents = [("/dokumenty-pro-rodice/", "Přihlášky, žádosti a formuláře"), ("/skolne-a-dalsi-platby/", "Výše školného, slevy a platby"),
                ("/rozvrh/", "Rozvrhy tříd a učitelů"), ("/dokumenty-o-skole/", "ŠVP, školní řád, prázdniny"),
@@ -403,16 +406,16 @@ def render_home():
  </div>
 </div></section>
 
-<section class="band band-grey" aria-labelledby="news-title"><div class="wrap">
- <div class="section-head section-head--row"><h2 id="news-title" class="display-m">Aktuality</h2><p><a class="link-strong" href="/aktuality/">Všechny aktuality</a></p></div>
- <div class="stories">{news_card(lead, True) if lead else ''}<div class="stories-list">{''.join(news_card(n) for n in rest[:4])}</div></div>
-</div></section>
-
-<section class="band" aria-labelledby="parents-title"><div class="wrap split">
+<section class="band band-grey" aria-labelledby="parents-title"><div class="wrap split">
  <div class="split-head"><h2 id="parents-title" class="display-m">Pro rodiče a žáky</h2><p>Dokumenty, platby a rozvrhy na jednom místě.</p>
   <h3 class="display-s">Třídy</h3><ul class="class-grid" aria-label="Aktuality tříd">{classes}</ul>
   <p><a class="link-strong" href="/prehled-trid/">Přehled tříd</a></p></div>
  <ul class="works">{parents_html}</ul>
+</div></section>
+
+<section class="band" aria-labelledby="news-title"><div class="wrap">
+ <div class="section-head section-head--row"><h2 id="news-title" class="display-m">Aktuality</h2><p><a class="link-strong" href="/aktuality/">Všechny aktuality</a></p></div>
+ <div class="stories">{news_card(lead, True) if lead else ''}<div class="stories-list">{''.join(news_card(n) for n in rest[:4])}</div></div>
 </div></section>
 
 <section class="band band-grey" aria-labelledby="more-title"><div class="wrap split">
@@ -635,15 +638,21 @@ def serve(port=8000):
     import functools
     import http.server
     rules = [l.split() for l in (DIST / "_redirects").read_text().splitlines() if l.strip()]
-    headers, block = {}, None
+    headers, types, block = {}, {}, None
     for line in (DIST / "_headers").read_text().splitlines():
         if line and not line.startswith(" "):
             block = line.strip()
-        elif line.strip() and block == "/*":
+        elif line.strip():
             k, v = line.strip().split(":", 1)
-            headers[k] = v.strip()
+            if block == "/*":
+                headers[k] = v.strip()
+            elif k == "Content-Type":
+                types[block] = v.strip()
 
     class H(http.server.SimpleHTTPRequestHandler):
+        def guess_type(self, path):
+            return types.get(self.path.split("?")[0]) or super().guess_type(path)
+
         def end_headers(self):
             for k, v in headers.items():
                 if k == "Strict-Transport-Security":

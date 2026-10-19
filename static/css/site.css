@@ -561,3 +561,15 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 @media (max-width:960px){.f-id-grid{grid-template-columns:minmax(0,1fr)}.f-nav ul ul{display:none}}
 @media print{.idband-meta,.f-projects,.f-licence{display:none!important}}
 .band-grey .works a{color:var(--ink)}
+/* critique round 1 */
+.topbar-social{display:flex}
+@media (max-width:960px){.topbar .topbar-social{display:flex;gap:var(--s4);padding-bottom:6px}.topbar-home{flex-basis:100%}}
+.section-head--row{max-width:none}
+.photo-run{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:6px}
+.photo-run>*{margin:0}
+.photo-run img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover}
+.prose img{max-height:80vh;width:auto}
+.prose .photo-run img,.prose .gallery img{max-height:none;width:100%}
+.f-nav a{display:inline-block;padding-block:5px}
+.btn:focus-visible{outline-color:var(--ink-strong)}
+.photo-run a{display:block;line-height:0;height:100%}
