@@ -36,9 +36,9 @@
     "semantic_hash": ""
   },
   "static/js/news-editor.js": {
-    "mtime": 1792436353.2834647,
-    "seen": 1792436416.1944764,
-    "ast_hash": "0d84aee26d70ae9174775a35e1301a1e",
+    "mtime": 1792436746.353802,
+    "seen": 1792436841.1156063,
+    "ast_hash": "26b5d28a81d301ed8c9c95b733d98bf2",
     "semantic_hash": ""
   },
   "static/js/site.js": {
@@ -84,9 +84,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792427171.0913308,
-    "seen": 1792436416.1945145,
-    "ast_hash": "2bc753cb5fdb482e8cc066e825de0fad",
+    "mtime": 1792436746.3558624,
+    "seen": 1792436841.1158037,
+    "ast_hash": "5ec2fe58a3daddeabefbc978a2236c0f",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -102,9 +102,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792436353.2839801,
-    "seen": 1792436416.194526,
-    "ast_hash": "365ce78c225bca30f2987ed6fee96454",
+    "mtime": 1792436746.3572626,
+    "seen": 1792436841.1158395,
+    "ast_hash": "d174ef58006791ae5d13925c6bf7c770",
     "semantic_hash": ""
   },
   "content/news/2026/10/08/maly-zachranar.html": {
@@ -270,9 +270,9 @@
     "semantic_hash": ""
   },
   "tools/news-editor.html": {
-    "mtime": 1792425694.7538028,
-    "seen": 1792436416.1959405,
-    "ast_hash": "0acacb69004a71a8264998a8d8261477",
+    "mtime": 1792436746.3546531,
+    "seen": 1792436841.1176033,
+    "ast_hash": "e78372f93c3668ff7e15b6db2788bd46",
     "semantic_hash": ""
   },
   "static/media/2020/07/DotaznikProRodiceDoPrvnihoRocniku_20170330.pdf": {
@@ -18297,6 +18297,24 @@
     "mtime": 1792435121.1851587,
     "seen": 1792436416.1963282,
     "ast_hash": "fa0e2a46b229e69b4977e89a82caad9e",
+    "semantic_hash": ""
+  },
+  "static/js/pdf-worker.js": {
+    "mtime": 1792436746.3276844,
+    "seen": 1792436841.1156187,
+    "ast_hash": "c0014bbc2ad279849918218103a0b0e8",
+    "semantic_hash": ""
+  },
+  "static/js/vendor/ghostscript-1.1.0/gs.js": {
+    "mtime": 1792436746.270673,
+    "seen": 1792436841.1157274,
+    "ast_hash": "a208a62fd258b8f183c3296fd635ed94",
+    "semantic_hash": ""
+  },
+  "static/js/vendor/ghostscript-1.1.0/SOURCE.txt": {
+    "mtime": 1792436746.329817,
+    "seen": 1792436841.117598,
+    "ast_hash": "8455cdc3f42257fdf203acd763a6040c",
     "semantic_hash": ""
   }
 }
