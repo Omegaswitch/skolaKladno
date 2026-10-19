@@ -187,12 +187,17 @@ def nav_html(current_url):
     return f'<ul class="nav-list">{"".join(lis)}</ul>'
 
 
+def logo_viewbox():
+    """The school lockup's viewBox: its height and the accents above the shield top, in shield units (see .lockup in the CSS)."""
+    return [float(v) for v in re.search(r'viewBox="([^"]+)"', (STATIC / "img" / "logo" / "zsmr-logo-photo.svg").read_text()).group(1).split()]
+
+
 def logo():
     """The school lockup in the banner, sized and placed exactly as on the Prague and Skutec school sites (.lockup: shield at
     the Grand Magistry web size; --h and --t carry the SVG's height and its accents above the shield top, in shield units)."""
-    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', (STATIC / "img" / "logo" / "zsmr-logo-photo.svg").read_text()).group(1).split()]
+    vb = logo_viewbox()
     return (f'<img class="lockup" src="/img/logo/zsmr-logo-photo.svg" alt="Maltézský řád – Základní škola Maltézských rytířů" width="{vb[2]:.0f}" height="{vb[3]:.0f}"'
-            f' style="--h:{vb[3] / 126:.4f};--t:{vb[1] / 126:.4f}" fetchpriority="high">')
+            f' fetchpriority="high">')
 
 
 def layout(*, url, title, body, description="", image=None, status=None, main_class=""):
@@ -606,6 +611,9 @@ def build():
     if DIST.exists():
         shutil.rmtree(DIST)
     shutil.copytree(STATIC, DIST)
+    vb = logo_viewbox()  # the lockup's size variables live in the stylesheet, so pages carry no inline style (CSP style-src 'self')
+    with (DIST / "css" / "site.css").open("a", encoding="utf-8") as f:
+        f.write(f"\n.lockup{{--h:{vb[3] / 126:.4f};--t:{vb[1] / 126:.4f}}}\n")
     write("/", render_home())
     write("/kalendar/", render_calendar())
     for url, p in PAGES.items():

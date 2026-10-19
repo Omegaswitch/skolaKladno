@@ -12,15 +12,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792436099.3958476,
-    "seen": 1792436416.194456,
-    "ast_hash": "0dfe075471667d850a6136dec49cc95f",
+    "mtime": 1792437627.9355767,
+    "seen": 1792437689.5709634,
+    "ast_hash": "43990ccc5587ccc9d6b805ed3f53821f",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792431272.60905,
-    "seen": 1792436416.1944604,
-    "ast_hash": "0198d75fec8ded8dac389672f979c0ac",
+    "mtime": 1792437627.9361224,
+    "seen": 1792437689.5709674,
+    "ast_hash": "04ec52ed01611247696c696222548f94",
     "semantic_hash": ""
   },
   "content/site.json": {
@@ -84,9 +84,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792436746.3558624,
-    "seen": 1792436841.1158037,
-    "ast_hash": "5ec2fe58a3daddeabefbc978a2236c0f",
+    "mtime": 1792437627.9369013,
+    "seen": 1792437689.5710082,
+    "ast_hash": "c02599057057ea650a67aeab01ef41ba",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -102,9 +102,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792436966.784913,
-    "seen": 1792437023.8362336,
-    "ast_hash": "d174ef58006791ae5d13925c6bf7c770",
+    "mtime": 1792437627.9374983,
+    "seen": 1792437689.5710218,
+    "ast_hash": "f667e29e36bd27b4e7e028571d284187",
     "semantic_hash": ""
   },
   "content/news/2026/10/08/maly-zachranar.html": {
@@ -18315,6 +18315,12 @@
     "mtime": 1792436746.329817,
     "seen": 1792436841.117598,
     "ast_hash": "8455cdc3f42257fdf203acd763a6040c",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci.yml": {
+    "mtime": 1792437682.0075712,
+    "seen": 1792437689.5710115,
+    "ast_hash": "10e26a04f4733ccfc64bd5f1b7d8df42",
     "semantic_hash": ""
   }
 }

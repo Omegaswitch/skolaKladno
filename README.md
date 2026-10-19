@@ -61,3 +61,15 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 - `docs/brand-compliance.md`: checklist against the Order's communications policy and emblem guidelines.
 - `docs/deployment.md`: build, hosting, domain, launch checklist.
 - `docs/qa-report.md`: what was tested and the results.
+
+## Shared code
+
+`api/news.js`, `static/js/news-editor.js`, `static/js/pdf-worker.js`, `static/js/head.js`, the menu and image code in `static/js/site.js`, the frame in `static/css/site.css` and the sanitiser in `tools/import_wp.py` are shared with maltezskyrad.cz and the other Order school sites (skolaKladno, skolaPraha, skolaSkutec). Change them in one place and copy the file to the others; do not fork them.
+
+## Security notes
+
+- Headers (`vercel.json`): CSP with no third-party origins and no inline styles or scripts (`'wasm-unsafe-eval'` only lets WebAssembly compile, for the PDF shrinking), HSTS, `nosniff`, `frame-ancestors 'none'`, Referrer-Policy, Permissions-Policy. `check.py` fails the build on any inline `style` attribute.
+- `api/news.js`: passwords compared in constant time, signed `HttpOnly; Secure; SameSite=Strict` session cookie scoped to the API path, same-origin check on every POST, sign-in throttling per function instance, uploads checked by content and renamed, text rebuilt from a tag allowlist. The GitHub token must be fine-grained to this repository only (Contents: read and write).
+- Quill 2.0.3 (`static/js/vendor/`): CVE-2025-15056 (XSS through its HTML export, no patched release yet). Not exploitable here: the editor's HTML is never rendered unsanitised; the server rebuilds it from the allowlist before it reaches any page.
+- Ghostscript 10.06.0 as WebAssembly (`static/js/vendor/ghostscript-1.1.0/`): runs only in the staff member's own browser, in a worker that is dropped after one file. Update by replacing the folder with a newer `@okathira/ghostpdl-wasm` build.
+
