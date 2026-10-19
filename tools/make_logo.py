@@ -5,12 +5,12 @@ Pattern: the logo of the Order's school in Prague (Vyšší odborná škola zdra
 logo-vos-male2.png): the official red shield (vector unchanged from maltezskyrad.cz), "MALTÉZSKÝ ŘÁD /
 ČESKÁ REPUBLIKA", a hairline rule with a short tick down at its left end, and the school's name in two
 lines of the Order's red. Sizes and spacing are the shared geometry below, measured on the Prague logo and
-identical in the Skutec generator. Lettering: Century Gothic Bold per the Order's guidelines, substituted
-by TeX Gyre Adventor Bold (GUST font licence) with size and tracking fitted to the Prague logo; outlines.
+identical in the Skutec generator. Lettering: Century Gothic Bold (the Order's guidelines; the font of the Prague logo), set as outlines. The font is licensed (Monotype) and is not in the repository: pass its path, or put it at tools/fonts/centurygothic_bold.ttf (git-ignored).
 
     pip install fonttools && python3 tools/make_logo.py
 """
 import re
+import sys
 from pathlib import Path
 
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -19,7 +19,7 @@ from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "static" / "img" / "logo"
-FONT = TTFont(ROOT / "tools" / "fonts" / "texgyreadventor-bold.otf")
+FONT = TTFont(sys.argv[1] if len(sys.argv) > 1 else ROOT / "tools" / "fonts" / "centurygothic_bold.ttf")  # licensed (Monotype), not in the repository
 RED = "#e31818"
 GLYPHS, CMAP, UPM = FONT.getGlyphSet(), FONT.getBestCmap(), FONT["head"].unitsPerEm
 VOS_GLYPHS, VOS_CMAP, VOS_UPM = GLYPHS, CMAP, UPM
@@ -50,15 +50,15 @@ def shield(fill_red=RED, white="#fff"):
 
 # ---- Shared logo geometry (identical in skolaKladno, skolaSkutec; source: the Prague school's logo) ----
 # Measured on the Prague logo (vos.mojezdravka.cz, logo-vos-male2.png trimmed to 748×266 px; shield ink x 0–216, y 17–265)
-# and fitted in TeX Gyre Adventor Bold, so the three school logos have the same sizes and spacing. All numbers are those
+# and set in Century Gothic Bold (the font of the Prague logo), so the three school logos have the same sizes and spacing. All numbers are those
 # pixels; VOS_X/VOS_Y map them onto the lockup's units (shield ink 126 units tall, as in the Order's cs.svg).
 VOS_K = 126.0 / 249
 VOS_X = lambda px: -0.22 + px * VOS_K
 VOS_Y = lambda px: 0.19 + (px - 17) * VOS_K
-VOS_ORDER = (("MALTÉZSKÝ ŘÁD", 61, 60.89, 0.0219), ("ČESKÁ REPUBLIKA", 106, 46.01, 0.0036))  # text, baseline, size, tracking (em)
+VOS_ORDER = (("MALTÉZSKÝ ŘÁD", 61, 62.65, 0.0), ("ČESKÁ REPUBLIKA", 106, 47.34, -0.010))  # text, baseline, size, tracking (em)
 VOS_TEXT_X, VOS_NAME_X = 233, 253                       # ink left edge of the Order lines and of the school name
 VOS_RULE_Y, VOS_RULE_X, VOS_TICK_TO, VOS_RULE_END_PAD, VOS_STROKE = 129.5, 234.5, 172, 10, 1.2
-VOS_NAME_BASE, VOS_NAME_PITCH, VOS_NAME_SIZE, VOS_NAME_TRACK = 237, 47, 54.15, 0.001  # last baseline; lines stack upwards
+VOS_NAME_BASE, VOS_NAME_PITCH, VOS_NAME_SIZE, VOS_NAME_TRACK = 237, 47, 56.47, -0.019  # last baseline; lines stack upwards
 
 
 def vos_text(s, ink_left, base, size_px, track):

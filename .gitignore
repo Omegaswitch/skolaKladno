@@ -3,3 +3,4 @@ __pycache__/
 node_modules/
 .agents/
 static/large-files/
+tools/fonts/centurygothic*
