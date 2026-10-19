@@ -135,6 +135,10 @@ def enhance_body(body):
         if ' alt="' not in tag:
             extra += ' alt=""'
         return tag[:-1] + f'{extra} loading="lazy" decoding="async" class="ph-img">'
+    # WordPress linked photos to their own file; after migration that is the same file: drop the link
+    body = re.sub(r'<a href="([^"]+)">(<img src="\1"[^>]*>)</a>', r"\2", body)
+    # any other link that holds only an undescribed photo still needs a name for screen readers
+    body = re.sub(r'<a href="([^"]+)">(<img (?:(?! alt="[^"]+")[^>])*>)</a>', r'<a href="\1" aria-label="Zobrazit fotografii">\2</a>', body)
     body = re.sub(r"<img [^>]+>", fix_img, body)
     body = re.sub(r"<table>", '<div class="table-wrap" tabindex="0"><table>', body)
     return body.replace("</table>", "</table></div>")
