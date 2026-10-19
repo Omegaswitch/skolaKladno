@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792425562.7229197,
-    "seen": 1792425976.1448717,
-    "ast_hash": "1679cedbd273347fac20889f2cab8a6c",
+    "mtime": 1792429940.5907154,
+    "seen": 1792429978.4209123,
+    "ast_hash": "eeab3902d0afca7f392482f4beceb199",
     "semantic_hash": ""
   },
   "static/js/head.js": {
@@ -665,18 +665,6 @@
     "ast_hash": "95811c97e187d8bcea51b10e916b8bcf",
     "semantic_hash": ""
   },
-  "static/media/2020/06/kladno_za_podpory_mesta_350.jpg": {
-    "mtime": 1792427311.4232752,
-    "seen": 1792427940.2562404,
-    "ast_hash": "59cf588120c5a2e6c28b562ff93e623b",
-    "semantic_hash": ""
-  },
-  "static/media/2020/06/logolink_evrop_strukt_invest_fondy_cz_700.jpg": {
-    "mtime": 1792427311.6146147,
-    "seen": 1792427940.2562425,
-    "ast_hash": "3728a54c03c593404779f81e73710fd8",
-    "semantic_hash": ""
-  },
   "static/media/2020/06/logolink_opvk_350.jpg": {
     "mtime": 1792427311.4265933,
     "seen": 1792427940.256244,
@@ -723,12 +711,6 @@
     "mtime": 1792427308.165231,
     "seen": 1792427940.2580566,
     "ast_hash": "89bbc9b9a2c9ec6691d48849cb50b50e",
-    "semantic_hash": ""
-  },
-  "static/media/2026/06/Plakat_A3_OP-JAK-2_350x495.jpg": {
-    "mtime": 1792427310.6182919,
-    "seen": 1792427940.259884,
-    "ast_hash": "11117a6fbc0658c83ea1dbcef9477b2b",
     "semantic_hash": ""
   },
   "static/media/2026/09/IMG_20260918_125205_4-1024x2048.jpg": {
@@ -3810,15 +3792,15 @@
     "semantic_hash": ""
   },
   "docs/content-inventory.md": {
-    "mtime": 1792426103.1984358,
-    "seen": 1792427940.2559786,
-    "ast_hash": "2b51283ebddd918b9d360aa822a7f0cd",
+    "mtime": 1792428529.8086874,
+    "seen": 1792429978.4224682,
+    "ast_hash": "a630f4dc853f385a529cfd7210fc9f46",
     "semantic_hash": ""
   },
   "docs/deployment.md": {
-    "mtime": 1792425995.4503636,
-    "seen": 1792427940.2559805,
-    "ast_hash": "1c5a8d5c6c87730e337d95dcecccd273",
+    "mtime": 1792428529.808117,
+    "seen": 1792429978.4224718,
+    "ast_hash": "63fbda9e65718019b8f4c5d94d3816e0",
     "semantic_hash": ""
   },
   "static/media/2021/03/JakNakupovatPotraviny_20210314.pdf": {
@@ -18279,6 +18261,36 @@
     "mtime": 1792426186.6547523,
     "seen": 1792427940.2600956,
     "ast_hash": "0e865fbe9f235b968941168942ace1d9",
+    "semantic_hash": ""
+  },
+  "docs/qa-report.md": {
+    "mtime": 1792428518.6270952,
+    "seen": 1792429978.4224787,
+    "ast_hash": "47af489f29f02ffb98935a5e56931076",
+    "semantic_hash": ""
+  },
+  "static/media/partneri/plakat-sablony-ii-op-jak.pdf": {
+    "mtime": 1792429807.8430362,
+    "seen": 1792429978.4228616,
+    "ast_hash": "cccb6cbadca848e36511ec53cba41742",
+    "semantic_hash": ""
+  },
+  "static/media/partneri/kladno-za-podpory-mesta.png": {
+    "mtime": 1792429807.7832854,
+    "seen": 1792429978.431142,
+    "ast_hash": "600bc433d62034722ddc7f87641c00c4",
+    "semantic_hash": ""
+  },
+  "static/media/partneri/logolink-op-vvv-eu-msmt.png": {
+    "mtime": 1792429807.7552853,
+    "seen": 1792429978.4311452,
+    "ast_hash": "34c1fde7736e507b93e5be03c02354e0",
+    "semantic_hash": ""
+  },
+  "static/media/partneri/plakat-sablony-ii-op-jak.jpg": {
+    "mtime": 1792429807.8352854,
+    "seen": 1792429978.4311519,
+    "ast_hash": "1f3558d1f710e7137dfe98895222250c",
     "semantic_hash": ""
   }
 }

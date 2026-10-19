@@ -88,12 +88,12 @@
  ],
  "projects": [
   {"img": "/media/2020/06/ppuc_350x75.jpg", "alt": "Podpora práce učitelů (PPUč)", "url": "http://www.gramotnostiproucitele.cz/"},
-  {"img": "/media/2020/06/logolink_evrop_strukt_invest_fondy_cz_700.jpg", "alt": "Evropské strukturální a investiční fondy, OP Výzkum, vývoj a vzdělávání", "url": "https://www.msmt.cz/strukturalni-fondy-1/op-vvv/"},
+  {"img": "/media/partneri/logolink-op-vvv-eu-msmt.png", "alt": "Spolufinancováno Evropskou unií, Ministerstvo školství, mládeže a tělovýchovy (OP Výzkum, vývoj a vzdělávání)", "url": "https://www.msmt.cz/strukturalni-fondy-1/op-vvv/"},
   {"img": "/media/2020/06/logolink_opvk_350.jpg", "alt": "OP Vzdělávání pro konkurenceschopnost", "url": "http://www.op-vk.cz/"},
-  {"img": "/media/2020/06/kladno_za_podpory_mesta_350.jpg", "alt": "Za podpory statutárního města Kladna", "url": "https://www.mestokladno.cz/"},
+  {"img": "/media/partneri/kladno-za-podpory-mesta.png", "alt": "Za podpory statutárního města Kladna", "url": "https://www.mestokladno.cz/"},
   {"img": "/media/2021/03/Plakat_A3_Maltez_350x495_20210313.png", "alt": "Plakát projektu Šablony III (OP VVV)", "url": "https://opvvv.msmt.cz/aktualita/vyzva-sablony-iii.htm"},
   {"img": "/media/2024/01/Publicita_OP_A3-plakat_Cely_350x495.jpg", "alt": "Plakát projektu OP Jan Amos Komenský"},
-  {"img": "/media/2026/06/Plakat_A3_OP-JAK-2_350x495.jpg", "alt": "Plakát projektu OP Jan Amos Komenský II"}
+  {"img": "/media/partneri/plakat-sablony-ii-op-jak.jpg", "alt": "Plakát projektu Šablony II OP JAK pro ZŠ Maltézských rytířů (PDF)", "url": "/media/partneri/plakat-sablony-ii-op-jak.pdf"}
  ],
  "partner": {"img": "/media/2020/06/spolek_zsmr_banner_350x75pix.jpg", "alt": "Spolek ZŠMR", "url": "https://www.facebook.com/spolekZSMR"}
 }
