@@ -4,9 +4,9 @@
 
 ## Basis
 
-The logo rebuilds the lockup of the Order's school **Vyšší odborná škola zdravotnická** (vos.mojezdravka.cz, `logo-vos-male2.png`), measured from that file: the Order's official Czech lockup (red shield + **MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA**), a hairline rule under it with a short tick down at its left end, and below the rule the school's name in two lines of the Order's red. Only the school's name is new.
+The logo rebuilds the lockup of the Order's school **Vyšší odborná škola zdravotnická** (vos.mojezdravka.cz, `logo-vos-male2.png`), measured from that file: the Order's official Czech lockup (red shield + **MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA**), a hairline rule under it with a short tick down at its left end, and below the rule the school's name in two lines of the Order's red. Only the school's name differs between the schools.
 
-Nothing of the emblem is redrawn. The shield (white ground, red outline, red field, white eight-pointed cross) is the **vector from the Grand Magistry master lockup** that maltezskyrad.cz already uses (`maltezskyrad/static/img/lockup/*.svg`, paths 0–7, red `#e31818`), copied unchanged into `tools/shield.svg`; the words "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA" are path 8 of the same official file (`cs.svg`), copied unchanged into `tools/order-lockup-cs.svg`.
+Nothing of the emblem is redrawn. The shield (white ground, red outline, red field, white eight-pointed cross) is the **vector from the Grand Magistry master lockup** that maltezskyrad.cz already uses (`maltezskyrad/static/img/lockup/*.svg`, paths 0–7, red `#e31818`), copied unchanged into `tools/shield.svg`. "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA", the rule and the school name are set to the geometry measured on the Prague school logo, shared with the Skutec school logo (`tools/make_logo.py`, "Shared logo geometry"), so the three school logos match.
 
 Type of the school's name: **TeX Gyre Adventor Bold** (GUST Font Licence), the stand-in for Century Gothic that the Coat of Arms and Emblems Guidelines name for the Order's lockups. It is the same substitute used for the maltezskyrad.cz lockups. Text is converted to outlines, so the files need no font.
 
