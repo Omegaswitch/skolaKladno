@@ -83,12 +83,21 @@ class Sanitiser(HTMLParser):
         if tag == "a" and not any(a.startswith(" href=") for a in keep):
             return  # anchor without a target: unwrap (its closing tag is ignored, not in stack)
         if tag in ("video", "audio"):
+            src = next((a[6:-1] for a in keep if a.startswith(" src=")), "")
+            if not src.startswith("/"):  # an external file cannot play under the site's CSP: offer it as a link
+                self.out.append(f'<p class="file"><a href="{src}">Přehrát záznam</a> ({src.rsplit(".", 1)[-1].upper()})</p>')
+                self.skip += 1
+                self.linked_media = True
+                return
             keep.append(' controls preload="none"')
         self.out.append(f"<{tag}{''.join(keep)}>")
         if tag not in VOID:
             self.stack.append(tag)
 
     def handle_endtag(self, tag):
+        if tag in ("video", "audio") and getattr(self, "linked_media", False):
+            self.linked_media, self.skip = False, self.skip - 1
+            return
         if tag in DROP_WITH_CONTENT:
             self.skip = max(0, self.skip - 1)
             return
@@ -151,6 +160,8 @@ def _self_test():
     assert um("https://www.zsmr.cz/") == "https://www.zsmr.cz/" and um("javascript:alert(1)") is None
     assert '<ul class="gallery">' in sanitise('<ul class="blocks-gallery-grid"><li>x</li></ul>', m)
     assert sanitise('<video src="/v.mp4" autoplay></video>', m) == '<video src="/v.mp4" controls preload="none"></video>'
+    ext = sanitise('<video src="http://x.cz/v.mp4"></video><p>after</p>', m)
+    assert ext == '<p class="file"><a href="http://x.cz/v.mp4">Přehrát záznam</a> (MP4)</p><p>after</p>', ext
     print("sanitiser self-test ok")
 
 
@@ -270,11 +281,10 @@ def make_url_map(media, legacy):
         if host in OLD_HOSTS or not host:
             if UPLOADS in parsed.path:
                 return media.local(ORIGIN + parsed.path)
-            if parsed.path.startswith("/large-files/"):  # files uploaded outside WordPress (the school video)
-                rel = urllib.parse.unquote(parsed.path)
-                if not download(ORIGIN + parsed.path, ROOT / "static" / rel.lstrip("/")):
-                    media.missing.append(u)
-                return parsed.path
+            if parsed.path.startswith("/large-files/"):
+                # shortcut: files uploaded outside WordPress (school video 561 MB, herbarium 55 MB) exceed GitHub's limits;
+                # linked at the old address until they get proper hosting (docs/content-inventory.md)
+                return ORIGIN + parsed.path
             q = urllib.parse.parse_qs(parsed.query)
             for k in ("p", "page_id", "cat"):
                 if k in q:
