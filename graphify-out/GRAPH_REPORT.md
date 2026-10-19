@@ -1,17 +1,17 @@
-# Graph Report - skolaKladno  (2026-10-19)
+# Graph Report - skolakladno  (2026-10-19)
 
 ## Corpus Check
-- 26 files · ~25,245,971 words
+- 26 files · ~25,246,266 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 41 file(s) not represented in the graph (top: .woff2 16, .odt 15, .otf 4)
 
 ## Summary
-- 732 nodes · 2013 edges · 41 communities (34 shown, 7 thin omitted)
+- 735 nodes · 2017 edges · 34 communities (28 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 28 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a83e391e`
+- Built from commit: `1c0a394a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,7 +20,6 @@
 - re
 - news.js
 - i
-- .value
 - import_wp.py
 - m
 - news-editor.js
@@ -28,13 +27,9 @@
 - Rt
 - re
 - jt
-- h
-- .listen
+- N
 - build.py
 - c
-- b
-- .forEach
-- .add
 - vercel.json
 - zsmr.eu
 - School logo: Základní škola Maltézských rytířů
@@ -42,14 +37,12 @@
 - make_logo.py
 - CLAUDE.md
 - Product
-- z
-- .remove
-- u
+- s
+- split
 - Content inventory and migration map
 - Sanitiser
 - enhance_body
 - Deployment
-- split
 - Media
 - do_GET
 - Brand compliance report
@@ -75,18 +68,18 @@
 - `m` --indirect_call--> `e()`  [INFERRED]
   static/js/vendor/quill-2.0.3/quill.js → static/js/vendor/quill-2.0.3/quill.js  _Bridges community 6 → community 11_
 - `b()` --indirect_call--> `e()`  [INFERRED]
-  static/js/vendor/quill-2.0.3/quill.js → static/js/vendor/quill-2.0.3/quill.js  _Bridges community 16 → community 11_
-- `update()` --indirect_call--> `e()`  [INFERRED]
   static/js/vendor/quill-2.0.3/quill.js → static/js/vendor/quill-2.0.3/quill.js  _Bridges community 0 → community 11_
+- `create()` --indirect_call--> `e()`  [INFERRED]
+  static/js/vendor/quill-2.0.3/quill.js → static/js/vendor/quill-2.0.3/quill.js  _Bridges community 11 → community 8_
 
 ## Import Cycles
 - None detected.
 
-## Communities (41 total, 7 thin omitted)
+## Communities (34 total, 6 thin omitted)
 
 ### Community 0 - "length"
-Cohesion: 0.06
-Nodes (38): A(), applyDelta(), create(), d(), deleteAt(), deleteText(), descendants(), enforceAllowedChildren() (+30 more)
+Cohesion: 0.07
+Nodes (36): A(), applyDelta(), b(), build(), clean(), d(), deleteText(), descendants() (+28 more)
 
 ### Community 1 - "re"
 Cohesion: 0.38
@@ -101,56 +94,40 @@ Cohesion: 0.19
 Nodes (14): get_all(), get_json(), _get_json(), lead_image(), legacy_map(), main(), make_url_map(), post_url() (+6 more)
 
 ### Community 6 - "m"
-Cohesion: 0.08
-Nodes (6): attachUI(), g(), getHTML(), m, replaceWith(), X
+Cohesion: 0.10
+Nodes (4): attachUI(), g(), getHTML(), m
 
 ### Community 7 - "news-editor.js"
 Cohesion: 0.16
 Nodes (29): addCategory(), attachmentRow(), call(), categories(), clearPhoto(), del(), drop(), edit() (+21 more)
 
 ### Community 8 - "quill.js"
-Cohesion: 0.11
-Nodes (24): attach(), constructor(), detach(), Dt(), emit(), focus(), format(), formats() (+16 more)
+Cohesion: 0.05
+Nodes (51): attach(), buildItem(), buildLabel(), buildOptions(), buildPicker(), close(), constructor(), create() (+43 more)
 
 ### Community 9 - "Rt"
-Cohesion: 0.12
-Nodes (4): j, nt(), Rt(), y()
+Cohesion: 0.10
+Nodes (5): attribute(), j, Rt(), show(), z()
 
 ### Community 10 - "re"
 Cohesion: 0.18
 Nodes (4): main(), Page, redirect_sources(), resolves()
 
 ### Community 11 - "jt"
-Cohesion: 0.22
-Nodes (14): Bt(), Ct(), Ft(), Gt(), e(), jt(), kt(), Ot() (+6 more)
+Cohesion: 0.08
+Nodes (25): appendChild(), Bt(), Ct(), descendant(), Et(), Ft(), getBounds(), Gt() (+17 more)
 
-### Community 12 - "h"
-Cohesion: 0.09
-Nodes (9): E(), h(), hasNext(), N, peek(), peekLength(), peekType(), rest() (+1 more)
-
-### Community 13 - ".listen"
-Cohesion: 0.15
-Nodes (8): formula(), getBounds(), hide(), link(), qt(), St(), T(), video()
+### Community 12 - "N"
+Cohesion: 0.16
+Nodes (3): E(), N, w()
 
 ### Community 14 - "build.py"
 Cohesion: 0.13
 Nodes (27): breadcrumbs(), build(), contact_card(), crumbs_html(), _descendants(), fmt_date(), img(), layout() (+19 more)
 
 ### Community 15 - "c"
-Cohesion: 0.08
-Nodes (4): c, clone(), q(), R()
-
-### Community 16 - "b"
-Cohesion: 0.19
-Nodes (7): b(), build(), find(), getFormat(), keys(), l(), position()
-
-### Community 17 - ".forEach"
-Cohesion: 0.23
-Nodes (6): clean(), copy(), image(), k, move(), normalizeNative()
-
-### Community 18 - ".add"
-Cohesion: 0.29
-Nodes (8): buildItem(), buildLabel(), buildOptions(), buildPicker(), close(), escape(), Lt(), selectItem()
+Cohesion: 0.10
+Nodes (5): copy(), move(), q(), R(), X
 
 ### Community 19 - "vercel.json"
 Cohesion: 0.20
@@ -169,24 +146,20 @@ Cohesion: 0.40
 Nodes (4): Added components, Design system: zsmr.eu, Rules kept, What changes, and why
 
 ### Community 23 - "make_logo.py"
-Cohesion: 0.23
-Nodes (6): compact(), lockup(), main(), mark(), shield(), text_path()
+Cohesion: 0.18
+Nodes (8): compact(), lockup(), main(), mark(), shield(), text_path(), vos_lockup(), vos_text()
 
 ### Community 27 - "Product"
 Cohesion: 0.17
 Nodes (11): Accessibility & Inclusion, Brand Commitments, Capabilities and Constraints, Operating Context, Platform, Positioning, Product, Product Principles (+3 more)
 
-### Community 28 - "z"
-Cohesion: 0.22
-Nodes (3): handleDOM(), listenDOM(), z()
+### Community 28 - "s"
+Cohesion: 0.11
+Nodes (3): register(), s, unwrap()
 
-### Community 29 - ".remove"
-Cohesion: 0.33
-Nodes (4): descendant(), Et(), insertBefore(), show()
-
-### Community 30 - "u"
-Cohesion: 0.27
-Nodes (3): add(), u, value()
+### Community 30 - "split"
+Cohesion: 0.09
+Nodes (11): add(), c, clone(), deleteAt(), enforceAllowedChildren(), insertAt(), isolate(), split() (+3 more)
 
 ### Community 31 - "Content inventory and migration map"
 Cohesion: 0.25
@@ -204,10 +177,6 @@ Nodes (3): enhance_body(), fix_img(), image_size()
 Cohesion: 0.40
 Nodes (4): Deployment, Domain, Launch checklist, Size
 
-### Community 35 - "split"
-Cohesion: 0.31
-Nodes (3): appendChild(), insertAt(), split()
-
 ### Community 36 - "Media"
 Cohesion: 0.31
 Nodes (4): download(), Media, _norm(), retry()
@@ -221,22 +190,22 @@ Cohesion: 0.40
 Nodes (4): Fixed during QA, Not verified here (needs the live environment), QA report — 19 October 2026, Results
 
 ## Knowledge Gaps
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `i` connect `i` to `length`, `m`, `quill.js`, `jt`, `h`, `c`, `b`, `.add`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
+- **Why does `i` connect `i` to `length`, `m`, `quill.js`, `jt`, `N`, `c`, `s`?**
+  _High betweenness centrality (0.061) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `i` (e.g. with `e()` and `i()`) actually correct?**
   _`i` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **Should `length` be split into smaller, more focused modules?**
-  _Cohesion score 0.05840071877807727 - nodes in this community are weakly interconnected._
-- **Why does `m` connect `m` to `length`, `split`, `.value`, `quill.js`, `Rt`, `jt`, `.listen`, `c`, `b`?**
+  _Cohesion score 0.07241312366530771 - nodes in this community are weakly interconnected._
+- **Why does `m` connect `m` to `length`, `quill.js`, `Rt`, `jt`, `c`, `split`?**
   _High betweenness centrality (0.035) - this node is a cross-community bridge._
 - **Should `news.js` be split into smaller, more focused modules?**
   _Cohesion score 0.05952380952380952 - nodes in this community are weakly interconnected._
-- **Why does `s` connect `length` to `i`, `quill.js`, `jt`, `h`, `.add`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `s` connect `s` to `quill.js`, `length`, `i`, `jt`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Should `i` be split into smaller, more focused modules?**
-  _Cohesion score 0.06463414634146342 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06236786469344609 - nodes in this community are weakly interconnected._
