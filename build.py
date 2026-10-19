@@ -185,7 +185,7 @@ def nav_html(current_url):
 
 
 def logo(eager=True):
-    return ('<img class="school-logo" src="/img/logo/zsmr-logo.svg" alt="Základní škola Maltézských rytířů" width="482" height="126"'
+    return ('<img class="school-logo" src="/img/logo/zsmr-logo-photo.svg" alt="Základní škola Maltézských rytířů" width="409" height="126"'
             + (' fetchpriority="high"' if eager else ' loading="lazy"') + ">")
 
 
@@ -195,7 +195,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
     canonical = SITE["baseUrl"] + url
     og_image = SITE["baseUrl"] + (image or "/img/logo/zsmr-og.png")
     robots = "" if PRODUCTION else '<meta name="robots" content="noindex, nofollow">'
-    preload = "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD)
+    preload = "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD) + '<link rel="preload" href="/img/header/krajina.webp" as="image" fetchpriority="high">'
     ld = ""
     if url == "/":  # who we are, for search engines (data only, not executed)
         ld = '<script type="application/ld+json">' + json.dumps({

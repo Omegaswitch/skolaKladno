@@ -12,15 +12,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792428091.4785311,
-    "seen": 1792428483.2833452,
-    "ast_hash": "a725e0a226fae42847259f964ef87509",
+    "mtime": 1792430915.1392074,
+    "seen": 1792430984.4741926,
+    "ast_hash": "bb3b882cd61fc740c14020756323afca",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792425845.171122,
-    "seen": 1792425976.1448698,
-    "ast_hash": "fe315c4a1eeaa3e5ab8c418754617718",
+    "mtime": 1792430900.0553813,
+    "seen": 1792430984.474197,
+    "ast_hash": "ea1ef32892661d15b06088b450a469d9",
     "semantic_hash": ""
   },
   "content/site.json": {
@@ -78,9 +78,9 @@
     "semantic_hash": ""
   },
   "tools/make_logo.py": {
-    "mtime": 1792425383.8741763,
-    "seen": 1792425976.1448839,
-    "ast_hash": "e36a177a0849d997834680f692fd6b59",
+    "mtime": 1792430889.9525414,
+    "seen": 1792430984.4742517,
+    "ast_hash": "11f14f8e60dc1602e5a68b1dc396894a",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -96,9 +96,9 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1792428477.2994556,
-    "seen": 1792428483.2834167,
-    "ast_hash": "91db5d08f25a4ba4fc3601c5f2490a56",
+    "mtime": 1792430977.88931,
+    "seen": 1792430984.4742603,
+    "ast_hash": "4ea3671629dad985a4415ca526c27028",
     "semantic_hash": ""
   },
   "README.md": {
@@ -264,9 +264,9 @@
     "semantic_hash": ""
   },
   "docs/logo.md": {
-    "mtime": 1792425909.0629401,
-    "seen": 1792425976.144939,
-    "ast_hash": "4310a8f49726a2f0d66071eb90f1e062",
+    "mtime": 1792430977.8887427,
+    "seen": 1792430984.475068,
+    "ast_hash": "9605d3fbffb5b17574e63d60041c764b",
     "semantic_hash": ""
   },
   "tools/news-editor.html": {
@@ -624,38 +624,38 @@
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-compact.svg": {
-    "mtime": 1792425384.018909,
-    "seen": 1792425976.1450605,
+    "mtime": 1792430890.5567293,
+    "seen": 1792430984.475306,
     "ast_hash": "9a5d6f3214140f0d250a5f41862cce78",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-kladno.svg": {
-    "mtime": 1792425384.018866,
-    "seen": 1792425976.1450622,
+    "mtime": 1792430890.5560718,
+    "seen": 1792430984.4753113,
     "ast_hash": "ce3872b9c5e65e43a9ffe8a2d8620043",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-mono-black.svg": {
-    "mtime": 1792425384.0222998,
-    "seen": 1792425976.1450639,
+    "mtime": 1792430890.5587683,
+    "seen": 1792430984.475313,
     "ast_hash": "73dcfcd4fbad5a24450b7083bf1d7977",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-mono-white.svg": {
-    "mtime": 1792425384.0232415,
-    "seen": 1792425976.1450658,
+    "mtime": 1792430890.559713,
+    "seen": 1792430984.4753144,
     "ast_hash": "dfd7c0f643cd98c9a8b8ccc8e7ce2f88",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo.svg": {
-    "mtime": 1792425384.0174572,
-    "seen": 1792425976.1450672,
+    "mtime": 1792430890.5548499,
+    "seen": 1792430984.4753177,
     "ast_hash": "4849c67a12f8e83f5fac3458a2ff6aac",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-mark.svg": {
-    "mtime": 1792425384.0213542,
-    "seen": 1792425976.1450694,
+    "mtime": 1792430890.5577083,
+    "seen": 1792430984.4753194,
     "ast_hash": "5ece9cca1f3073ce46bcddb66fa02ce0",
     "semantic_hash": ""
   },
@@ -18291,6 +18291,18 @@
     "mtime": 1792429807.8352854,
     "seen": 1792429978.4311519,
     "ast_hash": "1f3558d1f710e7137dfe98895222250c",
+    "semantic_hash": ""
+  },
+  "static/img/header/krajina.webp": {
+    "mtime": 1792430900.0239818,
+    "seen": 1792430984.4753034,
+    "ast_hash": "8232d727680d19c8dc060d5117fe8785",
+    "semantic_hash": ""
+  },
+  "static/img/logo/zsmr-logo-photo.svg": {
+    "mtime": 1792430890.560691,
+    "seen": 1792430984.475316,
+    "ast_hash": "0e3b00d8fdbd888f0a36af9b3ee29d72",
     "semantic_hash": ""
   }
 }

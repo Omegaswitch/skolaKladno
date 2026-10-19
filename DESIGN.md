@@ -8,7 +8,7 @@ zsmr.eu uses the **maltezskyrad.cz design system unchanged**: same tokens (`--re
 
 | Element | maltezskyrad.cz | zsmr.eu | Why |
 |---|---|---|---|
-| Identity band | Grand Magistry banner photograph with the "ORDER OF MALTA" lockup | **White band with the school lockup** (red shield + name) on the left, and on the right a ruled note: tagline in Garamond, founder in muted Asap | The banner photograph belongs to Order entities; a school is a work of the Order, identified by the shield of works (as on vos.mojezdravka.cz). |
+| Identity band | Grand Magistry banner photograph with the "ORDER OF MALTA" lockup | **School photograph** (Krkonoše landscape from a school trip, no people) under a dark veil, with the school lockup in its photo version (colour shield, white name) on the left and, on the right, a ruled note: tagline in Garamond, founder in Asap, both white | Same idea as the Priory banner (a photograph with white lettering), but the school's own picture and lockup: a school is a work of the Order, identified by the shield of works (as on vos.mojezdravka.cz). On white, the shield's white edge disappears. |
 | Top bar | Social links, language switch | Link to the founder (maltezskyrad.cz), the office phone and e-mail | Parents look for the phone first. One language only. |
 | Home | Intro + facts, calendar, works, news | Short intro + facts (phones on the first screen), **"Pro rodiče a žáky" record rows with the nine-class grid**, **news as a lead story with photograph and a ruled list of four**, Družina and kroužky | Families first (critique 2026-10-19): documents and phones before news, on phones too. |
 | News archive | Category tabs, years | Same, plus **pagination** (30 per page; 436 articles) and photo galleries | Size of the archive. |

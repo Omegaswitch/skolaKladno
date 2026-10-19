@@ -48,8 +48,10 @@ def shield(fill_red=RED, white="#fff"):
     return f'<g transform="translate(-113.9 -228.2)">{"".join(out)}</g>'
 
 
-def lockup(lines, color=RED, white="#fff", sub=None):
-    """Shield 126 high; name in two lines, cap height ~0.19 of the shield, bottom-aligned like the VOS logo."""
+def lockup(lines, color=RED, white="#fff", sub=None, text=None):
+    """Shield 126 high; name in two lines, cap height ~0.19 of the shield, bottom-aligned like the VOS logo.
+    text: name colour when it differs from the shield (white on a photograph)."""
+    text = text or color
     size, lead = 33, 37
     x0 = 126
     y_last = SHIELD_H - 18
@@ -62,9 +64,9 @@ def lockup(lines, color=RED, white="#fff", sub=None):
     extra = ""
     if sub:
         d, w = text_path(sub, x0, y_last - len(lines) * lead + 2, 17, tracking=40)
-        extra = f'<path fill="{color}" d="{d}"/>'
+        extra = f'<path fill="{text}" d="{d}"/>'
         width = max(width, w)
-    body = shield(color, white) + "".join(f'<path fill="{color}" d="{d}"/>' for d in paths) + extra
+    body = shield(color, white) + "".join(f'<path fill="{text}" d="{d}"/>' for d in paths) + extra
     w = round(width + 2, 1)
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {SHIELD_H}" width="{w}" height="{SHIELD_H}" role="img"><title>Základní škola Maltézských rytířů</title>{body}</svg>\n'
 
@@ -91,6 +93,7 @@ def main():
         "zsmr-mark.svg": mark(),
         "zsmr-logo-mono-black.svg": lockup(name, "#000"),
         "zsmr-logo-mono-white.svg": lockup(name, "#fff", white="none"),
+        "zsmr-logo-photo.svg": lockup(name, text="#fff"),  # colour shield, white name: on the header photograph
     }
     for f, svg in files.items():
         svg = re.sub(r"(\d+\.\d{2})\d+", r"\1", svg)  # 2 decimals is plenty at these sizes

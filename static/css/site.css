@@ -573,3 +573,11 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .f-nav a{display:inline-block;padding-block:5px}
 .btn:focus-visible{outline-color:var(--ink-strong)}
 .photo-run a{display:block;line-height:0;height:100%}
+/* identity band on a school photograph (Krkonoše trip, Oct 2026): the shield's white edge needs a non-white ground;
+   the name is white over a darkening veil (contrast measured, see docs/logo.md) */
+.idband{background:#2d3a44 url(/img/header/krajina.webp) center 62%/cover no-repeat;border-bottom:0;position:relative}
+.idband::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,22,30,.72) 0%,rgba(14,22,30,.55) 55%,rgba(14,22,30,.68) 100%)}
+.idband .wrap{position:relative;padding-block:clamp(var(--s5),3vw,var(--s6))}
+.idband-meta{color:rgba(255,255,255,.86);border-left-color:rgba(255,255,255,.35)}
+.idband-meta span:first-child{color:#fff}
+@media print{.idband{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
