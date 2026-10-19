@@ -12,7 +12,7 @@ zsmr.eu uses the **maltezskyrad.cz design system unchanged**: same tokens (`--re
 | Top bar | Social links, language switch | Link to the founder (maltezskyrad.cz), the office phone and e-mail | Parents look for the phone first. One language only. |
 | Home | Intro + facts, calendar, works, news | Short intro + facts (phones on the first screen), **"Pro rodiče a žáky" record rows with the nine-class grid**, **news as a lead story with photograph and a ruled list of four**, Družina and kroužky | Families first (critique 2026-10-19): documents and phones before news, on phones too. |
 | News archive | Category tabs, years | Same, plus **pagination** (30 per page; 436 articles) and photo galleries | Size of the archive. |
-| Footer | Grey nav, white identity, red legal band | Same three bands; the grey band lists each section's pages; the white band adds the **funded-project publicity logos** (OP VVV, OP JAK, PPUč, Kladno), and a licence line | EU-funded projects require visible publicity; the old site showed them in the footer. |
+| Footer | Grey nav, white identity, red legal band | Same three bands; the grey band lists each section's pages in six columns; the white band adds the **funded-project publicity logos** (OP VVV, OP JAK, PPUč, Kladno) and the licence line; the page ends on the red band as on the sister sites | EU-funded projects require visible publicity; the old site showed them in the footer. |
 
 ## Added components
 

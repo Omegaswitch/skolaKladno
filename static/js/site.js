@@ -21,6 +21,8 @@
   });
   document.addEventListener("keydown", function (e) {
     if (e.key !== "Escape") return;
+    document.querySelectorAll(".has-sub:hover").forEach(function (li) { li.classList.add("closed"); });  // hover-opened dropdown (WCAG 1.4.13)
+    if (menu && menu.classList.contains("open")) { menu.classList.remove("open"); toggle.setAttribute("aria-expanded", "false"); toggle.focus(); }
     document.querySelectorAll(".has-sub.open").forEach(function (li) {
       li.classList.remove("open");
       var b = li.querySelector(".sub-toggle");
@@ -41,7 +43,7 @@
   });
   document.addEventListener("pointerover", function (e) {  // the mouse re-opens it as usual
     var li = e.target.closest && e.target.closest(".has-sub.closed");
-    if (li) li.classList.remove("closed");
+    if (li && !li.contains(e.relatedTarget)) li.classList.remove("closed");  // only when the pointer comes back from outside
   });
 
   // ---- Schránka důvěry: send the form without leaving the page
@@ -66,7 +68,11 @@
   document.querySelectorAll("img.ph-img").forEach(function (img) {
     if (img.complete || img.naturalWidth) return;  // already shown (or progressively painting): leave it alone
     img.classList.add("is-loading");
-    var done = function () { img.classList.remove("is-loading"); };
+    var done = function () {
+      if (img.getBoundingClientRect().top > innerHeight) {  // arrived off-screen (often from cache): appear without the fade
+        img.style.transition = "none"; img.classList.remove("is-loading"); img.offsetWidth; img.style.transition = "";
+      } else img.classList.remove("is-loading");
+    };
     img.addEventListener("load", done, { once: true });
     img.addEventListener("error", done, { once: true });
   });

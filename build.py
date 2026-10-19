@@ -140,6 +140,7 @@ def enhance_body(body):
     # any other link that holds only an undescribed photo still needs a name for screen readers
     body = re.sub(r'<a href="([^"]+)">(<img (?:(?! alt="[^"]+")[^>])*>)</a>', r'<a href="\1" aria-label="Zobrazit fotografii">\2</a>', body)
     body = re.sub(r"<img [^>]+>", fix_img, body)
+    body = body.replace('<figure><ul class="gallery"></ul></figure>', "")  # empty gallery blocks, empty on the old site too
     photo = r'(?:<figure><img [^>]+></figure>|<p><img [^>]+></p>|<img [^>]+>)'
     body = re.sub(rf"(?:{photo}\s*){{2,}}", lambda m: '<div class="photo-run">' + re.sub(
         r'<img src="([^"]+)"[^>]*>', lambda i: f'<a href="{i.group(1)}" aria-label="Zobrazit celou fotografii">{i.group(0)}</a>', m.group(0)) + "</div>", body)
@@ -164,7 +165,7 @@ def short_date(iso):
 
 # ---------------------------------------------------------------- layout
 
-FONTS_PRELOAD = ["asap-latin-400-normal", "eb-garamond-latin-500-normal"]
+FONTS_PRELOAD = ["asap-latin-400-normal", "asap-latin-ext-400-normal", "eb-garamond-latin-500-normal"]  # Czech text needs latin-ext at once
 
 
 def nav_html(current_url):
@@ -269,7 +270,8 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
  <div class="f-id"><div class="wrap f-id-grid">
   <div><p class="f-name">{esc(names['school'])}</p>
    <p>{esc(c['address'])} · IČO {c['ico']} · datová schránka {c['dataBox']}<br><a href="mailto:{c['email']}">{c['email']}</a> · {phones}</p>
-   <p class="f-partner">Partner školy: <a href="{esc(SITE['partner']['url'])}" rel="noopener">{esc(SITE['partner']['alt'])}</a></p></div>
+   <p class="f-partner">Partner školy: <a href="{esc(SITE['partner']['url'])}" rel="noopener">{esc(SITE['partner']['alt'])}</a></p>
+   <p class="f-licence">Obsah webu podléhá licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.cs" rel="license">Creative Commons Uveďte původ-Zachovejte licenci 4.0</a>.</p></div>
   <div class="f-projects"><p class="f-label">Realizované projekty</p><div class="proj">{projects}</div></div>
  </div></div>
  <div class="f-red"><div class="wrap">
@@ -277,7 +279,6 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
   <p>Suverénní maltézský řád: <a href="https://www.orderofmalta.int/">www.orderofmalta.int</a></p>
   <p><a href="/ochrana-osobnich-udaju-gdpr/">Ochrana osobních údajů</a> · <a href="/prohlaseni-o-pristupnosti/">Prohlášení o přístupnosti</a></p>
  </div></div>
- <div class="f-licence"><div class="wrap"><p>Obsah webu ZŠ Maltézských rytířů podléhá licenci <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.cs" rel="license">Creative Commons Uveďte původ-Zachovejte licenci 4.0 Mezinárodní</a>.</p></div></div>
 </footer>
 </body>
 </html>
@@ -338,7 +339,7 @@ def section_children_html(url):
     items = []
     for k in kids:
         p = PAGES.get(k["url"], {})
-        desc = p.get("description") or plain(p.get("body", ""), 150)
+        desc = k.get("desc") or p.get("description") or plain(p.get("body", ""), 150)
         if not p and k["url"].startswith("/aktuality/"):
             n = sum(1 for x in NEWS if k["url"].split("/")[2] in x.get("categories", []))
             desc = f"Zprávy a fotografie: {n} {'článek' if n == 1 else 'články' if 2 <= n <= 4 else 'článků'}"
@@ -510,7 +511,7 @@ def render_news_index(items, active="", year=None, url="/aktuality/", page=1, pa
             f'<li><a href="{base if i == 1 else f"{base}strana/{i}/"}"{cur if i == page else ""}>{i}</a></li>' for i in range(1, pages + 1)) + "</ol></nav>"
     title = "Aktuality" + (f": {CATS[active]}" if active else "") + (f" {year}" if year else "") + (f" – strana {page}" if page > 1 else "")
     body = f"""
-<div class="wrap">{crumbs_html('/aktuality/', [(title, url)] if url != '/aktuality/' else None)}</div>
+<div class="wrap">{crumbs_html(url) if url in NAV_INDEX and url != '/aktuality/' else crumbs_html('/aktuality/', [(title, url)] if url != '/aktuality/' else None)}</div>
 <div class="wrap page page--news">
  <header class="page-head"><h1 class="display">{esc(title)}</h1>
   <p class="lead-s">Zprávy ze života školy, tříd, družiny a kroužků. Archiv sahá do roku {years[-1] if years else ''}.</p></header>

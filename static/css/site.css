@@ -130,7 +130,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 }
 /* one red line for every state: the item's own 3px underline, as wide as the item (the dropdown carries no rule of its own) */
 @media (min-width:961px){.nav-list>li:focus-within>a,.has-sub.open>a{box-shadow:inset 0 -3px 0 var(--red)}}
-@media (min-width:961px){.has-sub.closed:focus-within>.sub{opacity:0;visibility:hidden;transition-delay:0s}}  /* shut with Escape while the item keeps focus */
+@media (min-width:961px){.has-sub.closed:focus-within>.sub,.has-sub.closed:hover>.sub{opacity:0;visibility:hidden;transition-delay:0s}}  /* shut with Escape while the item keeps focus */
 .has-sub:focus-within>.sub,.has-sub.open>.sub{opacity:1;visibility:visible;transform:none;transition-delay:0s}
 
 @media (max-width:960px){
@@ -143,6 +143,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
   .menu-toggle[aria-expanded="true"]::before{transform:rotate(90deg)}
   .menu{display:grid;grid-template-rows:1fr;transition:grid-template-rows var(--med) var(--ease)}
   .menu>.nav-list{overflow:hidden;min-height:0}
+  .js .menu:not(.open)>.nav-list{visibility:hidden;transition:visibility 0s var(--med)}  /* closed menu: out of the tab order and the reading order, after the close animation */
   .js .menu{grid-template-rows:0fr}
   .js .menu.open{grid-template-rows:1fr}
   .nav-list{flex-direction:column}
@@ -208,7 +209,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 
 /* works, news */
 .works{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
-.works a{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr);gap:var(--s4);padding:15px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink);transition:background var(--med) var(--ease)}
+.works a{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr);gap:var(--s4);padding:15px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
 .works a>*,.index-list a>*{transition:transform var(--med) var(--ease),color var(--fast) var(--ease)}
 @media (hover:hover){.works a:hover>*,.index-list a:hover>*{transform:translateX(var(--s3))}}
 .works a:hover{background:linear-gradient(90deg,var(--grey),rgba(243,243,243,0))}
@@ -272,10 +273,9 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 .table-wrap:focus-visible{outline-offset:0}
 .prose table{border-collapse:collapse;width:100%;font-size:.95rem;font-variant-numeric:tabular-nums}
 .prose td,.prose th{text-align:left;vertical-align:top;padding:8px 12px 8px 0;border-bottom:1px solid var(--rule)}
-.prose td:first-child{color:var(--muted);width:3.5em}
 
 .index-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule);max-width:68ch}
-.index-list a{display:grid;gap:3px;padding:16px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink);transition:background var(--med) var(--ease)}
+.index-list a{display:grid;gap:3px;padding:16px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
 .index-list a:hover{background:linear-gradient(90deg,var(--grey),rgba(243,243,243,0))}
 .index-list b{font:500 1.3rem/1.25 var(--display);color:var(--ink-strong)}
 .index-list a:hover b{color:var(--red-text)}
@@ -346,7 +346,6 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 .ph-img{background:rgba(0,0,0,.05);transition:filter 900ms cubic-bezier(.16,1,.3,1)}
 /* set by site.js only on images still downloading; cached images show at once */
 .ph-img.is-loading{filter:grayscale(1) contrast(.35) brightness(1.35)}
-@keyframes fade-in{from{opacity:0}to{opacity:1}}
 
 
 /* ---------- responsive ---------- */
@@ -485,7 +484,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .idband{background:#fff;border-bottom:1px solid var(--rule)}
 .idband .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--s4) var(--s6);padding-block:var(--s5)}
 .idband-home{line-height:0;flex:none}
-.school-logo{height:clamp(56px,7vw,84px);width:auto}
+.school-logo{height:clamp(66px,8vw,112px);width:auto}
 .idband-meta{margin:0;display:grid;gap:2px;text-align:right;font-size:.82rem;color:var(--muted);border-left:1px solid var(--rule);padding-left:var(--s5)}
 .idband-meta span:first-child{font:500 1.05rem/1.3 var(--display);color:var(--ink-strong)}
 @media (max-width:760px){
@@ -498,7 +497,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .stories{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(var(--s5),4vw,var(--s7));align-items:start}
 .story{display:grid;gap:var(--s3);position:relative}
 .story-img{display:block;line-height:0;overflow:hidden;background:rgba(0,0,0,.05)}
-.story-img img{width:100%;aspect-ratio:800/470;object-fit:cover;transition:transform 600ms var(--ease)}
+.story-img img{width:100%;aspect-ratio:800/470;object-fit:cover;transition:transform 600ms var(--ease),filter 900ms cubic-bezier(.16,1,.3,1)}
 @media (hover:hover){.story:hover .story-img img{transform:scale(1.02)}}
 .story-meta{margin:0;font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
 .story-title{margin:0;font:500 1.18rem/1.25 var(--display)}
@@ -522,7 +521,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 @media (max-width:480px){.class-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
 
 /* imported galleries, videos and files */
-.prose .gallery{list-style:none;padding:0;margin:var(--s5) 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px;max-width:none}
+.prose .gallery{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:6px;max-width:none}
 .prose .gallery li{margin:0}
 .prose .gallery figure{margin:0}
 .prose .gallery a{display:block;line-height:0}
@@ -532,7 +531,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 
 /* news archive pagination */
 .pagination ol{list-style:none;margin:var(--s6) 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
-.pagination a{display:grid;place-items:center;min-width:44px;min-height:44px;border:1px solid var(--rule);border-radius:2px;text-decoration:none;color:var(--ink);font-variant-numeric:tabular-nums}
+.pagination a{display:grid;place-items:center;min-width:44px;min-height:44px;border:1px solid var(--rule);border-radius:2px;text-decoration:none;color:var(--ink);font-variant-numeric:tabular-nums;transition:border-color var(--fast) var(--ease)}
 .pagination a[aria-current]{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600}
 .pagination a:hover:not([aria-current]){border-color:var(--ink)}
 
@@ -553,8 +552,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .proj{display:flex;flex-wrap:wrap;gap:var(--s3);align-items:center}
 .proj a,.proj span{display:block;line-height:0;border:1px solid var(--rule);background:#fff;padding:6px}
 .proj img{height:56px;width:auto;max-width:220px;object-fit:contain}
-.f-licence{background:#fff;border-top:1px solid var(--rule);font-size:.8rem;color:var(--muted)}
-.f-licence .wrap{padding-block:var(--s3)}
+.f-licence{font-size:.8rem;color:var(--muted)}
 .f-licence a{color:var(--red-text)}
 .f-nav ul ul{display:grid;gap:2px;padding:var(--s2) 0 0;grid-template-columns:1fr}
 .f-nav ul ul a{font:400 .85rem var(--ui);letter-spacing:0;text-transform:none;opacity:.92}
@@ -565,7 +563,7 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .topbar-social{display:flex}
 @media (max-width:960px){.topbar .topbar-social{display:flex;gap:var(--s4);padding-bottom:6px}.topbar-home{flex-basis:100%}}
 .section-head--row{max-width:none}
-.photo-run{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,220px),1fr));gap:6px}
+.photo-run{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:6px}
 .photo-run>*{margin:0}
 .photo-run img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover}
 .prose img{max-height:80vh;width:auto}
@@ -573,11 +571,28 @@ button.btn[disabled]{opacity:.65;cursor:progress}
 .f-nav a{display:inline-block;padding-block:5px}
 .btn:focus-visible{outline-color:var(--ink-strong)}
 .photo-run a{display:block;line-height:0;height:100%}
-/* identity band on a school photograph (Krkonoše trip, Oct 2026): the shield's white edge needs a non-white ground;
-   the name is white over a darkening veil (contrast measured, see docs/logo.md) */
+/* identity band on a school photograph (Krkonoše trip, Oct 2026): the shield's white edge and the Order's white words
+   need a dark ground; the veil is deepest behind the logo so the red school name stays readable */
 .idband{background:#2d3a44 url(/img/header/krajina.webp) center 62%/cover no-repeat;border-bottom:0;position:relative}
-.idband::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,22,30,.72) 0%,rgba(14,22,30,.55) 55%,rgba(14,22,30,.68) 100%)}
+.idband::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,22,30,.86) 0%,rgba(14,22,30,.78) 32%,rgba(14,22,30,.55) 60%,rgba(14,22,30,.68) 100%)}
 .idband .wrap{position:relative;padding-block:clamp(var(--s5),3vw,var(--s6))}
 .idband-meta{color:rgba(255,255,255,.86);border-left-color:rgba(255,255,255,.35)}
 .idband-meta span:first-child{color:#fff}
 @media print{.idband{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+/* audit 2026-10-19 */
+.stories-list .story-img{align-self:start}
+.band-grey .class-grid a{color:var(--ink-strong)}
+.band-grey .class-grid a:hover{color:#fff}
+.prose a[href$=".pdf"],.prose a[href$=".odt"],.prose a[href$=".docx"],.prose a[href$=".xlsx"]{display:inline-block;padding:4px 2px;font-weight:600;white-space:nowrap}
+@media (pointer:coarse){.prose a[href$=".pdf"],.prose a[href$=".odt"]{padding-block:10px}}
+.f-id a[href^="tel:"]{white-space:nowrap}
+.pagination{grid-column:1/-1;padding-left:calc(7rem + var(--s4))}
+@media (min-width:961px){
+  .f-nav>.wrap>ul{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .home-intro-facts{padding-top:calc(clamp(2.05rem,4.2vw,3.1rem) * 2.12 + var(--s5))}
+}
+@media (max-width:640px){
+  .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;margin-inline:calc(-1 * var(--gutter));padding-inline:var(--gutter)}
+  .tabs a{flex:none}
+  .pagination{padding-left:0}
+}

@@ -25,19 +25,19 @@
  },
  "nav": [
   {"url": "/skola/", "title": "Škola", "children": [
-   {"url": "/profil-skoly/"},
-   {"url": "/skolne-a-dalsi-platby/"},
-   {"url": "/rozvrh/"},
-   {"url": "/kalendar/", "title": "Kalendář akcí"},
-   {"url": "/dokumenty-o-skole/"},
-   {"url": "/dokumenty-pro-rodice/"},
-   {"url": "/pedagogove/"},
+   {"url": "/profil-skoly/", "desc": "Církevní škola se všemi devíti třídami, od roku 1991"},
+   {"url": "/skolne-a-dalsi-platby/", "desc": "Výše školného, slevy a platby"},
+   {"url": "/rozvrh/", "desc": "Rozvrhy tříd a učitelů"},
+   {"url": "/kalendar/", "title": "Kalendář akcí", "desc": "Prázdniny a akce školního roku"},
+   {"url": "/dokumenty-o-skole/", "desc": "ŠVP, školní řád, prázdniny, výroční zprávy"},
+   {"url": "/dokumenty-pro-rodice/", "desc": "Přihlášky, žádosti a formuláře"},
+   {"url": "/pedagogove/", "desc": "Učitelé a konzultační hodiny"},
    {"url": "/aktuality/uspechy/", "title": "Úspěchy"},
-   {"url": "/hledame/"},
-   {"url": "/schranka-duvery/"}
+   {"url": "/hledame/", "desc": "Volná místa pro učitele"},
+   {"url": "/schranka-duvery/", "desc": "Anonymní dotaz vedení školy"}
   ]},
   {"url": "/tridy/", "title": "Třídy", "children": [
-   {"url": "/prehled-trid/"},
+   {"url": "/prehled-trid/", "desc": "Třídy, jejich týmy a třídní učitelé"},
    {"url": "/aktuality/1-trida/", "title": "1. třída"},
    {"url": "/aktuality/2-trida/", "title": "2. třída"},
    {"url": "/aktuality/3-trida/", "title": "3. třída"},
@@ -49,12 +49,12 @@
    {"url": "/aktuality/9-trida/", "title": "9. třída"}
   ]},
   {"url": "/druzina/", "title": "Družina", "children": [
-   {"url": "/o-druzine/"},
+   {"url": "/o-druzine/", "desc": "Provozní doba a vnitřní řád školní družiny"},
    {"url": "/aktuality/akce_druziny/", "title": "Akce družiny"}
   ]},
   {"url": "/krouzky/", "title": "Kroužky", "children": [
-   {"url": "/prehled-krouzku/"},
-   {"url": "/aktuality/krouzky/", "title": "Z kroužků"},
+   {"url": "/prehled-krouzku/", "desc": "Nabídka kroužků, přihláška a platby"},
+   {"url": "/aktuality/krouzky/", "title": "Kroužky"},
    {"url": "/aktuality/keramicky-krouzek/", "title": "Keramický kroužek"},
    {"url": "/aktuality/krouzek-robotiky/", "title": "Kroužek robotiky"},
    {"url": "/aktuality/truhlarsky-krouzek/", "title": "Truhlářský kroužek"}

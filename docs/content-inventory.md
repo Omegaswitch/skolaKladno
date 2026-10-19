@@ -104,3 +104,8 @@ New pages: `/skola/`, `/tridy/`, `/druzina/`, `/krouzky/` (section indexes, as t
 7. **Photographs of pupils**: carried over from the current site; confirm that parental consent covers the new site.
 8. **Outside WordPress:** the first-grade enrolment booking app (`/php/zapis/register_child.php`, PHP with a database of time slots) and large videos (`/large-files/DCS_ZS-Maltezska-Kladno.mp4` 561 MB, `/videa/…`, a 55 MB herbarium ODT) are linked at the old server, not copied. See `docs/deployment.md`.
 9. **Missing on the old server:** `2025/04/IMG_20250402_140630_5-1-1024x512.jpg`, `2022/06/maly-1024x697.jpg` (404); dropped from their articles.
+10. **Timetables (`/rozvrh/`):** on the old site the ".pdf" labels were split into fragments that pointed partly to the 2023/24 and 2025 timetables. Each row is now one link to the 2026/27 file. Typos "jednotlicých učiteů" are left as published.
+11. **Dead download:** the ODT of "Převzetí odpovědnosti o polední pauze" pointed to the former domain zsmaltezskychrytiru.cz (no longer resolves; also 404 on zsmr.eu). The link is removed; the PDF stays. Ask the school for the ODT.
+12. **GDPR page** names `skola@zsmaltezskychrytiru.cz` as the filing address; the rest of the site uses `skola@zsmr.cz`. Confirm which one receives mail.
+13. **Empty gallery blocks** in 4 articles (2024/09/10, 2025/02/21, 2025/08/28, 2025/11/03) were empty on the old site too; they are hidden. The articles' other photos are intact.
+14. **Typos in imported texts** (flagged, not edited): "psycholpga", "1.- 3.", "třídy ,", "rytířů .", "„ Kaleidoskop".
