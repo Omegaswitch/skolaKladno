@@ -33,7 +33,7 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 
 ## Editorial workflow
 
-**News (no GitHub needed).** Go to `/pridat-aktualitu/` (not linked, not indexed), sign in, write the article, choose categories (class, družina, kroužek …), add a main photo and attachments, publish. The site rebuilds and the article is online in about a minute. The **Upravit nebo smazat** tab edits or deletes any article, including the imported ones. Photos are shrunk in the browser and stripped of location data.
+**News (no GitHub needed).** Go to `/pridat-aktualitu/` (not linked, not indexed), sign in, write the article, choose categories (class, družina, kroužek …), add a main photo and attachments, publish. Several photos can be inserted into the text at once; two or more in a row appear as a photo grid. The site rebuilds and the article is online in about a minute. The **Upravit nebo smazat** tab edits or deletes any article, including the imported ones. Photos are shrunk in the browser and stripped of location data.
 
 **Pages.** Edit the file in `content/pages/`. Set `"imported": false` so a re-import never overwrites it, and remove `"status"` once the text is approved (`existing` = carried over, `new` = new text, `approval` = needs sign-off; shown only in preview builds).
 
