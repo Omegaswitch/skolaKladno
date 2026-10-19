@@ -1,0 +1,99 @@
+{
+ "baseUrl": "https://www.zsmr.eu",
+ "names": {
+  "school": "Základní škola Maltézských rytířů",
+  "short": "ZŠMR",
+  "place": "Kladno – Kročehlavy",
+  "site": "Základní škola Maltézských rytířů, Kladno",
+  "tagline": "Křesťanská základní škola v Kladně – Kročehlavech",
+  "order": "Suverénní vojenský špitální řád svatého Jana Jeruzalémského, z Rhodu a z Malty",
+  "founder": "Suverénní řád maltézských rytířů – České velkopřevorství"
+ },
+ "contact": {
+  "address": "Školská 349, 272 01 Kladno",
+  "ico": "00873730",
+  "dataBox": "ysrj3eh",
+  "email": "skola@zsmr.cz",
+  "phones": [
+   ["ředitelna", "+420 602 526 695"],
+   ["sborovna", "+420 602 526 696"],
+   ["družina", "+420 602 526 698"]
+  ],
+  "account": "2400831734/2010 (FIO Banka)",
+  "mapUrl": "https://www.openstreetmap.org/search?query=%C5%A0kolsk%C3%A1%20349%2C%20Kladno",
+  "head": "Mgr. Anna Salátová, ředitelka školy"
+ },
+ "nav": [
+  {"url": "/skola/", "title": "Škola", "children": [
+   {"url": "/profil-skoly/"},
+   {"url": "/skolne-a-dalsi-platby/"},
+   {"url": "/rozvrh/"},
+   {"url": "/kalendar/", "title": "Kalendář akcí"},
+   {"url": "/dokumenty-o-skole/"},
+   {"url": "/dokumenty-pro-rodice/"},
+   {"url": "/pedagogove/"},
+   {"url": "/aktuality/uspechy/", "title": "Úspěchy"},
+   {"url": "/hledame/"},
+   {"url": "/schranka-duvery/"}
+  ]},
+  {"url": "/tridy/", "title": "Třídy", "children": [
+   {"url": "/prehled-trid/"},
+   {"url": "/aktuality/1-trida/", "title": "1. třída"},
+   {"url": "/aktuality/2-trida/", "title": "2. třída"},
+   {"url": "/aktuality/3-trida/", "title": "3. třída"},
+   {"url": "/aktuality/4-trida/", "title": "4. třída"},
+   {"url": "/aktuality/5-trida/", "title": "5. třída"},
+   {"url": "/aktuality/6-trida/", "title": "6. třída"},
+   {"url": "/aktuality/7-trida/", "title": "7. třída"},
+   {"url": "/aktuality/8-trida/", "title": "8. třída"},
+   {"url": "/aktuality/9-trida/", "title": "9. třída"}
+  ]},
+  {"url": "/druzina/", "title": "Družina", "children": [
+   {"url": "/o-druzine/"},
+   {"url": "/aktuality/akce_druziny/", "title": "Akce družiny"}
+  ]},
+  {"url": "/krouzky/", "title": "Kroužky", "children": [
+   {"url": "/prehled-krouzku/"},
+   {"url": "/aktuality/krouzky/", "title": "Z kroužků"},
+   {"url": "/aktuality/keramicky-krouzek/", "title": "Keramický kroužek"},
+   {"url": "/aktuality/krouzek-robotiky/", "title": "Kroužek robotiky"},
+   {"url": "/aktuality/truhlarsky-krouzek/", "title": "Truhlářský kroužek"}
+  ]},
+  {"url": "/aktuality/", "title": "Aktuality"},
+  {"url": "/kontakty/"}
+ ],
+ "newsCategories": {
+  "nezarazene": "Ze školy",
+  "vylety-a-akce": "Výlety a akce",
+  "uspechy": "Úspěchy",
+  "akce_druziny": "Akce družiny",
+  "krouzky": "Kroužky",
+  "keramicky-krouzek": "Keramický kroužek",
+  "krouzek-robotiky": "Kroužek robotiky",
+  "truhlarsky-krouzek": "Truhlářský kroužek",
+  "1-trida": "1. třída",
+  "2-trida": "2. třída",
+  "3-trida": "3. třída",
+  "4-trida": "4. třída",
+  "5-trida": "5. třída",
+  "6-trida": "6. třída",
+  "7-trida": "7. třída",
+  "8-trida": "8. třída",
+  "9-trida": "9. třída",
+  "ost": "Ostatní"
+ },
+ "links": [
+  {"label": "Zřizovatel: Maltézský řád – České velkopřevorství", "url": "https://www.maltezskyrad.cz/"},
+  {"label": "Spolek ZŠMR na Facebooku", "url": "https://www.facebook.com/spolekZSMR"}
+ ],
+ "projects": [
+  {"img": "/media/2020/06/ppuc_350x75.jpg", "alt": "Podpora práce učitelů (PPUč)", "url": "http://www.gramotnostiproucitele.cz/"},
+  {"img": "/media/2020/06/logolink_evrop_strukt_invest_fondy_cz_700.jpg", "alt": "Evropské strukturální a investiční fondy, OP Výzkum, vývoj a vzdělávání", "url": "https://www.msmt.cz/strukturalni-fondy-1/op-vvv/"},
+  {"img": "/media/2020/06/logolink_opvk_350.jpg", "alt": "OP Vzdělávání pro konkurenceschopnost", "url": "http://www.op-vk.cz/"},
+  {"img": "/media/2020/06/kladno_za_podpory_mesta_350.jpg", "alt": "Za podpory statutárního města Kladna", "url": "https://www.mestokladno.cz/"},
+  {"img": "/media/2021/03/Plakat_A3_Maltez_350x495_20210313.png", "alt": "Plakát projektu Šablony III (OP VVV)", "url": "https://opvvv.msmt.cz/aktualita/vyzva-sablony-iii.htm"},
+  {"img": "/media/2024/01/Publicita_OP_A3-plakat_Cely_350x495.jpg", "alt": "Plakát projektu OP Jan Amos Komenský"},
+  {"img": "/media/2026/06/Plakat_A3_OP-JAK-2_350x495.jpg", "alt": "Plakát projektu OP Jan Amos Komenský II"}
+ ],
+ "partner": {"img": "/media/2020/06/spolek_zsmr_banner_350x75pix.jpg", "alt": "Spolek ZŠMR", "url": "https://www.facebook.com/spolekZSMR"}
+}
