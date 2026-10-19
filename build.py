@@ -330,7 +330,7 @@ TRUST_FORM = """<form class="trust-form" id="trust-form" method="post" action="/
  <p class="hp" aria-hidden="true"><label>Nevyplňujte <input name="website" tabindex="-1" autocomplete="off"></label></p>
  <p><button class="btn" type="submit">Odeslat</button></p>
  <p class="ne-msg" id="tf-msg" role="status" hidden></p>
- <p class="small">Zprávu přečte vedení školy. Pokud formulář nefunguje, napište na <a href="mailto:skola@zsmr.cz">skola@zsmr.cz</a>.</p>
+ <p class="small">Zprávu přečte vedení školy. Odešle se e-mailem a na webu se neukládá; e-mail (a jméno, pokud ho uvedete) použijeme jen k odpovědi, viz <a href="/ochrana-osobnich-udaju-gdpr/#tento-web">Ochrana osobních údajů</a>. Pokud formulář nefunguje, napište na <a href="mailto:skola@zsmr.cz">skola@zsmr.cz</a>.</p>
 </form>"""
 
 
