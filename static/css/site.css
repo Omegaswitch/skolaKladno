@@ -99,7 +99,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 /* ---------- header (Grand Magistry frame) ---------- */
 .topbar{background:var(--red);color:#fff;font-size:.8rem}
 .topbar .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s1) var(--s5);min-height:36px}
-.topbar a{color:#fff;text-decoration:none}
+.topbar a{color:#fff;text-decoration:none;display:inline-flex;align-items:center;min-height:24px}
 .topbar a:hover{text-decoration:underline}
 .topbar-home{font-weight:600;letter-spacing:.02em}
 .topbar-social{display:flex;gap:var(--s4)}
@@ -494,7 +494,8 @@ button.btn[disabled]{opacity:.65;cursor:progress}
   .banner{--shield:60px;background:linear-gradient(180deg,rgba(14,22,30,.75) 0,rgba(14,22,30,.8) 60px,var(--ink) 124px),var(--ink) url(/img/header/krajina.webp) center 0/100% auto no-repeat}
   .banner .wrap{justify-content:flex-start;align-items:flex-end;min-height:0;padding-top:104px;padding-bottom:var(--s3)}
   .banner-home{top:16px}
-  .fullname{text-align:left;font-size:.72rem}
+  .fullname{text-align:left;font-size:.8rem}
+  .fullname span{display:none}  /* phones: the founder line repeats the top bar, and at this size it was 10px */
 }
 @media print{.banner{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
