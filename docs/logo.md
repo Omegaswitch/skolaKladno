@@ -29,7 +29,7 @@ All SVGs scale without loss. For print, export at the required size from the SVG
 ## Rules
 
 - **Clear space:** keep free space around the logo at least the width of one arm of the cross (≈ 1/4 of the shield width) on every side.
-- **Minimum size:** main logo 40 mm / 180 px wide ("ČESKÁ REPUBLIKA" must stay legible); compact logo 18 mm / 80 px; shield alone 6 mm / 24 px tall.
+- **Minimum size:** main logo 40 mm wide in print, 66 px tall on screen (≈ 177 px wide; the same as the Prague and Skutec school logos); compact logo 18 mm / 80 px; shield alone 6 mm / 24 px tall.
 - **Colours:** red `#e31818` (the Order's web red; take print values from the Coat of Arms and Emblems Guidelines) and white; or entirely black; or entirely white. No other colours, gradients, shadows, outlines or effects.
 - **Backgrounds:** `zsmr-logo.svg` on white or very light, plain grounds; `zsmr-logo-photo.svg` on photographs and dark grounds. Never the white-text version on white (its words disappear), never the black-text version on a photograph.
 - **Do not** redraw, stretch, rotate or crop the shield; change the cross; alter "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA"; set the name in another font; rearrange the parts; or animate the logo.

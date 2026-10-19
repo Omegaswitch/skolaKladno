@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792432673.6662223,
-    "seen": 1792432851.2149732,
-    "ast_hash": "a1cb9f34924f63d698e9c1944cf78922",
+    "mtime": 1792432868.4960988,
+    "seen": 1792432879.1034632,
+    "ast_hash": "9a6dd049a9ec9802dcd0039a971b8115",
     "semantic_hash": ""
   },
   "check.py": {
@@ -78,9 +78,9 @@
     "semantic_hash": ""
   },
   "tools/make_logo.py": {
-    "mtime": 1792431261.608151,
-    "seen": 1792431324.6316423,
-    "ast_hash": "562bef2034baa504a02813317984e122",
+    "mtime": 1792432868.5240986,
+    "seen": 1792432879.1035259,
+    "ast_hash": "e6e7d3f56eccd07429552453aea0a0a6",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -624,33 +624,33 @@
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-compact.svg": {
-    "mtime": 1792431261.724504,
-    "seen": 1792431324.6326945,
-    "ast_hash": "9a5d6f3214140f0d250a5f41862cce78",
+    "mtime": 1792432868.5200987,
+    "seen": 1792432879.1046984,
+    "ast_hash": "7af9b139bf9408979664a911e149bc70",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-mono-black.svg": {
-    "mtime": 1792431261.7261584,
-    "seen": 1792431324.6326966,
-    "ast_hash": "d302304a7b977c18093f5a4b195a7aab",
+    "mtime": 1792432868.5200987,
+    "seen": 1792432879.1046999,
+    "ast_hash": "c6adfe3eed5c46072fa8eb1ad85a5dfe",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-mono-white.svg": {
-    "mtime": 1792431261.727373,
-    "seen": 1792431324.632698,
-    "ast_hash": "1f8a5b4e62a50a9432d551421218673c",
+    "mtime": 1792432868.5200987,
+    "seen": 1792432879.1047013,
+    "ast_hash": "927f4748748da81ac4beff0dfa93ec73",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo.svg": {
-    "mtime": 1792431261.7218926,
-    "seen": 1792431324.632701,
-    "ast_hash": "a3cf593f220823495ad47d0de5bf71f9",
+    "mtime": 1792432868.5240986,
+    "seen": 1792432879.1047049,
+    "ast_hash": "d37499812601ae2023a6f5120203c0db",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-mark.svg": {
-    "mtime": 1792431261.7250063,
-    "seen": 1792431324.6327028,
-    "ast_hash": "5ece9cca1f3073ce46bcddb66fa02ce0",
+    "mtime": 1792432868.5240986,
+    "seen": 1792432879.104706,
+    "ast_hash": "288c38dca5ee4f955eaac11f07f60a7f",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-og.png": {
@@ -18294,9 +18294,9 @@
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-photo.svg": {
-    "mtime": 1792431261.7235928,
-    "seen": 1792431324.6326997,
-    "ast_hash": "6acb8cad01b3533ced830018dc02ee4d",
+    "mtime": 1792432868.5240986,
+    "seen": 1792432879.1047032,
+    "ast_hash": "5c6553a87c2da67576d8c7711a80c696",
     "semantic_hash": ""
   },
   "tools/order-lockup-cs.svg": {
