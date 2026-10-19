@@ -238,6 +238,7 @@ class Media:
         dest = ROOT / "static" / "media" / rel
         if not download(url, dest):
             self.missing.append(url)
+            return None  # gone on the old server too: the image or link is dropped, not left broken
         return "/media/" + urllib.parse.quote(rel)
 
     def featured(self, media_id):
@@ -281,6 +282,10 @@ def make_url_map(media, legacy):
         if host in OLD_HOSTS or not host:
             if UPLOADS in parsed.path:
                 return media.local(ORIGIN + parsed.path)
+            if parsed.path.startswith(("/php/", "/videa/")):
+                # shortcut: the enrolment booking app (PHP + database) and large videos live outside WordPress;
+                # linked on the old server until it gets its own hostname (docs/deployment.md)
+                return ORIGIN + parsed.path + (f"?{parsed.query}" if parsed.query else "")
             if parsed.path.startswith("/large-files/"):
                 # shortcut: files uploaded outside WordPress (school video 561 MB, herbarium 55 MB) exceed GitHub's limits;
                 # linked at the old address until they get proper hosting (docs/content-inventory.md)
@@ -342,9 +347,9 @@ def write_redirects(legacy):
     rules = []
     for key, dest in legacy.items():
         k, v = key.split("=")
-        rules.append({"source": "/:file(index\\.php)?", "has": [{"type": "query", "key": k, "value": f"^{v}/?$"}], "destination": dest, "permanent": True})
+        rules.append({"source": "/:file(index\\.php)?", "has": [{"type": "query", "key": k, "value": f"^{v}/?$"}], "destination": urllib.parse.quote(dest), "permanent": True})
     for k, dest in (("paged", "/aktuality/"), ("author", "/aktuality/"), ("feed", "/feed.xml"), ("m", "/aktuality/"), ("s", "/aktuality/")):
-        rules.append({"source": "/:file(index\\.php)?", "has": [{"type": "query", "key": k}], "destination": dest, "permanent": True})
+        rules.append({"source": "/:file(index\\.php)?", "has": [{"type": "query", "key": k}], "destination": urllib.parse.quote(dest), "permanent": True})
     rules.append({"source": "/wp-content/uploads/:path*", "destination": "/media/:path*", "permanent": True})
     f = ROOT / "vercel.json"
     v = json.loads(f.read_text(encoding="utf-8"))

@@ -125,5 +125,5742 @@
       ]
     }
   ],
-  "redirects": []
+  "redirects": [
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7347/?$"
+        }
+      ],
+      "destination": "/2026/10/16/podzimni-vyprava-na-pramen-labe/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7314/?$"
+        }
+      ],
+      "destination": "/2026/10/15/1-vyprava-do-lesa/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7295/?$"
+        }
+      ],
+      "destination": "/2026/10/12/frantiskiada-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7273/?$"
+        }
+      ],
+      "destination": "/2026/10/09/tak-trochu-volby/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7263/?$"
+        }
+      ],
+      "destination": "/2026/10/08/maly-zachranar/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7248/?$"
+        }
+      ],
+      "destination": "/2026/09/30/kaleidoskop-skolni-druziny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7169/?$"
+        }
+      ],
+      "destination": "/2026/09/30/putovani-za-svatym-vaclavem-pohledem-sedmaku-i-cast/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7140/?$"
+        }
+      ],
+      "destination": "/2026/09/01/vitejte-ve-skolni-druzine/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7130/?$"
+        }
+      ],
+      "destination": "/2026/08/29/aktualni-rozvrhy-2026-27/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7106/?$"
+        }
+      ],
+      "destination": "/2026/08/25/podekovani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7099/?$"
+        }
+      ],
+      "destination": "/2026/06/26/hura-prazdniny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7083/?$"
+        }
+      ],
+      "destination": "/2026/06/24/legenda-o-trech-stromech/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7071/?$"
+        }
+      ],
+      "destination": "/2026/06/24/vodni-bitva/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7057/?$"
+        }
+      ],
+      "destination": "/2026/06/24/rytirske-klani-3/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7056/?$"
+        }
+      ],
+      "destination": "/2026/06/24/lisci-legolend/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7037/?$"
+        }
+      ],
+      "destination": "/2026/06/22/predprazdninove-sportovni-klani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7017/?$"
+        }
+      ],
+      "destination": "/2026/06/20/ozdravny-pobyt-na-horach/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^7012/?$"
+        }
+      ],
+      "destination": "/2026/06/19/prvnacci-nam-ctou/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6997/?$"
+        }
+      ],
+      "destination": "/2026/06/19/krida-slovesa-a-slunicko/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6982/?$"
+        }
+      ],
+      "destination": "/2026/06/16/lesni-badatele/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6971/?$"
+        }
+      ],
+      "destination": "/2026/06/16/35-vyroci-nasi-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6968/?$"
+        }
+      ],
+      "destination": "/2026/06/12/oslava-dne-deti-na-fare/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6957/?$"
+        }
+      ],
+      "destination": "/2026/06/12/vodacky-vylet-s-usmevem-a-kapkou-vody-za-krkem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6948/?$"
+        }
+      ],
+      "destination": "/2026/06/01/informace-o-prospechu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6937/?$"
+        }
+      ],
+      "destination": "/2026/05/26/den-maminek-a-skolni-slavnost/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6933/?$"
+        }
+      ],
+      "destination": "/2026/05/20/venku-to-jde-taky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6915/?$"
+        }
+      ],
+      "destination": "/2026/05/19/velci-malym/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6899/?$"
+        }
+      ],
+      "destination": "/2026/05/18/krivoklatske-lesy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6887/?$"
+        }
+      ],
+      "destination": "/2026/05/06/mamince/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6884/?$"
+        }
+      ],
+      "destination": "/2026/05/06/jarni-slunicko/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6863/?$"
+        }
+      ],
+      "destination": "/2026/04/19/hledame/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6872/?$"
+        }
+      ],
+      "destination": "/2026/04/19/den-bez-tasky-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6854/?$"
+        }
+      ],
+      "destination": "/2026/04/16/teorie-v-malicku-praxe-v-pedalech/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6847/?$"
+        }
+      ],
+      "destination": "/2026/04/09/velikonocni-tvoreni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6838/?$"
+        }
+      ],
+      "destination": "/2026/04/09/vylet-do-zooparku-zajezd/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6832/?$"
+        }
+      ],
+      "destination": "/2026/04/07/konzultace-o-prospechu-12/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6819/?$"
+        }
+      ],
+      "destination": "/2026/04/03/pozehnane-velikonoce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6803/?$"
+        }
+      ],
+      "destination": "/2026/03/04/ptaci-rise/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6796/?$"
+        }
+      ],
+      "destination": "/2026/03/03/pribehy-nasich-sousedu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6786/?$"
+        }
+      ],
+      "destination": "/2026/02/13/ziva-prednaska-maskovani-ve-svete-zvirat/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6780/?$"
+        }
+      ],
+      "destination": "/2026/02/06/slepici-letka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6760/?$"
+        }
+      ],
+      "destination": "/2026/01/26/prijati-zaci-6/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6739/?$"
+        }
+      ],
+      "destination": "/2026/01/26/snezenky-a-machri/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6717/?$"
+        }
+      ],
+      "destination": "/2026/01/20/polarni-expres/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6683/?$"
+        }
+      ],
+      "destination": "/2026/01/12/nasnezilo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6665/?$"
+        }
+      ],
+      "destination": "/2026/01/10/tri-kralove-prinesli-nadeji/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6674/?$"
+        }
+      ],
+      "destination": "/2026/01/06/konzultace-o-prospechu-11/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6649/?$"
+        }
+      ],
+      "destination": "/2025/12/19/vanocni-atmosfera-v-drazdanech/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6638/?$"
+        }
+      ],
+      "destination": "/2025/12/19/vanocni-slavnost-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6622/?$"
+        }
+      ],
+      "destination": "/2025/12/18/zachranna-stanice-aves/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6420/?$"
+        }
+      ],
+      "destination": "/2025/12/17/zapis-do-prvni-tridy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6596/?$"
+        }
+      ],
+      "destination": "/2025/12/16/kamaradske-cteni-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6590/?$"
+        }
+      ],
+      "destination": "/2025/12/16/koncert-orchestru-vejir/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6585/?$"
+        }
+      ],
+      "destination": "/2025/12/11/adventni-cteni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6575/?$"
+        }
+      ],
+      "destination": "/2025/12/11/na-vedomost-se-dava/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6569/?$"
+        }
+      ],
+      "destination": "/2025/12/10/betlem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6561/?$"
+        }
+      ],
+      "destination": "/2025/12/08/do-nebicka-nebo-do-peklicka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6536/?$"
+        }
+      ],
+      "destination": "/2025/12/06/varhany-nazivo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6552/?$"
+        }
+      ],
+      "destination": "/2025/11/26/vanocni-jarmark-uz-v-patek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6545/?$"
+        }
+      ],
+      "destination": "/2025/11/26/louceni-s-podzimem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6511/?$"
+        }
+      ],
+      "destination": "/2025/11/25/uspech-v-literarni-soutezi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6522/?$"
+        }
+      ],
+      "destination": "/2025/11/24/snezi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6495/?$"
+        }
+      ],
+      "destination": "/2025/11/24/snezka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6478/?$"
+        }
+      ],
+      "destination": "/2025/11/19/hudebne-tvoriva-vikendovka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6457/?$"
+        }
+      ],
+      "destination": "/2025/11/14/vylet-na-budec/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6433/?$"
+        }
+      ],
+      "destination": "/2025/11/11/konzultace-o-prospechu-10/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6430/?$"
+        }
+      ],
+      "destination": "/2025/11/10/zmena-ve-skolni-druzine/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6414/?$"
+        }
+      ],
+      "destination": "/2025/11/06/dny-otevrenych-dveri-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6408/?$"
+        }
+      ],
+      "destination": "/2025/11/05/naucne-stredisko-ekologicke-vychovy-cabarna/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6379/?$"
+        }
+      ],
+      "destination": "/2025/11/03/boreckove/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6302/?$"
+        }
+      ],
+      "destination": "/2025/11/03/majaland/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6298/?$"
+        }
+      ],
+      "destination": "/2025/11/03/tygr-ve-skole/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6355/?$"
+        }
+      ],
+      "destination": "/2025/11/03/pracovni-vyucovani-8-a-9-tridy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6365/?$"
+        }
+      ],
+      "destination": "/2025/11/03/podekovani-hasicum/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6243/?$"
+        }
+      ],
+      "destination": "/2025/10/24/malujeme-a-pomahame/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6280/?$"
+        }
+      ],
+      "destination": "/2025/10/24/snidane-u-druhacku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6259/?$"
+        }
+      ],
+      "destination": "/2025/10/23/zari-2025-v-5-tride/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6291/?$"
+        }
+      ],
+      "destination": "/2025/10/23/ohlednuti-za-svatkem-svateho-vaclava/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6251/?$"
+        }
+      ],
+      "destination": "/2025/10/20/jak-neublizit/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6195/?$"
+        }
+      ],
+      "destination": "/2025/10/08/svaty-vaclav-ve-3-tride/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6209/?$"
+        }
+      ],
+      "destination": "/2025/10/06/mili-rodice/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6183/?$"
+        }
+      ],
+      "destination": "/2025/10/06/frantiskiada-oslava-svatku-sv-frantiska-z-assisi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6175/?$"
+        }
+      ],
+      "destination": "/2025/10/03/sv-frantisek-mel-rad-prirodu-jako-my/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6157/?$"
+        }
+      ],
+      "destination": "/2025/10/03/den-se-svatym-frantiskem-v-osmicce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6144/?$"
+        }
+      ],
+      "destination": "/2025/10/03/sportovni-den/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6126/?$"
+        }
+      ],
+      "destination": "/2025/10/02/putovani-za-svatym-vaclavem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6071/?$"
+        }
+      ],
+      "destination": "/2025/09/30/sportovni-den-obrazem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6060/?$"
+        }
+      ],
+      "destination": "/2025/09/29/putovani-za-svatym-vaclavem-ocima-sedmicky-2-skupina/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6054/?$"
+        }
+      ],
+      "destination": "/2025/09/29/putovani-za-svatym-vaclavem-ocima-sedmicky-1-skupina/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6027/?$"
+        }
+      ],
+      "destination": "/2025/09/29/priprava-projektoveho-dne/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^6013/?$"
+        }
+      ],
+      "destination": "/2025/09/24/svaty-vaclav-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5973/?$"
+        }
+      ],
+      "destination": "/2025/08/29/informace-ze-skolni-druziny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5970/?$"
+        }
+      ],
+      "destination": "/2025/08/29/zacatek-noveho-skolniho-roku-2025-26/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5936/?$"
+        }
+      ],
+      "destination": "/2025/08/29/skola-v-prirode/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5871/?$"
+        }
+      ],
+      "destination": "/2025/08/28/hura-do-3-tridy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5836/?$"
+        }
+      ],
+      "destination": "/2025/08/15/vodacky-vylet-sazava/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5821/?$"
+        }
+      ],
+      "destination": "/2025/06/26/odplouvame/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5785/?$"
+        }
+      ],
+      "destination": "/2025/06/26/rytirske-klani-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5765/?$"
+        }
+      ],
+      "destination": "/2025/06/26/loucime-se-s-keramikou/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5758/?$"
+        }
+      ],
+      "destination": "/2025/06/26/poznavacka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5675/?$"
+        }
+      ],
+      "destination": "/2025/06/11/majky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5735/?$"
+        }
+      ],
+      "destination": "/2025/06/10/konzultace-o-prospechu-9/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5680/?$"
+        }
+      ],
+      "destination": "/2025/06/09/z-poute-na-hajek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5691/?$"
+        }
+      ],
+      "destination": "/2025/06/08/vylet-do-narodniho-muzea-v-praze/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5711/?$"
+        }
+      ],
+      "destination": "/2025/06/06/mcdonalds-cup-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5720/?$"
+        }
+      ],
+      "destination": "/2025/06/06/pasovani-na-ctenare/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5708/?$"
+        }
+      ],
+      "destination": "/2025/06/05/cucina-italiana/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5669/?$"
+        }
+      ],
+      "destination": "/2025/06/02/autorske-cteni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5645/?$"
+        }
+      ],
+      "destination": "/2025/05/29/jubilejni-pout-na-hajek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5641/?$"
+        }
+      ],
+      "destination": "/2025/05/23/kuratka-se-vylihla/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5627/?$"
+        }
+      ],
+      "destination": "/2025/05/12/co-tu-kvete/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5624/?$"
+        }
+      ],
+      "destination": "/2025/04/29/skolni-e-shop-znovu-otevren-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5607/?$"
+        }
+      ],
+      "destination": "/2025/04/28/vylet-na-jested-a-putovani-z-ceskeho-dubu-do-male-skaly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5579/?$"
+        }
+      ],
+      "destination": "/2025/04/23/foceni-jara/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5575/?$"
+        }
+      ],
+      "destination": "/2025/04/22/vylet-na-libusin/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5538/?$"
+        }
+      ],
+      "destination": "/2025/04/22/oceneni-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5560/?$"
+        }
+      ],
+      "destination": "/2025/04/16/prejeme-krasne-velikonocni-svatky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5472/?$"
+        }
+      ],
+      "destination": "/2025/04/16/dravci-a-sovy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5518/?$"
+        }
+      ],
+      "destination": "/2025/04/16/zdravime-z-keramiky-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5548/?$"
+        }
+      ],
+      "destination": "/2025/04/15/vytahli-jsme-z-pece-3/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5532/?$"
+        }
+      ],
+      "destination": "/2025/04/12/prijati-zaci-5/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5504/?$"
+        }
+      ],
+      "destination": "/2025/04/08/konzultace-o-prospechu-8/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5442/?$"
+        }
+      ],
+      "destination": "/2025/04/04/zapis-do-1-tridy-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5493/?$"
+        }
+      ],
+      "destination": "/2025/04/02/den-lesa/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5477/?$"
+        }
+      ],
+      "destination": "/2025/04/01/redemptoriste-u-nas-ve-skole/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5463/?$"
+        }
+      ],
+      "destination": "/2025/03/25/pomoc-ukrajinskym-rodinam/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5445/?$"
+        }
+      ],
+      "destination": "/2025/03/11/neobvykla-periodicka-tabulka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5432/?$"
+        }
+      ],
+      "destination": "/2025/03/03/rope-skipping/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5424/?$"
+        }
+      ],
+      "destination": "/2025/02/24/poustni-zvirata/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5383/?$"
+        }
+      ],
+      "destination": "/2025/02/21/masopust/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5401/?$"
+        }
+      ],
+      "destination": "/2025/02/19/sankovani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5366/?$"
+        }
+      ],
+      "destination": "/2025/02/10/matematicka-olympiada-2025-kategorie-z9-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5359/?$"
+        }
+      ],
+      "destination": "/2025/02/10/matematicka-olympiada-2025-kategorie-z5-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5354/?$"
+        }
+      ],
+      "destination": "/2025/02/04/mali-fotografove/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5300/?$"
+        }
+      ],
+      "destination": "/2025/01/16/ozdravny-pobyt-na-horach-strazne-v-krkonosich/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5292/?$"
+        }
+      ],
+      "destination": "/2025/01/13/konzultace-o-prospechu-7/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5270/?$"
+        }
+      ],
+      "destination": "/2025/01/08/vanocni-besidka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5255/?$"
+        }
+      ],
+      "destination": "/2024/12/21/narodil-se-kristus-pan-radujme-se/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5252/?$"
+        }
+      ],
+      "destination": "/2024/12/18/pozehnane-svatky-vanocni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5232/?$"
+        }
+      ],
+      "destination": "/2024/12/17/srdecne-vas-zveme/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5227/?$"
+        }
+      ],
+      "destination": "/2024/12/13/predvanocni-tyden/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5217/?$"
+        }
+      ],
+      "destination": "/2024/12/05/skolni-e-shop-znovu-otevren/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5197/?$"
+        }
+      ],
+      "destination": "/2024/12/05/ar/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5192/?$"
+        }
+      ],
+      "destination": "/2024/12/05/keramika/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5189/?$"
+        }
+      ],
+      "destination": "/2024/12/02/adventni-ocekavani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5134/?$"
+        }
+      ],
+      "destination": "/2024/12/02/varan-komodsky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5125/?$"
+        }
+      ],
+      "destination": "/2024/12/02/voleska/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5175/?$"
+        }
+      ],
+      "destination": "/2024/12/01/u-karmelitanu-ve-slanem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5166/?$"
+        }
+      ],
+      "destination": "/2024/12/01/dlouha-cesta-sestaku-kolem-kladna/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5100/?$"
+        }
+      ],
+      "destination": "/2024/11/28/rudolfinum/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5091/?$"
+        }
+      ],
+      "destination": "/2024/11/28/hektar/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5107/?$"
+        }
+      ],
+      "destination": "/2024/11/27/skritci-pro-stesti/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5079/?$"
+        }
+      ],
+      "destination": "/2024/11/20/lesni-druzina-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5075/?$"
+        }
+      ],
+      "destination": "/2024/11/19/konzultace-o-prospechu-21-listopadu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5064/?$"
+        }
+      ],
+      "destination": "/2024/11/18/malovane-priserky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5043/?$"
+        }
+      ],
+      "destination": "/2024/11/15/navsteva-kanclere/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5029/?$"
+        }
+      ],
+      "destination": "/2024/10/24/nase-mesto/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^5024/?$"
+        }
+      ],
+      "destination": "/2024/10/17/5024/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4995/?$"
+        }
+      ],
+      "destination": "/2024/10/17/vyhasle-sopky-a-zriceniny-hradu-ceskeho-stredohori/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4977/?$"
+        }
+      ],
+      "destination": "/2024/10/05/frantiskiada-2024/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4955/?$"
+        }
+      ],
+      "destination": "/2024/10/04/bylinkove-pohadky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4946/?$"
+        }
+      ],
+      "destination": "/2024/09/20/vysledky-voleb-do-skolske-rady-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4937/?$"
+        }
+      ],
+      "destination": "/2024/09/19/fyzikalni-olympiada-2024-kategorie-e-krajske-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4921/?$"
+        }
+      ],
+      "destination": "/2024/09/17/srdicka-jsou-zase-spolu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4917/?$"
+        }
+      ],
+      "destination": "/2024/09/10/volby-do-skolske-rady-dne-19-9-2024/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4912/?$"
+        }
+      ],
+      "destination": "/2024/09/10/prvni-skolni-den/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4876/?$"
+        }
+      ],
+      "destination": "/2024/06/29/hostina-skritku-3/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4862/?$"
+        }
+      ],
+      "destination": "/2024/06/29/dekujeme-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4856/?$"
+        }
+      ],
+      "destination": "/2024/06/20/vylet-po-kladne/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4832/?$"
+        }
+      ],
+      "destination": "/2024/06/20/rozvrh-pro-skolni-rok-2024-25/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4817/?$"
+        }
+      ],
+      "destination": "/2024/06/18/zaver-skolniho-roku-2023-24/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4735/?$"
+        }
+      ],
+      "destination": "/2024/06/14/narodni-muzeum/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4687/?$"
+        }
+      ],
+      "destination": "/2024/06/12/prezentace-zaverecnych-praci-zaku-devateho-rocniku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4645/?$"
+        }
+      ],
+      "destination": "/2024/06/12/krasny-darek-ke-dni-deti/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4637/?$"
+        }
+      ],
+      "destination": "/2024/06/10/kdo-zpiva-dvakrat-se-modli/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4589/?$"
+        }
+      ],
+      "destination": "/2024/06/07/hudebni-prespavacka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4604/?$"
+        }
+      ],
+      "destination": "/2024/06/06/mame-prales/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4612/?$"
+        }
+      ],
+      "destination": "/2024/06/06/skakej-a-smej-se/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4584/?$"
+        }
+      ],
+      "destination": "/2024/06/04/konzultace-o-prospechu-6/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4536/?$"
+        }
+      ],
+      "destination": "/2024/05/28/navsteva-bustehradu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4494/?$"
+        }
+      ],
+      "destination": "/2024/05/24/__trashed/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4481/?$"
+        }
+      ],
+      "destination": "/2024/05/17/jak-jsme-potkali-dabla/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4436/?$"
+        }
+      ],
+      "destination": "/2024/05/10/nadherna-majova-pout/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4422/?$"
+        }
+      ],
+      "destination": "/2024/05/09/treci-sila/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4391/?$"
+        }
+      ],
+      "destination": "/2024/04/30/prvni-kamaradske-cteni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4418/?$"
+        }
+      ],
+      "destination": "/2024/04/29/pout-na-hajek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4375/?$"
+        }
+      ],
+      "destination": "/2024/04/26/vitezstvi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4358/?$"
+        }
+      ],
+      "destination": "/2024/04/25/turnaj-v-kopane-1-misto/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4351/?$"
+        }
+      ],
+      "destination": "/2024/04/24/konzultace-o-prospechu-5/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4349/?$"
+        }
+      ],
+      "destination": "/2024/04/22/prijati-zaci-4/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4369/?$"
+        }
+      ],
+      "destination": "/2024/04/22/prvni-zapas-fotbaloveho-krouzku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4342/?$"
+        }
+      ],
+      "destination": "/2024/04/18/matematicka-olympiada-2024-kategorie-z7-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4331/?$"
+        }
+      ],
+      "destination": "/2024/04/12/keramicka-vystava-v-labyrintu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4323/?$"
+        }
+      ],
+      "destination": "/2024/04/02/chodime-ven-ve-stredu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4317/?$"
+        }
+      ],
+      "destination": "/2024/03/27/mk-4-3-32/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4309/?$"
+        }
+      ],
+      "destination": "/2024/03/20/vitez-okresniho-kola-fo-je-z-nasi-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4301/?$"
+        }
+      ],
+      "destination": "/2024/03/20/skolni-e-shop/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4269/?$"
+        }
+      ],
+      "destination": "/2024/03/19/koreny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4296/?$"
+        }
+      ],
+      "destination": "/2024/03/18/zapis-do-1-tridy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4120/?$"
+        }
+      ],
+      "destination": "/2024/03/18/vyborne-vysledky-v-prijimacich-testech/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4255/?$"
+        }
+      ],
+      "destination": "/2024/03/15/z-nasi-pece/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4201/?$"
+        }
+      ],
+      "destination": "/2024/03/05/matematicka-olympiada-2024-kategorie-z9-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4197/?$"
+        }
+      ],
+      "destination": "/2024/03/05/matematicka-olympiada-2024-kategorie-z5-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4186/?$"
+        }
+      ],
+      "destination": "/2024/03/04/olympiada-aj-2024-kategorie-zs-vg-i-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4222/?$"
+        }
+      ],
+      "destination": "/2024/03/02/olympiada-z-ceskeho-jazyka-2024-kategorie-i-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4227/?$"
+        }
+      ],
+      "destination": "/2024/03/02/4227/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4239/?$"
+        }
+      ],
+      "destination": "/2024/03/01/zemepisna-olympiada-2024-kategorie-b-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4234/?$"
+        }
+      ],
+      "destination": "/2024/03/01/zemepisna-olympiada-2024-kategorie-a-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4175/?$"
+        }
+      ],
+      "destination": "/2024/02/26/biologicke-invaze/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4165/?$"
+        }
+      ],
+      "destination": "/2024/02/23/tridnicke-hodiny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4160/?$"
+        }
+      ],
+      "destination": "/2024/02/21/divadlo-sh/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4146/?$"
+        }
+      ],
+      "destination": "/2024/02/21/masopust-a-pust/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4117/?$"
+        }
+      ],
+      "destination": "/2024/02/14/rekordni-trikralova-sbirka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4090/?$"
+        }
+      ],
+      "destination": "/2024/02/14/hektary-a-ary/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4079/?$"
+        }
+      ],
+      "destination": "/2024/02/14/matematika-navic/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4106/?$"
+        }
+      ],
+      "destination": "/2024/02/14/vytahli-jsme-z-pece-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4059/?$"
+        }
+      ],
+      "destination": "/2024/02/12/prvni-pomoc/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4055/?$"
+        }
+      ],
+      "destination": "/2024/02/12/zimni-tvoreni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4042/?$"
+        }
+      ],
+      "destination": "/2024/01/22/probouzeni-kamenu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4021/?$"
+        }
+      ],
+      "destination": "/2024/01/22/vanocni-slavnost/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4013/?$"
+        }
+      ],
+      "destination": "/2024/01/10/dar-vceli-babicky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4003/?$"
+        }
+      ],
+      "destination": "/2024/01/08/konzultace-o-prospechu-4/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3998/?$"
+        }
+      ],
+      "destination": "/2024/01/05/trikralova-sbirka-2024/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3989/?$"
+        }
+      ],
+      "destination": "/2023/12/14/projekt-pametnici/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3979/?$"
+        }
+      ],
+      "destination": "/2023/12/08/adventni-putovani-za-pohadkou/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3964/?$"
+        }
+      ],
+      "destination": "/2023/12/06/prisel-k-nam-bily-kun-zalehl-nam-cely-dvur/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3950/?$"
+        }
+      ],
+      "destination": "/2023/12/05/mikulasska-nadilka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3921/?$"
+        }
+      ],
+      "destination": "/2023/11/29/lesni-druzina/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3899/?$"
+        }
+      ],
+      "destination": "/2023/11/28/umela-inteligence/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3893/?$"
+        }
+      ],
+      "destination": "/2023/11/22/konzultace-o-prospechu-3/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3883/?$"
+        }
+      ],
+      "destination": "/2023/11/21/mse-svata/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3836/?$"
+        }
+      ],
+      "destination": "/2023/11/19/londyn-2023/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3831/?$"
+        }
+      ],
+      "destination": "/2023/11/15/eshop/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3821/?$"
+        }
+      ],
+      "destination": "/2023/11/15/divadlo-spejbla-a-hurvinka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3805/?$"
+        }
+      ],
+      "destination": "/2023/11/07/utvar-rychleho-nasazeni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3759/?$"
+        }
+      ],
+      "destination": "/2023/11/07/frantiskiada/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3754/?$"
+        }
+      ],
+      "destination": "/2023/10/30/podzimni-housenkovani-a-jine-barevne-vyrabeni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3738/?$"
+        }
+      ],
+      "destination": "/2023/10/27/z-pate-tridy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3719/?$"
+        }
+      ],
+      "destination": "/2023/10/24/druhaci-dekuji-za-vaclava/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3696/?$"
+        }
+      ],
+      "destination": "/2023/10/24/svaty-vaclav-ocima-sestaku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3661/?$"
+        }
+      ],
+      "destination": "/2023/10/13/dekujeme/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3627/?$"
+        }
+      ],
+      "destination": "/2023/10/11/noc-vedcu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3648/?$"
+        }
+      ],
+      "destination": "/2023/10/11/jak-videli-putovani-za-sv-vaclavem-tretaci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3586/?$"
+        }
+      ],
+      "destination": "/2023/10/04/svaty-vaclav/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3579/?$"
+        }
+      ],
+      "destination": "/2023/09/18/ruce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3571/?$"
+        }
+      ],
+      "destination": "/2023/09/18/krouzek-veda-nas-bavi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3542/?$"
+        }
+      ],
+      "destination": "/2023/09/02/rozlouceni-s-devatakama/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3497/?$"
+        }
+      ],
+      "destination": "/2023/08/02/navsteva-pana-velkoprevora/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3340/?$"
+        }
+      ],
+      "destination": "/2023/06/29/rytirske-klani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3304/?$"
+        }
+      ],
+      "destination": "/2023/06/29/den-matek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3301/?$"
+        }
+      ],
+      "destination": "/2023/06/29/hostina-skritku-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3284/?$"
+        }
+      ],
+      "destination": "/2023/06/27/na-tresnich/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3260/?$"
+        }
+      ],
+      "destination": "/2023/06/26/zaverecne-prace/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3249/?$"
+        }
+      ],
+      "destination": "/2023/06/26/keramicky-festival/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3218/?$"
+        }
+      ],
+      "destination": "/2023/06/24/nase-keramika-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3277/?$"
+        }
+      ],
+      "destination": "/2023/06/23/rozvrh-na-skolni-rok-2023-24/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3238/?$"
+        }
+      ],
+      "destination": "/2023/06/22/zaver-skolniho-roku-2022-23/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3204/?$"
+        }
+      ],
+      "destination": "/2023/06/16/kouzelnicke-sachy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3198/?$"
+        }
+      ],
+      "destination": "/2023/06/14/zmo-celoskolni-soutez-v-rychlem-pocitani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3192/?$"
+        }
+      ],
+      "destination": "/2023/06/07/konzultace-o-prospechu-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3182/?$"
+        }
+      ],
+      "destination": "/2023/05/29/obhajoba-zaverecnych-praci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3156/?$"
+        }
+      ],
+      "destination": "/2023/05/22/vytahli-jsme-z-pece/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3141/?$"
+        }
+      ],
+      "destination": "/2023/05/22/hodiny-a-hodiny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3127/?$"
+        }
+      ],
+      "destination": "/2023/05/19/druzinove-hackovani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4216/?$"
+        }
+      ],
+      "destination": "/2023/05/15/matematicka-olympiada-2023-kategorie-z8-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4204/?$"
+        }
+      ],
+      "destination": "/2023/05/05/matematicka-olympiada-2023-kategorie-z9-krajske-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3095/?$"
+        }
+      ],
+      "destination": "/2023/05/05/clovece-nezlob-se/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^4211/?$"
+        }
+      ],
+      "destination": "/2023/05/05/matematicka-olympiada-2023-kategorie-z6-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3089/?$"
+        }
+      ],
+      "destination": "/2023/04/26/konzultace-o-prospechu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3084/?$"
+        }
+      ],
+      "destination": "/2023/04/24/prijati-zaci-3/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3060/?$"
+        }
+      ],
+      "destination": "/2023/04/24/den-bez-tasky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3041/?$"
+        }
+      ],
+      "destination": "/2023/04/21/vzacna-navsteva/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3031/?$"
+        }
+      ],
+      "destination": "/2023/04/21/deti-uci-deti/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3011/?$"
+        }
+      ],
+      "destination": "/2023/04/21/nase-keramika/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2894/?$"
+        }
+      ],
+      "destination": "/2023/04/19/zapis-do-1-rocniku-3/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2988/?$"
+        }
+      ],
+      "destination": "/2023/04/15/rim/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2945/?$"
+        }
+      ],
+      "destination": "/2023/03/27/fyzikalni-olympiada-2023-kategorie-f-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2941/?$"
+        }
+      ],
+      "destination": "/2023/03/27/matematicka-olympiada-2023-kategorie-z9-okresni-kolo/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2821/?$"
+        }
+      ],
+      "destination": "/2023/01/27/na-farme/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2800/?$"
+        }
+      ],
+      "destination": "/2023/01/10/konzultace-pro-rodice/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2673/?$"
+        }
+      ],
+      "destination": "/2023/01/01/dny-otevrenych-dveri/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2758/?$"
+        }
+      ],
+      "destination": "/2022/12/30/trikralova-sbirka-2023-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2751/?$"
+        }
+      ],
+      "destination": "/2022/12/21/vyucovani-pred-vanocnimi-prazdninami/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2713/?$"
+        }
+      ],
+      "destination": "/2022/12/11/trikralova-sbirka-2023/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2636/?$"
+        }
+      ],
+      "destination": "/2022/11/18/otevreni-e-shopu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2593/?$"
+        }
+      ],
+      "destination": "/2022/10/10/hlasovani-o-mikinach/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^3481/?$"
+        }
+      ],
+      "destination": "/2022/09/02/kardinal-duka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2540/?$"
+        }
+      ],
+      "destination": "/2022/08/30/informace-k-zacatku-skolniho-roku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2490/?$"
+        }
+      ],
+      "destination": "/2022/06/30/hostina-skritku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2471/?$"
+        }
+      ],
+      "destination": "/2022/06/30/rytirsky-den/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2447/?$"
+        }
+      ],
+      "destination": "/2022/06/27/vylet-na-rakovnicko-a-jeste-dale/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2329/?$"
+        }
+      ],
+      "destination": "/2022/06/27/posledni-den-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2440/?$"
+        }
+      ],
+      "destination": "/2022/06/24/zmo-chvalime-7-tridu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2423/?$"
+        }
+      ],
+      "destination": "/2022/06/23/vodni-svet/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2465/?$"
+        }
+      ],
+      "destination": "/2022/06/23/absolventske-prace/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2391/?$"
+        }
+      ],
+      "destination": "/2022/06/16/den-otcu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2380/?$"
+        }
+      ],
+      "destination": "/2022/06/15/skolni-kino/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2350/?$"
+        }
+      ],
+      "destination": "/2022/06/08/van-de-graaff/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2345/?$"
+        }
+      ],
+      "destination": "/2022/06/08/povidani-s-pametnikem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2337/?$"
+        }
+      ],
+      "destination": "/2022/06/07/vylet-po-stopach-j-foglara-a-do-cihoste/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2320/?$"
+        }
+      ],
+      "destination": "/2022/06/06/ukrajinsky-kamarad/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2296/?$"
+        }
+      ],
+      "destination": "/2022/06/01/den-deti-v-divadle-lampion/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2316/?$"
+        }
+      ],
+      "destination": "/2022/05/31/nase-prava/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2274/?$"
+        }
+      ],
+      "destination": "/2022/05/26/z-krouzku-vareni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2265/?$"
+        }
+      ],
+      "destination": "/2022/05/26/prochazka-ke-sv-janu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2222/?$"
+        }
+      ],
+      "destination": "/2022/05/10/pomahame-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2183/?$"
+        }
+      ],
+      "destination": "/2022/04/29/prirodovedna-exkurze/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2176/?$"
+        }
+      ],
+      "destination": "/2022/04/29/cesta-za-g-j-mendelem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2156/?$"
+        }
+      ],
+      "destination": "/2022/04/27/z-hodin-osmaku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2152/?$"
+        }
+      ],
+      "destination": "/2022/04/25/prijati-zaci-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2106/?$"
+        }
+      ],
+      "destination": "/2022/04/14/z-hodiny-zemepisu-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2098/?$"
+        }
+      ],
+      "destination": "/2022/04/14/velikonocni-vajicka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2058/?$"
+        }
+      ],
+      "destination": "/2022/04/08/magnetismus/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1993/?$"
+        }
+      ],
+      "destination": "/2022/04/04/vitez-okresniho-kola-mo-je-z-nasi-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1986/?$"
+        }
+      ],
+      "destination": "/2022/04/04/zapis-do-1-rocniku-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2050/?$"
+        }
+      ],
+      "destination": "/2022/04/01/basen-za-8-minut/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2046/?$"
+        }
+      ],
+      "destination": "/2022/04/01/olympiada-cj/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2044/?$"
+        }
+      ],
+      "destination": "/2022/04/01/olympiada-aj/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2030/?$"
+        }
+      ],
+      "destination": "/2022/03/31/20-brezna/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2010/?$"
+        }
+      ],
+      "destination": "/2022/03/25/nase-skola/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^2016/?$"
+        }
+      ],
+      "destination": "/2022/03/24/z-hodin-keramiky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1967/?$"
+        }
+      ],
+      "destination": "/2022/03/22/den-otevrenych-dveri-2/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1944/?$"
+        }
+      ],
+      "destination": "/2022/03/19/%D0%B1%D1%83%D0%B4%D1%8C-%D0%BB%D0%B0%D1%81%D0%BA%D0%B0/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1931/?$"
+        }
+      ],
+      "destination": "/2022/03/09/pomahame/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1928/?$"
+        }
+      ],
+      "destination": "/2022/03/08/hory-2022/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1916/?$"
+        }
+      ],
+      "destination": "/2022/03/08/krouzek-sebeobrany/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1901/?$"
+        }
+      ],
+      "destination": "/2022/03/07/nasi-skolni-skritci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1891/?$"
+        }
+      ],
+      "destination": "/2022/03/02/postni-zamysleni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1885/?$"
+        }
+      ],
+      "destination": "/2022/03/02/konkretni-pomoc-ukrajinskym-rodinam/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1852/?$"
+        }
+      ],
+      "destination": "/2022/02/25/z-keramicke-pece/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1836/?$"
+        }
+      ],
+      "destination": "/2022/02/04/cestina-vsude-kolem-nas/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1816/?$"
+        }
+      ],
+      "destination": "/2022/01/26/divadlo-v-breznu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1810/?$"
+        }
+      ],
+      "destination": "/2022/01/26/den-otevrenych-dveri/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1800/?$"
+        }
+      ],
+      "destination": "/2022/01/21/trikralova-sbirka-je-u-konce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1791/?$"
+        }
+      ],
+      "destination": "/2022/01/19/vesele-velikonoce-sneho/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1772/?$"
+        }
+      ],
+      "destination": "/2022/01/07/zlate-rucicky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1765/?$"
+        }
+      ],
+      "destination": "/2022/01/07/tanecni-a-kytarovy-krouzek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1759/?$"
+        }
+      ],
+      "destination": "/2022/01/04/trikralova-sbirka-2022/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1756/?$"
+        }
+      ],
+      "destination": "/2021/12/24/vesele-vanocni-hody/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1711/?$"
+        }
+      ],
+      "destination": "/2021/12/20/hoj-ty-stedry-vecere/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1738/?$"
+        }
+      ],
+      "destination": "/2021/12/19/darecek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1732/?$"
+        }
+      ],
+      "destination": "/2021/12/19/robotika/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1725/?$"
+        }
+      ],
+      "destination": "/2021/12/19/kalendar-pro-rok-2022/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1745/?$"
+        }
+      ],
+      "destination": "/2021/12/18/radostne-vanoce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1717/?$"
+        }
+      ],
+      "destination": "/2021/12/17/jak-se-to-pise-spravne/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1677/?$"
+        }
+      ],
+      "destination": "/2021/12/10/navsteva-mikulase-u-nas-ve-skole/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1667/?$"
+        }
+      ],
+      "destination": "/2021/12/06/zvyseni-skolneho/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1633/?$"
+        }
+      ],
+      "destination": "/2021/12/06/mily-jezisku-pisu-si-o-knizku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1628/?$"
+        }
+      ],
+      "destination": "/2021/12/02/jdeme-do-divadla/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1617/?$"
+        }
+      ],
+      "destination": "/2021/11/30/ejhle-hospodin-prijde/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1574/?$"
+        }
+      ],
+      "destination": "/2021/11/29/dny-poezie/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1579/?$"
+        }
+      ],
+      "destination": "/2021/11/26/podzimni-pliskanice/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1556/?$"
+        }
+      ],
+      "destination": "/2021/11/22/1556/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1548/?$"
+        }
+      ],
+      "destination": "/2021/11/16/slovo-obrazkem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1528/?$"
+        }
+      ],
+      "destination": "/2021/11/10/bezny-provoz-od-15-11-2021/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1520/?$"
+        }
+      ],
+      "destination": "/2021/11/03/mimoradny-rezim-prodlouzen-do-12-listopadu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1518/?$"
+        }
+      ],
+      "destination": "/2021/10/31/mimoradny-tyden/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1498/?$"
+        }
+      ],
+      "destination": "/2021/10/26/vzpominka-na-leto-dil-osmy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1504/?$"
+        }
+      ],
+      "destination": "/2021/10/26/herbar-dil-devaty/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1469/?$"
+        }
+      ],
+      "destination": "/2021/10/21/neobvykly-puch/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1455/?$"
+        }
+      ],
+      "destination": "/2021/10/15/kam-chodime-na-hriste/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1445/?$"
+        }
+      ],
+      "destination": "/2021/10/14/galaxie/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1392/?$"
+        }
+      ],
+      "destination": "/2021/10/11/kamaradske-cteni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1377/?$"
+        }
+      ],
+      "destination": "/2021/10/11/vitame-zlomky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1384/?$"
+        }
+      ],
+      "destination": "/2021/09/26/pout-do-katedraly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1310/?$"
+        }
+      ],
+      "destination": "/2021/09/15/vysledky-voleb-do-skolske-rady/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1306/?$"
+        }
+      ],
+      "destination": "/2021/09/04/kandidati-pro-volby-do-skolske-rady/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1274/?$"
+        }
+      ],
+      "destination": "/2021/08/31/vitame-vas-ve-druzine-2021-2022/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1289/?$"
+        }
+      ],
+      "destination": "/2021/08/30/herbar-dil-sedmy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1278/?$"
+        }
+      ],
+      "destination": "/2021/08/30/herbar-dil-paty-a-sesty/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1241/?$"
+        }
+      ],
+      "destination": "/2021/07/07/herbar-na-prazdniny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1248/?$"
+        }
+      ],
+      "destination": "/2021/07/07/herbar-dil-ctvrty/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1216/?$"
+        }
+      ],
+      "destination": "/2021/06/29/posledni-akce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1211/?$"
+        }
+      ],
+      "destination": "/2021/06/29/ctenarska-gramotnost-ve-druzine/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1199/?$"
+        }
+      ],
+      "destination": "/2021/06/25/sestaci-v-aru/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1190/?$"
+        }
+      ],
+      "destination": "/2021/06/25/pizza/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1184/?$"
+        }
+      ],
+      "destination": "/2021/06/18/rozvrh-2021-22/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1172/?$"
+        }
+      ],
+      "destination": "/2021/06/16/prileteli-motyli/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1157/?$"
+        }
+      ],
+      "destination": "/2021/06/11/s-nadhlem/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1138/?$"
+        }
+      ],
+      "destination": "/2021/06/03/kruznice-opsana/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1125/?$"
+        }
+      ],
+      "destination": "/2021/06/03/kolace/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1115/?$"
+        }
+      ],
+      "destination": "/2021/05/28/mapy-ze-seste-tridy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1120/?$"
+        }
+      ],
+      "destination": "/2021/05/27/osova-soumernost-z-doby-distancni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1102/?$"
+        }
+      ],
+      "destination": "/2021/05/17/dopis-zrizovatele-rodicum-a-ucitelum/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1043/?$"
+        }
+      ],
+      "destination": "/2021/04/28/vylihla-se-kuratka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1038/?$"
+        }
+      ],
+      "destination": "/2021/04/27/herbar-dil-treti-15-4-27-4/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^1016/?$"
+        }
+      ],
+      "destination": "/2021/04/21/prijati-zaci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^987/?$"
+        }
+      ],
+      "destination": "/2021/04/16/herbar-dil-druhy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^980/?$"
+        }
+      ],
+      "destination": "/2021/04/16/trebichovicka-olsinka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^958/?$"
+        }
+      ],
+      "destination": "/2021/04/16/herbar-dil-prvni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^913/?$"
+        }
+      ],
+      "destination": "/2021/03/31/zapis-do-1-rocniku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^949/?$"
+        }
+      ],
+      "destination": "/2021/03/30/nas-skolni-herbar/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^945/?$"
+        }
+      ],
+      "destination": "/2021/03/26/velikonoce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^943/?$"
+        }
+      ],
+      "destination": "/2021/03/25/predskolicka-online/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^926/?$"
+        }
+      ],
+      "destination": "/2021/03/14/pomuzeme-nasim-zdravotnikum/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^879/?$"
+        }
+      ],
+      "destination": "/2021/03/09/koupelny-tentokrat-pekne-dukladne/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^860/?$"
+        }
+      ],
+      "destination": "/2021/03/09/priroda-ocima-deti/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^833/?$"
+        }
+      ],
+      "destination": "/2021/02/26/nase-koupelny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^829/?$"
+        }
+      ],
+      "destination": "/2021/02/19/postni-doba-a-jeji-vyznam/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^813/?$"
+        }
+      ],
+      "destination": "/2021/01/29/vyuka-od-8-2-2021/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^795/?$"
+        }
+      ],
+      "destination": "/2021/01/28/z-hodiny-zemepisu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^775/?$"
+        }
+      ],
+      "destination": "/2021/01/26/radost-ze-snehu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^766/?$"
+        }
+      ],
+      "destination": "/2021/01/22/dejte-mi-vedet/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^757/?$"
+        }
+      ],
+      "destination": "/2021/01/13/snehulaci-potreti-a-naposledy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^724/?$"
+        }
+      ],
+      "destination": "/2021/01/12/basnicke-prvotiny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^706/?$"
+        }
+      ],
+      "destination": "/2021/01/11/vikendovi-snehulaci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^693/?$"
+        }
+      ],
+      "destination": "/2021/01/08/nasi-snehulaci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^678/?$"
+        }
+      ],
+      "destination": "/2021/01/07/soutez-o-snehulaka/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^673/?$"
+        }
+      ],
+      "destination": "/2020/12/22/vanocni-a-novorocni-prani/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^658/?$"
+        }
+      ],
+      "destination": "/2020/12/18/sestaci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^650/?$"
+        }
+      ],
+      "destination": "/2020/12/17/vanoce-za-dvermi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^626/?$"
+        }
+      ],
+      "destination": "/2020/12/14/vanocni-hodina/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^618/?$"
+        }
+      ],
+      "destination": "/2020/12/11/cesky-granat/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^603/?$"
+        }
+      ],
+      "destination": "/2020/12/04/adventni-zamysleni/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^571/?$"
+        }
+      ],
+      "destination": "/2020/11/23/vyuka-od-30-11-2020/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^565/?$"
+        }
+      ],
+      "destination": "/2020/10/23/distancni-vyuka-od-pondeli-2-11/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^555/?$"
+        }
+      ],
+      "destination": "/2020/10/16/555/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^552/?$"
+        }
+      ],
+      "destination": "/2020/10/16/distancni-vyuka-technicka-podpora/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^545/?$"
+        }
+      ],
+      "destination": "/2020/10/14/basnicky-z-druziny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^539/?$"
+        }
+      ],
+      "destination": "/2020/10/14/spolehlivy-zdroj-informaci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^523/?$"
+        }
+      ],
+      "destination": "/2020/10/13/distancni-vyuka-14-10-23-10/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^497/?$"
+        }
+      ],
+      "destination": "/2020/09/23/v-patek-jdeme-do-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^464/?$"
+        }
+      ],
+      "destination": "/2020/08/31/zacatek-skolniho-roku-2020-2021/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^178/?$"
+        }
+      ],
+      "destination": "/2020/06/30/matematika-30-6/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^185/?$"
+        }
+      ],
+      "destination": "/2020/06/25/pamet-naroda/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^380/?$"
+        }
+      ],
+      "destination": "/2020/06/24/pataci-tvorili-pro-prvnacky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^405/?$"
+        }
+      ],
+      "destination": "/2020/06/23/kamarad/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^391/?$"
+        }
+      ],
+      "destination": "/2020/06/23/posledni-tyden/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^345/?$"
+        }
+      ],
+      "destination": "/2020/06/03/skype-u-prvnacku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^384/?$"
+        }
+      ],
+      "destination": "/2020/02/26/pojmy-a-dojmy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^372/?$"
+        }
+      ],
+      "destination": "/2020/02/17/masky-se-bavi/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^408/?$"
+        }
+      ],
+      "destination": "/2020/02/10/zdravime-z-keramiky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^355/?$"
+        }
+      ],
+      "destination": "/2019/03/06/sportujeme/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^364/?$"
+        }
+      ],
+      "destination": "/2018/04/13/savci/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^415/?$"
+        }
+      ],
+      "destination": "/2017/04/20/nas-robot-jezdi-sam/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "^313/?$"
+        }
+      ],
+      "destination": "/2017/04/03/matematicka-olympiada-kategorie-z9/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^5500/?$"
+        }
+      ],
+      "destination": "/konzultace-o-prospechu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^5072/?$"
+        }
+      ],
+      "destination": "/konzultace-o-prospechu-21-listopadu/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^4944/?$"
+        }
+      ],
+      "destination": "/vysledky-voleb-do-skolske-rady/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^444/?$"
+        }
+      ],
+      "destination": "/schranka-duvery/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^319/?$"
+        }
+      ],
+      "destination": "/rozvrh/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^237/?$"
+        }
+      ],
+      "destination": "/ochrana-osobnich-udaju-gdpr/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^232/?$"
+        }
+      ],
+      "destination": "/prohlaseni-o-pristupnosti/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^221/?$"
+        }
+      ],
+      "destination": "/kalendar/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^143/?$"
+        }
+      ],
+      "destination": "/kontakty/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^141/?$"
+        }
+      ],
+      "destination": "/prehled-krouzku/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^138/?$"
+        }
+      ],
+      "destination": "/o-druzine/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^130/?$"
+        }
+      ],
+      "destination": "/prehled-trid/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^127/?$"
+        }
+      ],
+      "destination": "/hledame/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^125/?$"
+        }
+      ],
+      "destination": "/pedagogove/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^123/?$"
+        }
+      ],
+      "destination": "/dokumenty-pro-rodice/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^121/?$"
+        }
+      ],
+      "destination": "/dokumenty-o-skole/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^118/?$"
+        }
+      ],
+      "destination": "/skolne-a-dalsi-platby/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^116/?$"
+        }
+      ],
+      "destination": "/profil-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^8/?$"
+        }
+      ],
+      "destination": "/aktuality/1-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^9/?$"
+        }
+      ],
+      "destination": "/aktuality/2-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^10/?$"
+        }
+      ],
+      "destination": "/aktuality/3-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^11/?$"
+        }
+      ],
+      "destination": "/aktuality/4-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^12/?$"
+        }
+      ],
+      "destination": "/aktuality/5-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^13/?$"
+        }
+      ],
+      "destination": "/aktuality/6-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^14/?$"
+        }
+      ],
+      "destination": "/aktuality/7-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^15/?$"
+        }
+      ],
+      "destination": "/aktuality/8-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^16/?$"
+        }
+      ],
+      "destination": "/aktuality/9-trida/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^17/?$"
+        }
+      ],
+      "destination": "/aktuality/akce_druziny/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^19/?$"
+        }
+      ],
+      "destination": "/aktuality/keramicky-krouzek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^18/?$"
+        }
+      ],
+      "destination": "/aktuality/krouzek-robotiky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^33/?$"
+        }
+      ],
+      "destination": "/aktuality/krouzky/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^1/?$"
+        }
+      ],
+      "destination": "/aktuality/nezarazene/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^7/?$"
+        }
+      ],
+      "destination": "/aktuality/ost/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^39/?$"
+        }
+      ],
+      "destination": "/aktuality/truhlarsky-krouzek/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^20/?$"
+        }
+      ],
+      "destination": "/aktuality/uspechy/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "cat",
+          "value": "^62/?$"
+        }
+      ],
+      "destination": "/aktuality/vylety-a-akce/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "^21/?$"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "paged"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "author"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "feed"
+        }
+      ],
+      "destination": "/feed.xml",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "m"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/:file(index\\.php)?",
+      "has": [
+        {
+          "type": "query",
+          "key": "s"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/:path*",
+      "destination": "/media/:path*",
+      "permanent": true
+    }
+  ]
 }

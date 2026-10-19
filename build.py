@@ -14,7 +14,7 @@ import struct
 import sys
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import unquote
+from urllib.parse import quote, unquote
 
 ROOT = Path(__file__).resolve().parent
 CONTENT, STATIC, DIST = ROOT / "content", ROOT / "static", ROOT / "dist"
@@ -661,7 +661,7 @@ def serve(port=8000):
                 elif spath != path:
                     continue
                 self.send_response(301)
-                self.send_header("Location", dst)
+                self.send_header("Location", quote(unquote(dst), safe="/:?=&*"))
                 self.end_headers()
                 return
             fs_path = unquote(path).lstrip("/")  # media file names carry diacritics; the URL is percent-encoded
