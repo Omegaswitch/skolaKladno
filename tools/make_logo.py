@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Builds the school logo SVGs in static/img/logo/ (run once; the output is committed).
 
-Pattern: the Maltese schools' lockup as used by Vyšší odborná škola zdravotnická (vos.mojezdravka.cz):
-the official red shield of the Order's works (vector taken unchanged from the Grand Magistry master
-lockup, see maltezskyrad.cz static/img/lockup/) and the school's name in two lines of a geometric sans,
-in the Order's red. Font: TeX Gyre Adventor Bold (GUST font licence), the substitute for Century Gothic
-already used for the Order's lockups; text is set as outlines.
+Pattern: the lockup of the Order's school Vyšší odborná škola zdravotnická (vos.mojezdravka.cz,
+logo-vos-male2.png), measured and rebuilt: the official Czech lockup of the Order (red shield +
+"MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA", vector taken unchanged from maltezskyrad.cz static/img/lockup/cs.svg),
+a hairline rule under it with a short tick down at its left end, and the school's name in two lines of
+the Order's red below the rule. Font of the name: TeX Gyre Adventor Bold (GUST font licence), the
+substitute for Century Gothic already used for the Order's lockups; all text is set as outlines.
 
     pip install fonttools && python3 tools/make_logo.py
 """
@@ -24,6 +25,8 @@ GLYPHS, CMAP, UPM = FONT.getGlyphSet(), FONT.getBestCmap(), FONT["head"].unitsPe
 
 # Shield: paths 0-7 of the master lockup, in its own coordinates (x 113.9-223.5, y 228.2-354.4).
 SHIELD_SRC = (ROOT / "tools" / "shield.svg").read_text()
+# "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA": path 8 of the same official lockup (cs.svg), in viewBox coordinates.
+ORDER_SRC = (ROOT / "tools" / "order-lockup-cs.svg").read_text().strip()
 SHIELD_H = 126.2
 
 
@@ -31,11 +34,9 @@ def text_path(s, x, y, size, tracking=-10):
     """Outline path of a string; tracking in thousandths of an em, as in the Order's lockup spec."""
     pen = SVGPathPen(GLYPHS)
     scale = size / UPM
-    kern = {}
     for ch in s:
         g = CMAP[ord(ch)]
-        TransformPenWrap = TransformPen(pen, (scale, 0, 0, -scale, x, y))
-        GLYPHS[g].draw(TransformPenWrap)
+        GLYPHS[g].draw(TransformPen(pen, (scale, 0, 0, -scale, x, y)))
         x += (GLYPHS[g].width + tracking) * scale
     return pen.getCommands(), x
 
@@ -48,27 +49,19 @@ def shield(fill_red=RED, white="#fff"):
     return f'<g transform="translate(-113.9 -228.2)">{"".join(out)}</g>'
 
 
-def lockup(lines, color=RED, white="#fff", sub=None, text=None):
-    """Shield 126 high; name in two lines, cap height ~0.19 of the shield, bottom-aligned like the VOS logo.
-    text: name colour when it differs from the shield (white on a photograph)."""
-    text = text or color
-    size, lead = 33, 37
-    x0 = 126
-    y_last = SHIELD_H - 18
-    paths, width = [], 0
-    for i, line in enumerate(lines):
-        y = y_last - (len(lines) - 1 - i) * lead
-        d, w = text_path(line, x0, y, size)
-        paths.append(d)
-        width = max(width, w)
-    extra = ""
-    if sub:
-        d, w = text_path(sub, x0, y_last - len(lines) * lead + 2, 17, tracking=40)
-        extra = f'<path fill="{text}" d="{d}"/>'
-        width = max(width, w)
-    body = shield(color, white) + "".join(f'<path fill="{text}" d="{d}"/>' for d in paths) + extra
-    w = round(width + 2, 1)
-    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {SHIELD_H}" width="{w}" height="{SHIELD_H}" role="img"><title>Základní škola Maltézských rytířů</title>{body}</svg>\n'
+def lockup(name_color=RED, order_color="#000", red=RED, white="#fff"):
+    """VOS geometry in shield units (shield 126.2 high): rule at y 57.3 from x 118.6, tick down to y 78,
+    name at x 128.2, size 27.5, baselines 87.6 and 111.2 (measured on logo-vos-male2.png)."""
+    names, end = [], 0
+    for line, base in (("Základní škola", 87.6), ("Maltézských rytířů", 111.2)):
+        d, x = text_path(line, 128.2, base, 27.5, tracking=0)
+        names.append(f'<path fill="{name_color}" d="{d}"/>')
+        end = max(end, x)
+    rule = f'<path fill="none" stroke="{order_color}" stroke-width=".6" d="M118.6 57.3H{end - 5:.1f}M118.9 57V78"/>'
+    order = ORDER_SRC.replace('fill="#fff"', f'fill="{order_color}"')
+    w = round(max(end, 351.1) + 1, 1)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -7.2 {w} 133.4" width="{w}" height="133.4" role="img">'
+            f'<title>Maltézský řád – Základní škola Maltézských rytířů</title>{shield(red, white)}{order}{rule}{"".join(names)}</svg>\n')
 
 
 def compact(color=RED, white="#fff"):
@@ -85,15 +78,13 @@ def mark(color=RED, white="#fff"):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    name = ["Základní škola", "Maltézských rytířů"]
     files = {
-        "zsmr-logo.svg": lockup(name),
-        "zsmr-logo-kladno.svg": lockup(name, sub="KLADNO"),
+        "zsmr-logo.svg": lockup(),  # light grounds: Order text black (CoA guidelines: emblem text black)
+        "zsmr-logo-photo.svg": lockup(order_color="#fff"),  # photographs and dark grounds, as the VOS original
         "zsmr-logo-compact.svg": compact(),
         "zsmr-mark.svg": mark(),
-        "zsmr-logo-mono-black.svg": lockup(name, "#000"),
-        "zsmr-logo-mono-white.svg": lockup(name, "#fff", white="none"),
-        "zsmr-logo-photo.svg": lockup(name, text="#fff"),  # colour shield, white name: on the header photograph
+        "zsmr-logo-mono-black.svg": lockup("#000", "#000", "#000"),
+        "zsmr-logo-mono-white.svg": lockup("#fff", "#fff", "#fff", white="none"),
     }
     for f, svg in files.items():
         svg = re.sub(r"(\d+\.\d{2})\d+", r"\1", svg)  # 2 decimals is plenty at these sizes

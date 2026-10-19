@@ -185,7 +185,7 @@ def nav_html(current_url):
 
 
 def logo(eager=True):
-    return ('<img class="school-logo" src="/img/logo/zsmr-logo-photo.svg" alt="Základní škola Maltézských rytířů" width="409" height="126"'
+    return ('<img class="school-logo" src="/img/logo/zsmr-logo-photo.svg" alt="Maltézský řád – Základní škola Maltézských rytířů" width="368" height="133"'
             + (' fetchpriority="high"' if eager else ' loading="lazy"') + ">")
 
 

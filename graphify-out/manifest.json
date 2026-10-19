@@ -12,15 +12,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792430915.1392074,
-    "seen": 1792430984.4741926,
-    "ast_hash": "bb3b882cd61fc740c14020756323afca",
+    "mtime": 1792431272.606104,
+    "seen": 1792431324.6316078,
+    "ast_hash": "dd6340fae970d94f2b3cbabda5b3e499",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792430900.0553813,
-    "seen": 1792430984.474197,
-    "ast_hash": "ea1ef32892661d15b06088b450a469d9",
+    "mtime": 1792431272.60905,
+    "seen": 1792431324.6316118,
+    "ast_hash": "0198d75fec8ded8dac389672f979c0ac",
     "semantic_hash": ""
   },
   "content/site.json": {
@@ -78,9 +78,9 @@
     "semantic_hash": ""
   },
   "tools/make_logo.py": {
-    "mtime": 1792430889.9525414,
-    "seen": 1792430984.4742517,
-    "ast_hash": "11f14f8e60dc1602e5a68b1dc396894a",
+    "mtime": 1792431261.608151,
+    "seen": 1792431324.6316423,
+    "ast_hash": "562bef2034baa504a02813317984e122",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -264,9 +264,9 @@
     "semantic_hash": ""
   },
   "docs/logo.md": {
-    "mtime": 1792430977.8887427,
-    "seen": 1792430984.475068,
-    "ast_hash": "9605d3fbffb5b17574e63d60041c764b",
+    "mtime": 1792431287.530419,
+    "seen": 1792431324.6324916,
+    "ast_hash": "e4b681c698105fd8bcb7c8ff7ca5b1f9",
     "semantic_hash": ""
   },
   "tools/news-editor.html": {
@@ -624,45 +624,39 @@
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-compact.svg": {
-    "mtime": 1792430890.5567293,
-    "seen": 1792430984.475306,
+    "mtime": 1792431261.724504,
+    "seen": 1792431324.6326945,
     "ast_hash": "9a5d6f3214140f0d250a5f41862cce78",
     "semantic_hash": ""
   },
-  "static/img/logo/zsmr-logo-kladno.svg": {
-    "mtime": 1792430890.5560718,
-    "seen": 1792430984.4753113,
-    "ast_hash": "ce3872b9c5e65e43a9ffe8a2d8620043",
-    "semantic_hash": ""
-  },
   "static/img/logo/zsmr-logo-mono-black.svg": {
-    "mtime": 1792430890.5587683,
-    "seen": 1792430984.475313,
-    "ast_hash": "73dcfcd4fbad5a24450b7083bf1d7977",
+    "mtime": 1792431261.7261584,
+    "seen": 1792431324.6326966,
+    "ast_hash": "d302304a7b977c18093f5a4b195a7aab",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-mono-white.svg": {
-    "mtime": 1792430890.559713,
-    "seen": 1792430984.4753144,
-    "ast_hash": "dfd7c0f643cd98c9a8b8ccc8e7ce2f88",
+    "mtime": 1792431261.727373,
+    "seen": 1792431324.632698,
+    "ast_hash": "1f8a5b4e62a50a9432d551421218673c",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo.svg": {
-    "mtime": 1792430890.5548499,
-    "seen": 1792430984.4753177,
-    "ast_hash": "4849c67a12f8e83f5fac3458a2ff6aac",
+    "mtime": 1792431261.7218926,
+    "seen": 1792431324.632701,
+    "ast_hash": "a3cf593f220823495ad47d0de5bf71f9",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-mark.svg": {
-    "mtime": 1792430890.5577083,
-    "seen": 1792430984.4753194,
+    "mtime": 1792431261.7250063,
+    "seen": 1792431324.6327028,
     "ast_hash": "5ece9cca1f3073ce46bcddb66fa02ce0",
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-og.png": {
-    "mtime": 1792425838.2188544,
-    "seen": 1792425976.1450708,
-    "ast_hash": "95811c97e187d8bcea51b10e916b8bcf",
+    "mtime": 1792431314.3014612,
+    "seen": 1792431324.6327045,
+    "ast_hash": "237cdfe465097d0fd20cd98839dcc6a9",
     "semantic_hash": ""
   },
   "static/media/2020/06/logolink_opvk_350.jpg": {
@@ -18300,9 +18294,15 @@
     "semantic_hash": ""
   },
   "static/img/logo/zsmr-logo-photo.svg": {
-    "mtime": 1792430890.560691,
-    "seen": 1792430984.475316,
-    "ast_hash": "0e3b00d8fdbd888f0a36af9b3ee29d72",
+    "mtime": 1792431261.7235928,
+    "seen": 1792431324.6326997,
+    "ast_hash": "6acb8cad01b3533ced830018dc02ee4d",
+    "semantic_hash": ""
+  },
+  "tools/order-lockup-cs.svg": {
+    "mtime": 1792431234.4800017,
+    "seen": 1792431324.637289,
+    "ast_hash": "48eca776ebce27829077ab2c08a3823d",
     "semantic_hash": ""
   }
 }
