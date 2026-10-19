@@ -64,7 +64,7 @@ function call(method, body, cookie) {
 
   // publish: one commit with the article and its files; a taken slug gets a number
   existing = new Set(["content/news/2026/11/02/koncert-v-listopadu.html"]);
-  const pub = await call("POST", { action: "publish", title: "Koncert v listopadu", date: "2026-11-02T10:30", categories: ["kultura", "bogus"],
+  const pub = await call("POST", { action: "publish", title: "Koncert v listopadu", date: "2026-11-02T10:30", categories: ["uspechy", "bogus"],
     body: '<h2>Program</h2><p>Hraje <strong>varhaník</strong>.<script>x()</script></p>', files: [{ ...up.body, role: "attachment", label: "Program <b>koncertu</b>" }] }, cookie);
   assert.strictEqual(pub.status, 200);
   assert.strictEqual(pub.body.url, "/2026/11/02/koncert-v-listopadu-2/");
@@ -72,7 +72,7 @@ function call(method, body, cookie) {
   const article = tree.find((f) => f.path === "content/news/2026/11/02/koncert-v-listopadu-2.html");
   assert.ok(tree.some((f) => f.path === up.body.path && f.sha === up.body.sha));
   const meta = JSON.parse(article.content.split("---\n")[1]);
-  assert.deepStrictEqual(meta.categories, ["kultura"]);
+  assert.deepStrictEqual(meta.categories, ["uspechy"]);
   assert.strictEqual(meta.author, "Lenka");
   assert.strictEqual(meta.excerpt, "Program Hraje varhaník.");
   assert.ok(!article.content.includes("script"));
@@ -81,14 +81,14 @@ function call(method, body, cookie) {
 
   // edit: the address stays, earlier fields are kept, files already on the site are kept by address
   stored["content/news/2026/10/08/koncert.html"] = `---\n${JSON.stringify({ title: "Koncert", url: "/2026/10/08/koncert/", wp_id: 7, date: "2026-10-08T14:28",
-    categories: ["kultura"], image: "/media/2018/06/koncert.jpg", excerpt: "Starý", status: "existing", imported: true }, null, 1)}\n---\n<p>Starý text.</p>\n<p class="file"><a href="/media/2026/10/program.pdf">Program</a> (PDF)</p>\n`;
+    categories: ["uspechy"], image: "/media/2018/06/koncert.jpg", excerpt: "Starý", status: "existing", imported: true }, null, 1)}\n---\n<p>Starý text.</p>\n<p class="file"><a href="/media/2026/10/program.pdf">Program</a> (PDF)</p>\n`;
   const loaded = await call("POST", { action: "load", path: "content/news/2026/10/08/koncert.html" }, cookie);
   assert.strictEqual(loaded.status, 200);
   assert.strictEqual(loaded.body.body, "<p>Starý text.</p>");
   assert.deepStrictEqual(loaded.body.attachments, [{ url: "/media/2026/10/program.pdf", label: "Program", ext: "PDF" }]);
   assert.strictEqual(loaded.body.editable, true);
   const upd = await call("POST", { action: "publish", path: "content/news/2026/10/08/koncert.html", title: "Koncert – nový čas", date: "2026-10-08T18:00",
-    categories: ["kultura"], body: "<p>Nový text.</p>", files: [{ url: "/media/2018/06/koncert.jpg", role: "image" }, { url: "/media/2026/10/program.pdf", role: "attachment", label: "Program", ext: "PDF" }] }, cookie);
+    categories: ["uspechy"], body: "<p>Nový text.</p>", files: [{ url: "/media/2018/06/koncert.jpg", role: "image" }, { url: "/media/2026/10/program.pdf", role: "attachment", label: "Program", ext: "PDF" }] }, cookie);
   assert.strictEqual(upd.status, 200);
   assert.strictEqual(upd.body.url, "/2026/10/08/koncert/");
   const edited = commits.at(-1);
@@ -101,9 +101,9 @@ function call(method, body, cookie) {
     files: [{ url: "javascript:alert(1)", role: "attachment" }] }, cookie)).status, 400);
 
   // an older post with a captioned photo: its text is kept exactly, whatever the browser sends
-  stored["content/news/2018/09/14/stary.html"] = `---\n${JSON.stringify({ title: "Starý", url: "/2018/09/14/stary/", date: "2018-09-14T10:00", categories: ["ostatni"] })}\n---\n<figure><img src="/media/2018/09/a.jpg" alt=""><figcaption>Popisek</figcaption></figure>\n`;
+  stored["content/news/2018/09/14/stary.html"] = `---\n${JSON.stringify({ title: "Starý", url: "/2018/09/14/stary/", date: "2018-09-14T10:00", categories: ["ost"] })}\n---\n<figure><img src="/media/2018/09/a.jpg" alt=""><figcaption>Popisek</figcaption></figure>\n`;
   assert.strictEqual((await call("POST", { action: "load", path: "content/news/2018/09/14/stary.html" }, cookie)).body.editable, false);
-  await call("POST", { action: "publish", path: "content/news/2018/09/14/stary.html", title: "Starý (opraveno)", date: "2018-09-14T10:00", body: "", categories: ["ostatni"] }, cookie);
+  await call("POST", { action: "publish", path: "content/news/2018/09/14/stary.html", title: "Starý (opraveno)", date: "2018-09-14T10:00", body: "", categories: ["ost"] }, cookie);
   assert.ok(commits.at(-1)[0].content.includes("<figcaption>Popisek</figcaption>"));
 
   // delete: one commit removing the file

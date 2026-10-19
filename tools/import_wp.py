@@ -142,6 +142,15 @@ def _self_test():
     assert tidy_files('<a href="/m/a_b.pdf">a_b</a><a href="/m/a_b.pdf">Stáhnout</a>') == '<p class="file"><a href="/m/a_b.pdf">Stáhnout</a> (PDF)</p>'
     assert tidy_files('<a href="/m/x.pdf">Program koncertu</a><a href="/m/x.pdf">Stáhnout</a>') == '<p class="file"><a href="/m/x.pdf">Program koncertu</a> (PDF)</p>'
     assert text_excerpt('<p class="file"><a href="/m/x.pdf">Stáhnout</a> (PDF)</p>') == ""
+    class _M:
+        local = staticmethod(lambda u: "/media/" + u.split(UPLOADS)[1])
+    um = make_url_map(_M(), {"p=5": "/2020/01/02/a/", "page_id=7": "/b/", "cat=9": "/aktuality/c/"})
+    assert um("http://www.zsmr.eu/?p=5") == "/2020/01/02/a/" and um("http://zsmr.eu/?page_id=7/") == "/b/"
+    assert um("/?cat=9") == "/aktuality/c/" and um("http://www.zsmr.eu/?p=404") == "/aktuality/"
+    assert um("http://www.zsmr.eu/wp-content/uploads/2020/06/x.pdf") == "/media/2020/06/x.pdf"
+    assert um("https://www.zsmr.cz/") == "https://www.zsmr.cz/" and um("javascript:alert(1)") is None
+    assert '<ul class="gallery">' in sanitise('<ul class="blocks-gallery-grid"><li>x</li></ul>', m)
+    assert sanitise('<video src="/v.mp4" autoplay></video>', m) == '<video src="/v.mp4" controls preload="none"></video>'
     print("sanitiser self-test ok")
 
 
