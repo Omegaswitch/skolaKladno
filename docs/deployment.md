@@ -15,6 +15,11 @@ The site answers today on **www.zsmr.eu** (HTTP; its HTTPS certificate chain is 
 1. Approvals in `docs/brand-compliance.md` and `docs/logo.md`.
 2. Environment variables set; publish a test article at `/pridat-aktualitu/` and delete it again.
 3. Send a test message through the Schránka důvěry and confirm it arrives at `skola@zsmr.cz`.
-4. Switch DNS. Then open a few old addresses (`/?p=7347`, `/?page_id=143`, `/?cat=17`, `/wp-content/uploads/2024/09/RadSD_20240501.pdf`) and check that each lands on its new page.
-5. Submit `https://www.zsmr.eu/sitemap.xml` in Google Search Console.
-6. Keep the old WordPress installation offline but archived for a year.
+4. **Before switching DNS:** the enrolment booking app (`/php/zapis/`, PHP + database) and the large videos (`/large-files/`, `/videa/`) are not part of this site and stay on the old server. Give that server its own hostname (e.g. `stary.zsmr.eu`) and replace `http://www.zsmr.eu/php/`, `/large-files/` and `/videa/` links (`grep -rl "www.zsmr.eu/" content`), or rebuild the booking app.
+5. Switch DNS. Then open a few old addresses (`/?p=7347`, `/?page_id=143`, `/?cat=17`, `/wp-content/uploads/2024/09/RadSD_20240501.pdf`) and check that each lands on its new page.
+6. Submit `https://www.zsmr.eu/sitemap.xml` in Google Search Console.
+7. Keep the old WordPress installation offline but archived for a year.
+
+## Size
+
+`static/media` is about 0.9 GB, so the repository history is about 2 GB. Check the Vercel plan's deployment limits before launch. If needed, move the 19 videos to YouTube (school channel) or Vercel Blob first.

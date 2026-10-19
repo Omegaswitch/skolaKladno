@@ -102,3 +102,5 @@ New pages: `/skola/`, `/tridy/`, `/druzina/`, `/krouzky/` (section indexes, as t
 5. **Category labels** "Nezařazené" and "Ost": shown as "Ze školy" and "Ostatní".
 6. **Imported texts** are unchanged and marked `existing` in preview builds; staff abbreviations (e.g. "SalA", "Abs33") in *Přehled tříd* and *Pedagogové* are kept as published.
 7. **Photographs of pupils**: carried over from the current site; confirm that parental consent covers the new site.
+8. **Outside WordPress:** the first-grade enrolment booking app (`/php/zapis/register_child.php`, PHP with a database of time slots) and large videos (`/large-files/DCS_ZS-Maltezska-Kladno.mp4` 561 MB, `/videa/…`, a 55 MB herbarium ODT) are linked at the old server, not copied. See `docs/deployment.md`.
+9. **Missing on the old server:** `2025/04/IMG_20250402_140630_5-1-1024x512.jpg`, `2022/06/maly-1024x697.jpg` (404); dropped from their articles.
