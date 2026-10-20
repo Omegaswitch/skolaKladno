@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792510955.1396577,
-    "seen": 1792511166.188661,
-    "ast_hash": "3ee412a4b359f07151b766c60f1564b2",
+    "mtime": 1792518460.1360536,
+    "seen": 1792518510.979276,
+    "ast_hash": "0636693569fa85b0e63cc46109a9fd24",
     "semantic_hash": ""
   },
   "static/js/head.js": {
@@ -18321,6 +18321,12 @@
     "mtime": 1792510955.111119,
     "seen": 1792511166.1887121,
     "ast_hash": "10e26a04f4733ccfc64bd5f1b7d8df42",
+    "semantic_hash": ""
+  },
+  "content/pages/maltezsky-rad/index.html": {
+    "mtime": 1792518304.2280135,
+    "seen": 1792518510.9802592,
+    "ast_hash": "81e99568f25ac47eed0ee207ea0af263",
     "semantic_hash": ""
   }
 }
