@@ -204,7 +204,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
     names, c = SITE["names"], SITE["contact"]
     full_title = f"{title} | {names['site']}" if title != names["site"] else title
     canonical = SITE["baseUrl"] + url
-    og_image = SITE["baseUrl"] + (image or "/img/logo/zsmr-og.png")
+    og_image = SITE["baseUrl"] + "/img/og.jpg"  # one 1200×630 card for every page: the Order's flag and the school lockup (tools/make_og.py)
     robots = "" if PRODUCTION else '<meta name="robots" content="noindex, nofollow">'
     preload = "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD) + '<link rel="preload" href="/img/header/krajina.webp" as="image" fetchpriority="high">'
     ld = ""
@@ -242,6 +242,9 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
 <meta property="og:description" content="{esc(plain(description or body, 160))}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{og_image}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(names['school'])}">
 <meta property="og:locale" content="cs_CZ">
 <meta name="twitter:card" content="summary_large_image">
 {ld}

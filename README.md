@@ -30,6 +30,7 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 | `static/media/` | Migrated photos and documents (images reduced to ≤ 1024 px). |
 | `tools/import_wp.py` | Importer from the old WordPress site. Never overwrites a file marked `"imported": false`. |
 | `tools/make_logo.py` | Generates the logo SVGs. |
+| `tools/make_og.py` | Builds `static/img/og.jpg`, the 1200×630 link-preview card (Discord, iMessage, Facebook): the Order's flag under a dark veil, the school lockup in white, a red strip. Same layout on all three school sites. |
 
 ## Editorial workflow
 

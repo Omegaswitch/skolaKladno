@@ -12,15 +12,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792437627.9355767,
-    "seen": 1792437689.5709634,
-    "ast_hash": "43990ccc5587ccc9d6b805ed3f53821f",
+    "mtime": 1792573756.2149556,
+    "seen": 1792573929.9281926,
+    "ast_hash": "9f15aa4d366602d3be0a9158f3efaab0",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792437627.9361224,
-    "seen": 1792437689.5709674,
-    "ast_hash": "04ec52ed01611247696c696222548f94",
+    "mtime": 1792573756.216976,
+    "seen": 1792573929.9281971,
+    "ast_hash": "dc69d5f641ca4d0667fadccb04e77c58",
     "semantic_hash": ""
   },
   "content/site.json": {
@@ -102,9 +102,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792437627.9374983,
-    "seen": 1792437689.5710218,
-    "ast_hash": "f667e29e36bd27b4e7e028571d284187",
+    "mtime": 1792573916.0001552,
+    "seen": 1792573929.92825,
+    "ast_hash": "db96102e1ef846b1847f0762c321732c",
     "semantic_hash": ""
   },
   "content/news/2026/10/08/maly-zachranar.html": {
@@ -264,9 +264,9 @@
     "semantic_hash": ""
   },
   "docs/logo.md": {
-    "mtime": 1792432925.2378302,
-    "seen": 1792436416.195934,
-    "ast_hash": "30abc5c13302d3e3574e51850f2605ce",
+    "mtime": 1792573756.2180836,
+    "seen": 1792573929.929065,
+    "ast_hash": "b36fc51440e4348a4e40ec020ec2a8a9",
     "semantic_hash": ""
   },
   "tools/news-editor.html": {
@@ -651,12 +651,6 @@
     "mtime": 1792432929.3999753,
     "seen": 1792436416.1963344,
     "ast_hash": "288c38dca5ee4f955eaac11f07f60a7f",
-    "semantic_hash": ""
-  },
-  "static/img/logo/zsmr-og.png": {
-    "mtime": 1792431314.3014612,
-    "seen": 1792436416.1963372,
-    "ast_hash": "237cdfe465097d0fd20cd98839dcc6a9",
     "semantic_hash": ""
   },
   "static/media/2020/06/logolink_opvk_350.jpg": {
@@ -18321,6 +18315,24 @@
     "mtime": 1792437682.0075712,
     "seen": 1792437689.5710115,
     "ast_hash": "10e26a04f4733ccfc64bd5f1b7d8df42",
+    "semantic_hash": ""
+  },
+  "tools/make_og.py": {
+    "mtime": 1792573569.3797696,
+    "seen": 1792573929.9282336,
+    "ast_hash": "09cc7f8bb592bd953e4f48c4c6b61e78",
+    "semantic_hash": ""
+  },
+  "static/img/og.jpg": {
+    "mtime": 1792573571.294942,
+    "seen": 1792573929.929308,
+    "ast_hash": "c5e15c2b804e0bfa926b2076c38ec7f8",
+    "semantic_hash": ""
+  },
+  "tools/banner-photo.webp": {
+    "mtime": 1792573569.3752422,
+    "seen": 1792573929.9339893,
+    "ast_hash": "0ee496630581e239d2229f15622c08dc",
     "semantic_hash": ""
   }
 }

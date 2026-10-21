@@ -15,7 +15,7 @@ DIST = ROOT / "dist"
 sys.path.insert(0, str(ROOT / "tools"))
 
 # Only the school lockup set (official shield, docs/logo.md) and the official favicons may appear under /img/.
-BRAND_FILES = re.compile(r"^/img/(logo/zsmr-(logo|logo-compact|mark|logo-mono-black|logo-mono-white)\.svg|logo/zsmr-og\.png|logo/zsmr-logo-photo\.svg|header/krajina\.webp|favicon/[\w.-]+)$")
+BRAND_FILES = re.compile(r"^/img/(logo/zsmr-(logo|logo-compact|mark|logo-mono-black|logo-mono-white)\.svg|og\.jpg|logo/zsmr-logo-photo\.svg|header/krajina\.webp|favicon/[\w.-]+)$")
 # The communications policy forbids the acronym; legacy texts are flagged, not rewritten.
 ACRONYM = re.compile(r"\bS\.?\s?M\.?\s?O\.?\s?M\b")
 
