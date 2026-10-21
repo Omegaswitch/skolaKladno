@@ -29,6 +29,7 @@
    {"url": "/skolne-a-dalsi-platby/", "desc": "Výše školného, slevy a platby"},
    {"url": "/rozvrh/", "desc": "Rozvrhy tříd a učitelů"},
    {"url": "/kalendar/", "title": "Kalendář akcí", "desc": "Prázdniny a akce školního roku"},
+   {"url": "/fotogalerie/", "title": "Fotogalerie", "desc": "Fotografie ze školních akcí"},
    {"url": "/dokumenty-o-skole/", "desc": "ŠVP, školní řád, prázdniny, výroční zprávy"},
    {"url": "/dokumenty-pro-rodice/", "desc": "Přihlášky, žádosti a formuláře"},
    {"url": "/pedagogove/", "desc": "Učitelé a konzultační hodiny"},

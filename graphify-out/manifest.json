@@ -1,8 +1,8 @@
 {
   "api/news.js": {
-    "mtime": 1792510955.111119,
-    "seen": 1792511166.1886287,
-    "ast_hash": "d3b550d0c1d8ce436c2679b6925d2173",
+    "mtime": 1792569413.354335,
+    "seen": 1792569557.7605455,
+    "ast_hash": "a264193d6b90fae450e69c7b0ca79ec9",
     "semantic_hash": ""
   },
   "api/trust.js": {
@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792510955.111886,
-    "seen": 1792511166.1886475,
-    "ast_hash": "43990ccc5587ccc9d6b805ed3f53821f",
+    "mtime": 1792569413.3538115,
+    "seen": 1792569557.7605662,
+    "ast_hash": "e7c0186aeeb37c318ee8429b8514e33f",
     "semantic_hash": ""
   },
   "check.py": {
@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792518460.1360536,
-    "seen": 1792518510.979276,
-    "ast_hash": "0636693569fa85b0e63cc46109a9fd24",
+    "mtime": 1792568613.7389114,
+    "seen": 1792569557.7605767,
+    "ast_hash": "7a392127c90c59d0b69589706e871eed",
     "semantic_hash": ""
   },
   "static/js/head.js": {
@@ -36,9 +36,9 @@
     "semantic_hash": ""
   },
   "static/js/news-editor.js": {
-    "mtime": 1792510955.158799,
-    "seen": 1792511166.188668,
-    "ast_hash": "5e7b39a7f2eb55a5ec9ef40e0ff0a597",
+    "mtime": 1792569413.3556962,
+    "seen": 1792569557.7605815,
+    "ast_hash": "773a3849a80d279a57563ef56d0922c7",
     "semantic_hash": ""
   },
   "static/js/site.js": {
@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "tests/news.test.js": {
-    "mtime": 1792510965.668558,
-    "seen": 1792511166.1886911,
-    "ast_hash": "a83fdc007dafb12fb492ce66c4c1233a",
+    "mtime": 1792568424.2918303,
+    "seen": 1792569557.7606003,
+    "ast_hash": "faf4699a55ef2aa867ee0c46c4dbc9dd",
     "semantic_hash": ""
   },
   "tests/trust.test.js": {
@@ -84,9 +84,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792510965.6775525,
-    "seen": 1792511166.188709,
-    "ast_hash": "c02599057057ea650a67aeab01ef41ba",
+    "mtime": 1792569413.356597,
+    "seen": 1792569557.7606103,
+    "ast_hash": "f72156d9731d2360ae6068c3a24ebc98",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -102,9 +102,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792510955.111119,
-    "seen": 1792511166.1887243,
-    "ast_hash": "f667e29e36bd27b4e7e028571d284187",
+    "mtime": 1792569530.8790689,
+    "seen": 1792569557.7606208,
+    "ast_hash": "08efda8e81d82f67c9d186d6bc8a5888",
     "semantic_hash": ""
   },
   "content/news/2026/10/08/maly-zachranar.html": {
@@ -267,12 +267,6 @@
     "mtime": 1792510955.1411622,
     "seen": 1792511166.189729,
     "ast_hash": "30abc5c13302d3e3574e51850f2605ce",
-    "semantic_hash": ""
-  },
-  "tools/news-editor.html": {
-    "mtime": 1792510965.6775525,
-    "seen": 1792511166.1897376,
-    "ast_hash": "477813a38be88af6d710caf9603a065e",
     "semantic_hash": ""
   },
   "static/media/2020/07/DotaznikProRodiceDoPrvnihoRocniku_20170330.pdf": {
@@ -18258,9 +18252,9 @@
     "semantic_hash": ""
   },
   "docs/qa-report.md": {
-    "mtime": 1792510955.1411622,
-    "seen": 1792511166.1897328,
-    "ast_hash": "47e699e65f04de3ab5fec6c524756b97",
+    "mtime": 1792569530.8798764,
+    "seen": 1792569557.7613885,
+    "ast_hash": "de95ef9fc5915a2c5fe60cb565d89cb5",
     "semantic_hash": ""
   },
   "static/media/partneri/plakat-sablony-ii-op-jak.pdf": {
@@ -18327,6 +18321,24 @@
     "mtime": 1792518304.2280135,
     "seen": 1792518510.9802592,
     "ast_hash": "81e99568f25ac47eed0ee207ea0af263",
+    "semantic_hash": ""
+  },
+  "api/rebuild.js": {
+    "mtime": 1792569413.356801,
+    "seen": 1792569557.7605555,
+    "ast_hash": "794d05efa255693c99cbe1704e32d542",
+    "semantic_hash": ""
+  },
+  "tests/news.local.js": {
+    "mtime": 1792568424.292007,
+    "seen": 1792569557.7605977,
+    "ast_hash": "7f24ff635e1f5dabc1540bc108ee9170",
+    "semantic_hash": ""
+  },
+  "docs/publishing.md": {
+    "mtime": 1792569498.1304166,
+    "seen": 1792569557.7613854,
+    "ast_hash": "4a43ce366085dbb6c4035111b646dc18",
     "semantic_hash": ""
   }
 }
