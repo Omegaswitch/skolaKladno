@@ -5870,8 +5870,8 @@
   },
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "/api/page/?path=/:path*"
+      "source": "/(.*)",
+      "destination": "/api/page/?path=/$1"
     }
   ]
 }
