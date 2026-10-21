@@ -46,8 +46,9 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 
 | Variable | Value |
 |---|---|
-| `NEWS_USERS` | one `Name:password` per line, one per teacher who publishes |
+| `NEWS_USERS` | one `Name:password` per line (`Name:password:admin` for an administrator, who can edit or delete anyone's posts and pin notices), one per teacher who publishes |
 | `NEWS_SECRET` | long random string (`openssl rand -base64 32`) |
+| `DEPLOY_HOOK_URL`, `CRON_SECRET` | daily rebuild so scheduled posts and date-based lists go out on their day — see `docs/publishing.md` (also: roles, drafts, events, pinned notices, galleries, local stand-in `node tests/news.local.js`) |
 | `GITHUB_TOKEN` | fine-grained token for `Omegaswitch/skolaKladno` only, Contents: read and write |
 | `RESEND_API_KEY` | Resend key; needed by the Schránka důvěry (and optional news notices) |
 | `TRUST_TO` | who receives Schránka důvěry messages (default `skola@zsmr.cz`) |
