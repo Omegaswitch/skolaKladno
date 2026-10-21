@@ -4,7 +4,6 @@
   "installCommand": "",
   "buildCommand": "python3 build.py --production",
   "outputDirectory": "dist",
-  "crons": [{ "path": "/api/rebuild", "schedule": "0 3 * * *" }],
   "cleanUrls": false,
   "trailingSlash": true,
   "headers": [
@@ -13,7 +12,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self'; img-src 'self' data: blob:; media-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+          "value": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self'; img-src 'self' data: blob: https://pqmgtvfeavidoecwbvwy.supabase.co; media-src 'self'; font-src 'self'; connect-src 'self' https://pqmgtvfeavidoecwbvwy.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
         },
         {
           "key": "Strict-Transport-Security",
@@ -5862,6 +5861,17 @@
       "source": "/wp-content/uploads/:path*",
       "destination": "/media/:path*",
       "permanent": true
+    }
+  ],
+  "functions": {
+    "api/page.py": {
+      "includeFiles": "{build.py,content/**,static/img/**}"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/api/page?path=/:path*"
     }
   ]
 }

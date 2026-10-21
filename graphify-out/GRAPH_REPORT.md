@@ -1,37 +1,37 @@
-# Graph Report - skolaKladno  (2026-10-21)
+# Graph Report - skolakladno  (2026-10-21)
 
 ## Corpus Check
-- 33 files · ~25,255,662 words
+- 33 files · ~25,193,759 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 43 file(s) not represented in the graph (top: .woff2 16, .odt 15, .otf 4)
 
 ## Summary
-- 870 nodes · 2263 edges · 45 communities (33 shown, 12 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 44 edges (avg confidence: 0.85)
+- 1169 nodes · 3081 edges · 50 communities (38 shown, 12 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 89 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `edecfc57`
+- Built from commit: `49b303d5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- .forEach
-- q
-- news.js
+- b
+- a
+- n
 - i
 - m
 - import_wp.py
-- split
+- .remove
 - news-editor.js
 - quill.js
 - Rt
 - re
-- jt
-- h
-- news.local.js
+- length
+- .push
+- w
 - build.py
-- .remove
+- z
 - jt
 - trust.js
 - Module
@@ -42,118 +42,125 @@
 - make_logo.py
 - CLAUDE.md
 - Product
-- .Cb
-- normalizedToRange
-- Publishing (news, events, notices, galleries)
+- _
+- s
+- page.py
 - Content inventory and migration map
-- Sanitiser
+- o
 - optimize_media.py
 - Deployment
-- Media
-- N
-- eb
+- .forEach
+- de
+- render
 - Brand compliance report
+- N
 - QA report — 19 October 2026
+- r
 - c
-- T
+- p
+- .slice
+- o
 - .mcp.json
+- img
+- logo
+- serve
 
 ## God Nodes (most connected - your core abstractions)
-1. `i` - 63 edges
-2. `Module()` - 51 edges
-3. `m` - 51 edges
-4. `length()` - 51 edges
-5. `o` - 47 edges
-6. `s` - 44 edges
-7. `h()` - 35 edges
-8. `b()` - 29 edges
-9. `update()` - 28 edges
-10. `jt()` - 27 edges
+1. `de` - 67 edges
+2. `_` - 66 edges
+3. `i` - 64 edges
+4. `Module()` - 51 edges
+5. `m` - 51 edges
+6. `length()` - 51 edges
+7. `h()` - 48 edges
+8. `o` - 47 edges
+9. `s` - 45 edges
+10. `n` - 42 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `ua()` --indirect_call--> `E()`  [INFERRED]
-  static/js/vendor/ghostscript-1.1.0/gs.js → static/js/vendor/quill-2.0.3/quill.js
-- `va()` --indirect_call--> `E()`  [INFERRED]
-  static/js/vendor/ghostscript-1.1.0/gs.js → static/js/vendor/quill-2.0.3/quill.js
-- `jt()` --indirect_call--> `P()`  [INFERRED]
-  static/js/vendor/quill-2.0.3/quill.js → static/js/vendor/ghostscript-1.1.0/gs.js
+- `Schema (for reference)` --references--> `events()`  [INFERRED]
+  docs/publishing.md → api/page.py
+- `Schema (for reference)` --references--> `categories()`  [INFERRED]
+  docs/publishing.md → static/js/news-editor.js
+- `Schema (for reference)` --references--> `image()`  [INFERRED]
+  docs/publishing.md → static/js/vendor/quill-2.0.3/quill.js
+- `resolves()` --calls--> `is_dynamic()`  [INFERRED]
+  check.py → api/page.py
+- `listing()` --indirect_call--> `build()`  [INFERRED]
+  api/page.py → build.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (45 total, 12 thin omitted)
+## Communities (50 total, 12 thin omitted)
 
-### Community 0 - ".forEach"
-Cohesion: 0.06
-Nodes (36): A(), applyDelta(), b(), build(), clean(), create(), deleteText(), descendants() (+28 more)
+### Community 0 - "b"
+Cohesion: 0.17
+Nodes (11): attribute(), b(), build(), getDelta(), e(), insertContents(), p(), update() (+3 more)
 
-### Community 1 - "q"
-Cohesion: 0.15
-Nodes (3): q(), R(), X
-
-### Community 2 - "news.js"
-Cohesion: 0.07
-Nodes (52): ALLOWED, CATEGORIES, commit(), contentsPath(), crypto, editable(), env(), esc() (+44 more)
+### Community 1 - "a"
+Cohesion: 0.05
+Nodes (9): a, b, delete(), insert(), k, R(), update(), upsert() (+1 more)
 
 ### Community 4 - "m"
-Cohesion: 0.08
-Nodes (6): attachUI(), descendant(), Et(), g(), getHTML(), m
+Cohesion: 0.05
+Nodes (6): attachUI(), g(), m, q(), R(), X
 
 ### Community 5 - "import_wp.py"
-Cohesion: 0.18
-Nodes (14): get_all(), get_json(), _get_json(), lead_image(), legacy_map(), main(), make_url_map(), post_url() (+6 more)
+Cohesion: 0.09
+Nodes (21): download(), get_all(), get_json(), _get_json(), _iframe_label(), lead_image(), legacy_map(), main() (+13 more)
 
-### Community 6 - "split"
-Cohesion: 0.16
-Nodes (16): appendChild(), clone(), deleteAt(), enforceAllowedChildren(), format(), formatAt(), insertAt(), insertBefore() (+8 more)
+### Community 6 - ".remove"
+Cohesion: 0.19
+Nodes (12): deleteAt(), enforceAllowedChildren(), format(), formatAt(), formatLine(), formatText(), isolate(), moveChildren() (+4 more)
 
 ### Community 7 - "news-editor.js"
-Cohesion: 0.12
-Nodes (41): addCategory(), attachmentRow(), call(), categories(), clearPhoto(), dateHint(), del(), delEvent() (+33 more)
+Cohesion: 0.08
+Nodes (54): Accounts, sign-in, roles, Publishing (news, events, notices, galleries), Running it locally, Schema (for reference), Security, What can be published, addCategory(), afterSignIn() (+46 more)
 
 ### Community 8 - "quill.js"
-Cohesion: 0.12
-Nodes (21): constructor(), Dt(), emit(), escape(), focus(), formats(), getNativeRange(), handleComposition() (+13 more)
+Cohesion: 0.08
+Nodes (36): A(), attach(), buildItem(), buildLabel(), buildOptions(), buildPicker(), close(), constructor() (+28 more)
 
 ### Community 10 - "re"
-Cohesion: 0.18
-Nodes (4): main(), Page, redirect_sources(), resolves()
+Cohesion: 0.11
+Nodes (5): main(), Page, redirect_sources(), resolves(), Handler
 
-### Community 11 - "jt"
+### Community 11 - "length"
+Cohesion: 0.19
+Nodes (14): appendChild(), clone(), d(), formats(), getBounds(), getHTML(), handler(), insertAt() (+6 more)
+
+### Community 12 - ".push"
+Cohesion: 0.15
+Nodes (8): getFormat(), h(), hasNext(), path(), peek(), peekLength(), peekType(), rest()
+
+### Community 13 - "w"
 Cohesion: 0.20
-Nodes (7): formula(), getBounds(), hide(), link(), qt(), St(), video()
-
-### Community 12 - "h"
-Cohesion: 0.07
-Nodes (15): ua(), add(), d(), E(), h(), hasNext(), length(), N (+7 more)
-
-### Community 13 - "news.local.js"
-Cohesion: 0.14
-Nodes (9): blobs, crypto, fs, handler, http, path, port, ROOT (+1 more)
+Nodes (4): i(), g, w(), y
 
 ### Community 14 - "build.py"
-Cohesion: 0.06
-Nodes (52): breadcrumbs(), build(), contact_card(), crumbs_html(), _descendants(), enhance_body(), fix_img(), event_slug() (+44 more)
-
-### Community 15 - ".remove"
 Cohesion: 0.10
-Nodes (15): attribute(), buildItem(), buildLabel(), buildOptions(), buildPicker(), close(), copy(), listenDOM() (+7 more)
+Nodes (32): breadcrumbs(), contact_card(), crumbs_html(), _descendants(), event_slug(), events_list(), events_page_html(), gallery_html() (+24 more)
+
+### Community 15 - "z"
+Cohesion: 0.20
+Nodes (3): create(), nt(), z()
 
 ### Community 16 - "jt"
-Cohesion: 0.19
-Nodes (14): Bt(), Ct(), Ft(), Gt(), jt(), kt(), l(), Lt() (+6 more)
+Cohesion: 0.10
+Nodes (21): Bt(), Ct(), Dt(), formula(), Ft(), Gt(), hide(), It() (+13 more)
 
 ### Community 17 - "trust.js"
 Cohesion: 0.20
 Nodes (4): recent, assert, call(), handler
 
 ### Community 18 - "Module"
-Cohesion: 0.10
-Nodes (11): Module(), a(), bb(), cc(), a(), O(), R(), sa() (+3 more)
+Cohesion: 0.06
+Nodes (31): Module(), a(), Aa(), bb(), c(), cc(), a(), d() (+23 more)
 
 ### Community 19 - "vercel.json"
-Cohesion: 0.18
-Nodes (10): buildCommand, cleanUrls, crons, framework, headers, installCommand, outputDirectory, redirects (+2 more)
+Cohesion: 0.14
+Nodes (13): includeFiles, buildCommand, cleanUrls, framework, functions, api/page.py, headers, installCommand (+5 more)
 
 ### Community 20 - "zsmr.eu"
 Cohesion: 0.22
@@ -175,45 +182,69 @@ Nodes (8): compact(), lockup(), main(), mark(), shield(), text_path(), vos_locku
 Cohesion: 0.17
 Nodes (11): Accessibility & Inclusion, Brand Commitments, Capabilities and Constraints, Operating Context, Platform, Positioning, Product, Product Principles (+3 more)
 
-### Community 28 - ".Cb"
-Cohesion: 0.28
-Nodes (8): c(), d(), I, jb(), kb(), lb(), mb(), qb()
+### Community 28 - "_"
+Cohesion: 0.09
+Nodes (9): _, E(), ee(), _handleTokenChanged(), _initRealtimeClient(), _initSupabaseAuthClient(), _listenForAuthEvents(), ne() (+1 more)
 
-### Community 29 - "normalizedToRange"
-Cohesion: 0.19
-Nodes (7): attach(), getRange(), image(), index(), k, normalizedToRange(), Ot()
+### Community 29 - "s"
+Cohesion: 0.10
+Nodes (4): k, normalizeNative(), register(), s
 
-### Community 30 - "Publishing (news, events, notices, galleries)"
-Cohesion: 0.29
-Nodes (6): Daily rebuild (scheduled posts, events), Publishing (news, events, notices, galleries), Security, Testing, What can be published, Who can do what
+### Community 30 - "page.py"
+Cohesion: 0.15
+Nodes (16): as_event(), as_news(), cached(), events(), file_info(), full_posts(), human_size(), listing() (+8 more)
 
 ### Community 31 - "Content inventory and migration map"
 Cohesion: 0.25
 Nodes (7): Categories, Content inventory and migration map, Flagged content (needs a decision, not invented), News by year, Other content of the old site, Pages, Totals
 
-### Community 32 - "Sanitiser"
-Cohesion: 0.20
-Nodes (4): _iframe_label(), url_map(), sanitise(), Sanitiser
+### Community 32 - "o"
+Cohesion: 0.19
+Nodes (7): applyDelta(), deleteText(), insertEmbed(), insertText(), o, removeFormat(), wrap()
 
 ### Community 34 - "Deployment"
 Cohesion: 0.40
 Nodes (4): Deployment, Domain, Launch checklist, Size
 
-### Community 35 - "Media"
-Cohesion: 0.43
-Nodes (3): download(), Media, _norm()
+### Community 35 - ".forEach"
+Cohesion: 0.17
+Nodes (7): clean(), copy(), descendant(), descendants(), Et(), f, move()
 
-### Community 36 - "N"
-Cohesion: 0.52
-Nodes (7): hb(), ib(), M(), N(), P(), Q(), rb()
+### Community 36 - "de"
+Cohesion: 0.06
+Nodes (10): Q(), d(), de, h(), j, m, re(), se (+2 more)
 
-### Community 37 - "eb"
-Cohesion: 0.33
-Nodes (6): Aa(), eb(), fb(), wa(), ya(), za()
+### Community 37 - "render"
+Cohesion: 0.13
+Nodes (13): dynamic_pages(), handler, is_dynamic(), not_found(), render(), render_event(), build(), event_when() (+5 more)
+
+### Community 39 - "N"
+Cohesion: 0.15
+Nodes (3): E(), N, w()
 
 ### Community 40 - "QA report — 19 October 2026"
-Cohesion: 0.29
-Nodes (6): Cross-device audit and publishing workflow (21 October 2026), Fixed during QA, Not verified here (needs the live environment), Pre-presentation audit — 19 October 2026 (second round), QA report — 19 October 2026, Results
+Cohesion: 0.25
+Nodes (7): Cross-device audit and publishing workflow (21 October 2026), Fixed during QA, Not verified here (needs the live environment), Pre-presentation audit — 19 October 2026 (second round), QA report — 19 October 2026, Results, Shared Supabase database (21 October 2026)
+
+### Community 41 - "r"
+Cohesion: 0.18
+Nodes (9): ae, C(), n(), r(), ce, i, le(), then() (+1 more)
+
+### Community 43 - "p"
+Cohesion: 0.21
+Nodes (7): f, l, p, S, T(), u, v()
+
+### Community 44 - ".slice"
+Cohesion: 0.18
+Nodes (7): add(), detach(), keys(), remove(), removeChild(), u, value()
+
+### Community 47 - "img"
+Cohesion: 0.24
+Nodes (7): enhance_body(), fix_img(), fmt_date(), image_size(), img(), news_card(), render_article()
+
+### Community 49 - "serve"
+Cohesion: 0.67
+Nodes (4): serve(), do_GET(), end_headers(), guess_type()
 
 ## Knowledge Gaps
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
@@ -221,17 +252,17 @@ Nodes (6): Cross-device audit and publishing workflow (21 October 2026), Fixed d
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Module()` connect `Module` to `N`, `eb`, `pdf-worker.js`, `h`, `news.local.js`, `.Cb`?**
-  _High betweenness centrality (0.162) - this node is a cross-community bridge._
-- **Are the 2 inferred relationships involving `i` (e.g. with `e()` and `i()`) actually correct?**
-  _`i` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **Should `.forEach` be split into smaller, more focused modules?**
-  _Cohesion score 0.060073260073260075 - nodes in this community are weakly interconnected._
-- **Why does `e()` connect `.forEach` to `i`, `m`, `h`, `jt`, `.Cb`, `normalizedToRange`?**
-  _High betweenness centrality (0.067) - this node is a cross-community bridge._
+- **Why does `Schema (for reference)` connect `news-editor.js` to `page.py`?**
+  _High betweenness centrality (0.336) - this node is a cross-community bridge._
+- **Are the 3 inferred relationships involving `i` (e.g. with `e()` and `i()`) actually correct?**
+  _`i` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **Should `a` be split into smaller, more focused modules?**
+  _Cohesion score 0.05417236662106703 - nodes in this community are weakly interconnected._
+- **Why does `image()` connect `news-editor.js` to `quill.js`, `s`?**
+  _High betweenness centrality (0.316) - this node is a cross-community bridge._
 - **Are the 6 inferred relationships involving `Module()` (e.g. with `ac()` and `$b()`) actually correct?**
   _`Module()` has 6 INFERRED edges - model-reasoned connections that need verification._
-- **Should `news.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.0671602326811211 - nodes in this community are weakly interconnected._
-- **Why does `jt()` connect `jt` to `.forEach`, `N`, `quill.js`, `Rt`, `jt`, `h`, `.remove`, `normalizedToRange`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+- **Should `n` be split into smaller, more focused modules?**
+  _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
+- **Why does `_` connect `_` to `b`, `a`, `n`, `de`, `r`, `p`, `w`, `o`?**
+  _High betweenness centrality (0.261) - this node is a cross-community bridge._

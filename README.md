@@ -11,7 +11,7 @@ python3 build.py serve 8000      # preview build, served at http://localhost:800
 python3 build.py                 # preview build into dist/ (noindex, content-status labels shown)
 python3 build.py --production    # production build
 python3 check.py                 # checks dist/: links, headings, descriptions, brand assets, acronym
-node tests/news.test.js          # news editor API (GitHub stubbed)
+python3 tests/site.local.py       # dist/ plus the pages rendered from the shared database
 node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 ```
 
@@ -20,11 +20,10 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 | Path | What |
 |---|---|
 | `content/pages/<url>/index.html` | Pages. JSON front matter between `---` lines, then HTML. |
-| `content/news/YYYY/MM/DD/slug.html` | News (436 posts imported from 2017 to today). |
-| `content/site.json` | Names, contacts, menu, news categories, footer project logos. |
+| `content/site.json` | Names, contacts, menu, news categories, footer project logos.; `supabase` (project address, publishable key, this site's id) |
 | `content/legacy.json` | Every old `?p=`, `?page_id=` and `?cat=` address and its new URL. |
 | `vercel.json` | Hosting, security headers and the permanent redirects for all old addresses (generated from `legacy.json` by `tools/import_wp.py --redirects`). |
-| `api/news.js` | News publishing (same code as maltezskyrad.cz). |
+| `api/page.py` | Renders news, events, galleries, feeds and the home page on request from the shared Supabase database, with the functions of `build.py`. |
 | `api/trust.js` | Schránka důvěry: sends the form to the school by e-mail. |
 | `static/img/logo/` | School logo set; see `docs/logo.md`. |
 | `static/media/` | Migrated photos and documents (images reduced to ≤ 1024 px). |
@@ -34,7 +33,7 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 
 ## Editorial workflow
 
-**News (no GitHub needed).** Go to `/pridat-aktualitu/` (not linked, not indexed), sign in, write the article, choose categories (class, družina, kroužek …), add a main photo and attachments, publish. Several photos can be inserted into the text at once; two or more in a row appear as a photo grid. PDFs over 1 MB are shrunk in the browser by Ghostscript compiled to WebAssembly (`static/js/pdf-worker.js`, `static/js/vendor/ghostscript-1.1.0/`, AGPL: licence and source links in that folder, offered on the staff page), loaded only when such a PDF is attached. The site rebuilds and the article is online in about a minute. The **Upravit nebo smazat** tab edits or deletes any article, including the imported ones. Photos are shrunk in the browser and stripped of location data.
+**News, events, notices and galleries (no GitHub needed).** Staff publish at `/pridat-aktualitu/` (not linked, not indexed): e-mail, password and a one-time code from an authenticator app. Posts, events and photos go to the shared Supabase database of the three school sites and are on the web within a minute; `api/page.py` renders those pages on request with this site's own functions. Drafts, scheduled posts, pinned notices, roles and user management are described in `docs/publishing.md`.
 
 **Pages.** Edit the file in `content/pages/`. Set `"imported": false` so a re-import never overwrites it, and remove `"status"` once the text is approved (`existing` = carried over, `new` = new text, `approval` = needs sign-off; shown only in preview builds).
 
@@ -46,14 +45,9 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 
 | Variable | Value |
 |---|---|
-| `NEWS_USERS` | one `Name:password` per line (`Name:password:admin` for an administrator, who can edit or delete anyone's posts and pin notices), one per teacher who publishes |
-| `NEWS_SECRET` | long random string (`openssl rand -base64 32`) |
-| `DEPLOY_HOOK_URL`, `CRON_SECRET` | daily rebuild so scheduled posts and date-based lists go out on their day — see `docs/publishing.md` (also: roles, drafts, events, pinned notices, galleries, local stand-in `node tests/news.local.js`) |
-| `GITHUB_TOKEN` | fine-grained token for `Omegaswitch/skolaKladno` only, Contents: read and write |
-| `RESEND_API_KEY` | Resend key; needed by the Schránka důvěry (and optional news notices) |
+| `RESEND_API_KEY` | Resend key; needed by the Schránka důvěry |
 | `TRUST_TO` | who receives Schránka důvěry messages (default `skola@zsmr.cz`) |
 | `MAIL_FROM` | sender on a domain verified in Resend, e.g. `Škola <web@zsmr.eu>` |
-| `NEWS_NOTIFY` | optional: who is e-mailed about every new article |
 
 ## Documentation
 
@@ -66,12 +60,12 @@ node tests/trust.test.js         # Schránka důvěry API (e-mail stubbed)
 
 ## Shared code
 
-`api/news.js`, `static/js/news-editor.js`, `static/js/pdf-worker.js`, `static/js/head.js`, the menu and image code in `static/js/site.js`, the frame in `static/css/site.css` and the sanitiser in `tools/import_wp.py` are shared with maltezskyrad.cz and the other Order school sites (skolaKladno, skolaPraha, skolaSkutec). Change them in one place and copy the file to the others; do not fork them.
+`api/page.py`, `static/js/news-editor.js`, `static/js/pdf-worker.js`, `static/js/head.js`, the menu and image code in `static/js/site.js`, the frame in `static/css/site.css` and the sanitiser in `tools/import_wp.py` are shared with maltezskyrad.cz and the other Order school sites (skolaKladno, skolaPraha, skolaSkutec). Change them in one place and copy the file to the others; do not fork them.
 
 ## Security notes
 
 - Headers (`vercel.json`): CSP with no third-party origins and no inline styles or scripts (`'wasm-unsafe-eval'` only lets WebAssembly compile, for the PDF shrinking), HSTS, `nosniff`, `frame-ancestors 'none'`, Referrer-Policy, Permissions-Policy. `check.py` fails the build on any inline `style` attribute.
-- `api/news.js`: passwords compared in constant time, signed `HttpOnly; Secure; SameSite=Strict` session cookie scoped to the API path, same-origin check on every POST, sign-in throttling per function instance, uploads checked by content and renamed, text rebuilt from a tag allowlist. The GitHub token must be fine-grained to this repository only (Contents: read and write).
-- Quill 2.0.3 (`static/js/vendor/`): CVE-2025-15056 (XSS through its HTML export, no patched release yet). Not exploitable here: the editor's HTML is never rendered unsanitised; the server rebuilds it from the allowlist before it reaches any page.
+- Publishing: Supabase Auth with a mandatory second factor; row level security decides who may read or change what (see `docs/publishing.md`); the pages hold only the publishable key; `api/page.py` rebuilds every post text from a tag allowlist before it is shown.
+- Quill 2.0.3 (`static/js/vendor/`): CVE-2025-15056 (XSS through its HTML export, no patched release yet). Not exploitable here: the editor's HTML is never rendered unsanitised; `api/page.py` rebuilds it from the allowlist before it reaches any page.
 - Ghostscript 10.06.0 as WebAssembly (`static/js/vendor/ghostscript-1.1.0/`): runs only in the staff member's own browser, in a worker that is dropped after one file. Update by replacing the folder with a newer `@okathira/ghostpdl-wasm` build.
 

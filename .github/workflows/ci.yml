@@ -17,5 +17,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - run: node tests/news.test.js
       - run: node tests/trust.test.js

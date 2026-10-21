@@ -12,6 +12,8 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
+sys.path.insert(0, str(ROOT / "api"))
+from page import is_dynamic  # noqa: E402
 sys.path.insert(0, str(ROOT / "tools"))
 
 # Only the school lockup set (official shield, docs/logo.md) and the official favicons may appear under /img/.
@@ -56,6 +58,8 @@ def redirect_sources():
 
 def resolves(path, sources):
     p = unquote(path)
+    if is_dynamic(p):  # news, events, galleries and the home page are rendered on request from the database
+        return True
     target = DIST / p.lstrip("/")
     if target.is_file() or (target / "index.html").is_file():
         return True
@@ -63,7 +67,7 @@ def resolves(path, sources):
 
 
 def main():
-    if not (DIST / "index.html").exists():
+    if not (DIST / "404.html").exists():
         sys.exit("dist/ is empty; run build.py first")
     import import_wp
     import_wp._self_test()
