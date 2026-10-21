@@ -1,5 +1,5 @@
 {
-  "0": "b",
+  "0": "Publishing (news, events, notices, galleries)",
   "1": "a",
   "2": "n",
   "3": "i",
@@ -10,11 +10,11 @@
   "8": "quill.js",
   "9": "Rt",
   "10": "re",
-  "11": "length",
+  "11": "Sanitiser",
   "12": ".push",
   "13": "w",
   "14": "build.py",
-  "15": "z",
+  "15": ".add",
   "16": "jt",
   "17": "trust.js",
   "18": "Module",
@@ -38,7 +38,7 @@
   "36": "de",
   "37": "render",
   "38": "Brand compliance report",
-  "39": "N",
+  "39": "site.local.py",
   "40": "QA report — 19 October 2026",
   "41": "r",
   "42": "c",
@@ -47,6 +47,9 @@
   "45": "o",
   "46": ".mcp.json",
   "47": "img",
-  "48": "logo",
-  "49": "serve"
+  "48": "layout",
+  "49": "serve",
+  "50": "Media",
+  "51": "page_body",
+  "52": "R"
 }
