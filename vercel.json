@@ -5871,7 +5871,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "/api/page?path=/:path*"
+      "destination": "/api/page/?path=/:path*"
     }
   ]
 }
