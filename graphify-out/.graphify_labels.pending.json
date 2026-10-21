@@ -1,11 +1,11 @@
 {
   "0": ".forEach",
-  "1": "c",
+  "1": "q",
   "2": "news.js",
   "3": "i",
   "4": "m",
   "5": "import_wp.py",
-  "6": ".remove",
+  "6": "split",
   "7": "news-editor.js",
   "8": "quill.js",
   "9": "Rt",
@@ -14,7 +14,7 @@
   "12": "h",
   "13": "news.local.js",
   "14": "build.py",
-  "15": ".add",
+  "15": ".remove",
   "16": "jt",
   "17": "trust.js",
   "18": "Module",
@@ -41,9 +41,7 @@
   "39": "pdf-worker.js",
   "40": "QA report — 19 October 2026",
   "41": "rebuild.js",
-  "42": "u",
-  "43": "a",
-  "44": ".value",
+  "42": "c",
   "45": "T",
   "46": ".mcp.json"
 }
