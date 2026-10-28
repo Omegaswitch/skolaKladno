@@ -1,7 +1,7 @@
-# Graph Report - skolakladno  (2026-10-21)
+# Graph Report - skolaKladno  (2026-10-28)
 
 ## Corpus Check
-- 33 files · ~25,193,831 words
+- 34 files · ~12,038,254 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 43 file(s) not represented in the graph (top: .woff2 16, .odt 15, .otf 4)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e506fe53`
+- Built from commit: `f6a1438b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -268,16 +268,16 @@ Nodes (5): gallery_html(), gallery_posts(), page_body(), photos_of(), render_gal
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Schema (for reference)` connect `Publishing (news, events, notices, galleries)` to `page.py`, `news-editor.js`?**
-  _High betweenness centrality (0.336) - this node is a cross-community bridge._
+  _High betweenness centrality (0.330) - this node is a cross-community bridge._
 - **Are the 3 inferred relationships involving `i` (e.g. with `e()` and `i()`) actually correct?**
   _`i` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Should `a` be split into smaller, more focused modules?**
   _Cohesion score 0.05895061728395062 - nodes in this community are weakly interconnected._
 - **Why does `image()` connect `Publishing (news, events, notices, galleries)` to `quill.js`, `.add`?**
-  _High betweenness centrality (0.316) - this node is a cross-community bridge._
+  _High betweenness centrality (0.311) - this node is a cross-community bridge._
 - **Are the 6 inferred relationships involving `Module()` (e.g. with `ac()` and `$b()`) actually correct?**
   _`Module()` has 6 INFERRED edges - model-reasoned connections that need verification._
 - **Should `n` be split into smaller, more focused modules?**
   _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
 - **Why does `_` connect `_` to `a`, `n`, `.forEach`, `de`, `r`, `p`, `w`, `o`?**
-  _High betweenness centrality (0.261) - this node is a cross-community bridge._
+  _High betweenness centrality (0.260) - this node is a cross-community bridge._

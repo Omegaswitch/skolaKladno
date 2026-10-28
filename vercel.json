@@ -5861,6 +5861,2031 @@
       "source": "/wp-content/uploads/:path*",
       "destination": "/media/:path*",
       "permanent": true
+    },
+    {
+      "source": "/media/2021/03/EnakupPotravinPresInternet_1024x768_20210304.png",
+      "destination": "/media/2021/03/EnakupPotravinPresInternet_1024x768_20210304.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/03/Plakat_A3_Maltez_350x495_20210313.png",
+      "destination": "/media/2021/03/Plakat_A3_Maltez_350x495_20210313.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/33elvon.png",
+      "destination": "/media/2021/04/33elvon.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/33filnov.png",
+      "destination": "/media/2021/04/33filnov.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/33járakap.png",
+      "destination": "/media/2021/04/33járakap.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/3haram.png",
+      "destination": "/media/2021/04/3haram.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/3kubadl-1024x767.png",
+      "destination": "/media/2021/04/3kubadl-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/3sáraMar.png",
+      "destination": "/media/2021/04/3sáraMar.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/3uv.png",
+      "destination": "/media/2021/04/3uv.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/bl1.png",
+      "destination": "/media/2021/04/bl1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/bl2.png",
+      "destination": "/media/2021/04/bl2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/bl3.png",
+      "destination": "/media/2021/04/bl3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/bl4.png",
+      "destination": "/media/2021/04/bl4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/dlasekpampel.png",
+      "destination": "/media/2021/04/dlasekpampel.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/her2vaněk.png",
+      "destination": "/media/2021/04/her2vaněk.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/her4markétka.png",
+      "destination": "/media/2021/04/her4markétka.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/her5kája.png",
+      "destination": "/media/2021/04/her5kája.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/herdlasek.png",
+      "destination": "/media/2021/04/herdlasek.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/herhar.png",
+      "destination": "/media/2021/04/herhar.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/herjenKry.png",
+      "destination": "/media/2021/04/herjenKry.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/herkusyrob.png",
+      "destination": "/media/2021/04/herkusyrob.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/04/herzeta.png",
+      "destination": "/media/2021/04/herzeta.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/05/DopisZrizovateleRodicum20210517.png",
+      "destination": "/media/2021/05/DopisZrizovateleRodicum20210517.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/05/mapa.voj1_-1024x532.png",
+      "destination": "/media/2021/05/mapa.voj1_-1024x532.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/05/os.s.1.png",
+      "destination": "/media/2021/05/os.s.1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/05/os.s.2-1024x658.png",
+      "destination": "/media/2021/05/os.s.2-1024x658.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/05/os.s.3.png",
+      "destination": "/media/2021/05/os.s.3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/06/Rozvrh2021_22.png",
+      "destination": "/media/2021/06/Rozvrh2021_22.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-1.png",
+      "destination": "/media/2021/09/obrazek-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-10.png",
+      "destination": "/media/2021/09/obrazek-10.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-11.png",
+      "destination": "/media/2021/09/obrazek-11.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-12.png",
+      "destination": "/media/2021/09/obrazek-12.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-13.png",
+      "destination": "/media/2021/09/obrazek-13.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-2.png",
+      "destination": "/media/2021/09/obrazek-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-3-1024x572.png",
+      "destination": "/media/2021/09/obrazek-3-1024x572.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-4.png",
+      "destination": "/media/2021/09/obrazek-4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-5.png",
+      "destination": "/media/2021/09/obrazek-5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-6.png",
+      "destination": "/media/2021/09/obrazek-6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-7-1024x773.png",
+      "destination": "/media/2021/09/obrazek-7-1024x773.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-8.png",
+      "destination": "/media/2021/09/obrazek-8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek-9.png",
+      "destination": "/media/2021/09/obrazek-9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/09/obrazek.png",
+      "destination": "/media/2021/09/obrazek.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-1.png",
+      "destination": "/media/2021/10/obrazek-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-2.png",
+      "destination": "/media/2021/10/obrazek-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-3.png",
+      "destination": "/media/2021/10/obrazek-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-4.png",
+      "destination": "/media/2021/10/obrazek-4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-5.png",
+      "destination": "/media/2021/10/obrazek-5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-6.png",
+      "destination": "/media/2021/10/obrazek-6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-7.png",
+      "destination": "/media/2021/10/obrazek-7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek-8.png",
+      "destination": "/media/2021/10/obrazek-8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/10/obrazek.png",
+      "destination": "/media/2021/10/obrazek.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2021/12/obrazek.png",
+      "destination": "/media/2021/12/obrazek.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/1-1024x691.png",
+      "destination": "/media/2022/02/1-1024x691.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/2.png",
+      "destination": "/media/2022/02/2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/3.png",
+      "destination": "/media/2022/02/3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/4-1024x742.png",
+      "destination": "/media/2022/02/4-1024x742.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/5.png",
+      "destination": "/media/2022/02/5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/6-1024x736.png",
+      "destination": "/media/2022/02/6-1024x736.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/02/7-1024x531.png",
+      "destination": "/media/2022/02/7-1024x531.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/03/Ukrajina_1024_768.png",
+      "destination": "/media/2022/03/Ukrajina_1024_768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/04/L20.png",
+      "destination": "/media/2022/04/L20.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/04/L21.png",
+      "destination": "/media/2022/04/L21.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/04/L22-1024x757.png",
+      "destination": "/media/2022/04/L22-1024x757.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/04/L23-1024x762.png",
+      "destination": "/media/2022/04/L23-1024x762.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/08/QR_druzina-1.png",
+      "destination": "/media/2022/08/QR_druzina-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/08/QR_krouzky.png",
+      "destination": "/media/2022/08/QR_krouzky.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/08/QR_obedy.png",
+      "destination": "/media/2022/08/QR_obedy.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2022/12/obrazek.png",
+      "destination": "/media/2022/12/obrazek.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/1-1-1024x769.png",
+      "destination": "/media/2023/04/1-1-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/1-1024x771.png",
+      "destination": "/media/2023/04/1-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/10-1024x769.png",
+      "destination": "/media/2023/04/10-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/11-1024x767.png",
+      "destination": "/media/2023/04/11-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/2-1-1024x767.png",
+      "destination": "/media/2023/04/2-1-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/2-1024x768.png",
+      "destination": "/media/2023/04/2-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/3-1024x769.png",
+      "destination": "/media/2023/04/3-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/3-2-1024x766.png",
+      "destination": "/media/2023/04/3-2-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/4-1-1024x769.png",
+      "destination": "/media/2023/04/4-1-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/4-1024x769.png",
+      "destination": "/media/2023/04/4-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/5-1-1024x768.png",
+      "destination": "/media/2023/04/5-1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/5-1024x768.png",
+      "destination": "/media/2023/04/5-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/6-1-1024x762.png",
+      "destination": "/media/2023/04/6-1-1024x762.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/6-1024x765.png",
+      "destination": "/media/2023/04/6-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/7-1024x765.png",
+      "destination": "/media/2023/04/7-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/8.png",
+      "destination": "/media/2023/04/8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/9-1024x771.png",
+      "destination": "/media/2023/04/9-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/AA-1024x768.png",
+      "destination": "/media/2023/04/AA-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/BB-1024x768.png",
+      "destination": "/media/2023/04/BB-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/a.png",
+      "destination": "/media/2023/04/a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/b.png",
+      "destination": "/media/2023/04/b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/c-1024x770.png",
+      "destination": "/media/2023/04/c-1024x770.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/d-1024x769.png",
+      "destination": "/media/2023/04/d-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/e-1024x761.png",
+      "destination": "/media/2023/04/e-1024x761.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/f-1024x766.png",
+      "destination": "/media/2023/04/f-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/g-1024x769.png",
+      "destination": "/media/2023/04/g-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/h-1024x768.png",
+      "destination": "/media/2023/04/h-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/i-1024x770.png",
+      "destination": "/media/2023/04/i-1024x770.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/j-1024x768.png",
+      "destination": "/media/2023/04/j-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/k-1024x769.png",
+      "destination": "/media/2023/04/k-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/l-1024x771.png",
+      "destination": "/media/2023/04/l-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/m-1024x781.png",
+      "destination": "/media/2023/04/m-1024x781.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/n-1024x768.png",
+      "destination": "/media/2023/04/n-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/u.png",
+      "destination": "/media/2023/04/u.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/04/v.png",
+      "destination": "/media/2023/04/v.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/1-1024x754.png",
+      "destination": "/media/2023/05/1-1024x754.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/1-2.png",
+      "destination": "/media/2023/05/1-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/1-3-1024x763.png",
+      "destination": "/media/2023/05/1-3-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/10-1.png",
+      "destination": "/media/2023/05/10-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/11.png",
+      "destination": "/media/2023/05/11.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/12.png",
+      "destination": "/media/2023/05/12.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/15.png",
+      "destination": "/media/2023/05/15.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/2-1024x767.png",
+      "destination": "/media/2023/05/2-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/2-2.png",
+      "destination": "/media/2023/05/2-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/3-1024x772.png",
+      "destination": "/media/2023/05/3-1024x772.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/3-2.png",
+      "destination": "/media/2023/05/3-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/4-2.png",
+      "destination": "/media/2023/05/4-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/5-1.png",
+      "destination": "/media/2023/05/5-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/6-1.png",
+      "destination": "/media/2023/05/6-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/7-1.png",
+      "destination": "/media/2023/05/7-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/A-1.png",
+      "destination": "/media/2023/05/A-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/A.png",
+      "destination": "/media/2023/05/A.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/aa.png",
+      "destination": "/media/2023/05/aa.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/b.png",
+      "destination": "/media/2023/05/b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/bb.png",
+      "destination": "/media/2023/05/bb.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/c.png",
+      "destination": "/media/2023/05/c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/d.png",
+      "destination": "/media/2023/05/d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/05/e.png",
+      "destination": "/media/2023/05/e.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-1-1024x733.png",
+      "destination": "/media/2023/06/1-1-1024x733.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-10-1024x764.png",
+      "destination": "/media/2023/06/1-10-1024x764.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-11-1024x770.png",
+      "destination": "/media/2023/06/1-11-1024x770.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-12-1024x766.png",
+      "destination": "/media/2023/06/1-12-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-13-1024x770.png",
+      "destination": "/media/2023/06/1-13-1024x770.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-2-1024x761.png",
+      "destination": "/media/2023/06/1-2-1024x761.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-3-1024x769.png",
+      "destination": "/media/2023/06/1-3-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-4-1024x760.png",
+      "destination": "/media/2023/06/1-4-1024x760.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-5-1024x764.png",
+      "destination": "/media/2023/06/1-5-1024x764.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-6-1024x767.png",
+      "destination": "/media/2023/06/1-6-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-7-1024x767.png",
+      "destination": "/media/2023/06/1-7-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-8-1024x767.png",
+      "destination": "/media/2023/06/1-8-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/1-9-1024x768.png",
+      "destination": "/media/2023/06/1-9-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/10-1024x769.png",
+      "destination": "/media/2023/06/10-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/11-1-1024x748.png",
+      "destination": "/media/2023/06/11-1-1024x748.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/11-1024x765.png",
+      "destination": "/media/2023/06/11-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/12-1-1024x769.png",
+      "destination": "/media/2023/06/12-1-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/12-1024x763.png",
+      "destination": "/media/2023/06/12-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/2-1-1024x764.png",
+      "destination": "/media/2023/06/2-1-1024x764.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/2-1024x771.png",
+      "destination": "/media/2023/06/2-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/2-2-1024x766.png",
+      "destination": "/media/2023/06/2-2-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/2-3-1024x769.png",
+      "destination": "/media/2023/06/2-3-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/2-4-1024x766.png",
+      "destination": "/media/2023/06/2-4-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/2-5-1024x769.png",
+      "destination": "/media/2023/06/2-5-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/3-1-1024x768.png",
+      "destination": "/media/2023/06/3-1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/3-1024x766.png",
+      "destination": "/media/2023/06/3-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/3-2-1024x769.png",
+      "destination": "/media/2023/06/3-2-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/3-3-1024x773.png",
+      "destination": "/media/2023/06/3-3-1024x773.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/3-4-1024x764.png",
+      "destination": "/media/2023/06/3-4-1024x764.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/4-1-1024x771.png",
+      "destination": "/media/2023/06/4-1-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/4-1024x760.png",
+      "destination": "/media/2023/06/4-1024x760.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/4-2-1024x768.png",
+      "destination": "/media/2023/06/4-2-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/4-3-1024x763.png",
+      "destination": "/media/2023/06/4-3-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/5-1-1024x768.png",
+      "destination": "/media/2023/06/5-1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/5-1024x766.png",
+      "destination": "/media/2023/06/5-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/5-2-1024x767.png",
+      "destination": "/media/2023/06/5-2-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/5-3-1024x755.png",
+      "destination": "/media/2023/06/5-3-1024x755.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/6-1.png",
+      "destination": "/media/2023/06/6-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/6-1024x767.png",
+      "destination": "/media/2023/06/6-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/6-2-1024x766.png",
+      "destination": "/media/2023/06/6-2-1024x766.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/7-1.png",
+      "destination": "/media/2023/06/7-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/7-1024x768.png",
+      "destination": "/media/2023/06/7-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/7-2-1024x765.png",
+      "destination": "/media/2023/06/7-2-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/8-1-1024x765.png",
+      "destination": "/media/2023/06/8-1-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/8-1024x763.png",
+      "destination": "/media/2023/06/8-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/8-2-1024x763.png",
+      "destination": "/media/2023/06/8-2-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/9-1-1024x767.png",
+      "destination": "/media/2023/06/9-1-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/9-1024x768.png",
+      "destination": "/media/2023/06/9-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/06/9-2-1024x761.png",
+      "destination": "/media/2023/06/9-2-1024x761.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/10/a-1024x721.png",
+      "destination": "/media/2023/10/a-1024x721.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2023/12/Kladno-za-podpory-města.png",
+      "destination": "/media/2023/12/Kladno-za-podpory-města.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/02/image_nahled.png",
+      "destination": "/media/2024/02/image_nahled.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/0-768x1086.png",
+      "destination": "/media/2024/04/0-768x1086.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/000-768x1086.png",
+      "destination": "/media/2024/04/000-768x1086.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/1-768x1086.png",
+      "destination": "/media/2024/04/1-768x1086.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/5-768x1086.png",
+      "destination": "/media/2024/04/5-768x1086.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/6-1024x768.png",
+      "destination": "/media/2024/04/6-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/7-768x1086.png",
+      "destination": "/media/2024/04/7-768x1086.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/8-768x1086.png",
+      "destination": "/media/2024/04/8-768x1086.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/Diplom_FotbalovyTurnaj_20240423_1024x768.png",
+      "destination": "/media/2024/04/Diplom_FotbalovyTurnaj_20240423_1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/VysledkovaListina_OK_MO_Kladno_Z7_Zvyraznena_20240418_1024x768.png",
+      "destination": "/media/2024/04/VysledkovaListina_OK_MO_Kladno_Z7_Zvyraznena_20240418_1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c0-1024x771.png",
+      "destination": "/media/2024/04/c0-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c1-1024x771.png",
+      "destination": "/media/2024/04/c1-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c2-1024x771.png",
+      "destination": "/media/2024/04/c2-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c3-1024x771.png",
+      "destination": "/media/2024/04/c3-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c4-1024x771.png",
+      "destination": "/media/2024/04/c4-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c5-1024x771.png",
+      "destination": "/media/2024/04/c5-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c6.png",
+      "destination": "/media/2024/04/c6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c7-1024x771.png",
+      "destination": "/media/2024/04/c7-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/c8-1024x771.png",
+      "destination": "/media/2024/04/c8-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f0-1024x768.png",
+      "destination": "/media/2024/04/f0-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f1-1-768x1024.png",
+      "destination": "/media/2024/04/f1-1-768x1024.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f1-1024x772.png",
+      "destination": "/media/2024/04/f1-1024x772.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f10-768x1024.png",
+      "destination": "/media/2024/04/f10-768x1024.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f11-1024x768.png",
+      "destination": "/media/2024/04/f11-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f2-1-1024x768.png",
+      "destination": "/media/2024/04/f2-1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f2-1024x741.png",
+      "destination": "/media/2024/04/f2-1024x741.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f3-1-1024x768.png",
+      "destination": "/media/2024/04/f3-1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f3-1024x768.png",
+      "destination": "/media/2024/04/f3-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f4-1024x768.png",
+      "destination": "/media/2024/04/f4-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f5-1024x768.png",
+      "destination": "/media/2024/04/f5-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f6-1024x768.png",
+      "destination": "/media/2024/04/f6-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f7-1024x648.png",
+      "destination": "/media/2024/04/f7-1024x648.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/f8-1024x768.png",
+      "destination": "/media/2024/04/f8-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/04/ff1-1024x768.png",
+      "destination": "/media/2024/04/ff1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/1-1024x771.png",
+      "destination": "/media/2024/05/1-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/2-1024x771.png",
+      "destination": "/media/2024/05/2-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/3.png",
+      "destination": "/media/2024/05/3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/4.png",
+      "destination": "/media/2024/05/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/5-1024x771.png",
+      "destination": "/media/2024/05/5-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/6-1024x771.png",
+      "destination": "/media/2024/05/6-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/05/7.png",
+      "destination": "/media/2024/05/7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/1-1.png",
+      "destination": "/media/2024/06/1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/1-2.png",
+      "destination": "/media/2024/06/1-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/1.png",
+      "destination": "/media/2024/06/1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/10-1-1024x764.png",
+      "destination": "/media/2024/06/10-1-1024x764.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/10-2.png",
+      "destination": "/media/2024/06/10-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/10-3.png",
+      "destination": "/media/2024/06/10-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/10.png",
+      "destination": "/media/2024/06/10.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/11-1.png",
+      "destination": "/media/2024/06/11-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/11.png",
+      "destination": "/media/2024/06/11.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/12-1-768x1024.png",
+      "destination": "/media/2024/06/12-1-768x1024.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/12.png",
+      "destination": "/media/2024/06/12.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/13-1.png",
+      "destination": "/media/2024/06/13-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/13.png",
+      "destination": "/media/2024/06/13.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/14.png",
+      "destination": "/media/2024/06/14.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/15.png",
+      "destination": "/media/2024/06/15.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/16.png",
+      "destination": "/media/2024/06/16.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/17.png",
+      "destination": "/media/2024/06/17.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/2-1.png",
+      "destination": "/media/2024/06/2-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/2-2.png",
+      "destination": "/media/2024/06/2-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/2-3-1024x732.png",
+      "destination": "/media/2024/06/2-3-1024x732.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/2.png",
+      "destination": "/media/2024/06/2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/3-1.png",
+      "destination": "/media/2024/06/3-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/3-2.png",
+      "destination": "/media/2024/06/3-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/3-3.png",
+      "destination": "/media/2024/06/3-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/3.png",
+      "destination": "/media/2024/06/3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/4-1.png",
+      "destination": "/media/2024/06/4-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/4-2.png",
+      "destination": "/media/2024/06/4-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/4-4.png",
+      "destination": "/media/2024/06/4-4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/4.png",
+      "destination": "/media/2024/06/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/5-1.png",
+      "destination": "/media/2024/06/5-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/5-1024x771.png",
+      "destination": "/media/2024/06/5-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/5-2.png",
+      "destination": "/media/2024/06/5-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/5-3.png",
+      "destination": "/media/2024/06/5-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/6-1.png",
+      "destination": "/media/2024/06/6-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/6-1024x767.png",
+      "destination": "/media/2024/06/6-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/6-2.png",
+      "destination": "/media/2024/06/6-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/7-1-1024x682.png",
+      "destination": "/media/2024/06/7-1-1024x682.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/7-1024x763.png",
+      "destination": "/media/2024/06/7-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/7-2-1024x681.png",
+      "destination": "/media/2024/06/7-2-1024x681.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/8-1.png",
+      "destination": "/media/2024/06/8-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/8-1024x758.png",
+      "destination": "/media/2024/06/8-1024x758.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/8-2.png",
+      "destination": "/media/2024/06/8-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/9-1024x767.png",
+      "destination": "/media/2024/06/9-1024x767.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/9-2.png",
+      "destination": "/media/2024/06/9-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/9-3.png",
+      "destination": "/media/2024/06/9-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/Bez-názvu.png",
+      "destination": "/media/2024/06/Bez-názvu.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/ZaverSkolnihoRoku2023-24_PoDnech_20240618.png",
+      "destination": "/media/2024/06/ZaverSkolnihoRoku2023-24_PoDnech_20240618.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/a-1.png",
+      "destination": "/media/2024/06/a-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/a.png",
+      "destination": "/media/2024/06/a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/b-1.png",
+      "destination": "/media/2024/06/b-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/b.png",
+      "destination": "/media/2024/06/b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/06/c.png",
+      "destination": "/media/2024/06/c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/0-1.png",
+      "destination": "/media/2024/11/0-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/0-2.png",
+      "destination": "/media/2024/11/0-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/0-3-1024x769.png",
+      "destination": "/media/2024/11/0-3-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/0.png",
+      "destination": "/media/2024/11/0.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/1-1.png",
+      "destination": "/media/2024/11/1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/1-2-1024x765.png",
+      "destination": "/media/2024/11/1-2-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/1.png",
+      "destination": "/media/2024/11/1-png.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/2-1.png",
+      "destination": "/media/2024/11/2-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/2-2.png",
+      "destination": "/media/2024/11/2-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/2-3-1024x726.png",
+      "destination": "/media/2024/11/2-3-1024x726.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/2.png",
+      "destination": "/media/2024/11/2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/3-1.png",
+      "destination": "/media/2024/11/3-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/3-1024x619.png",
+      "destination": "/media/2024/11/3-1024x619.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/3-2-1024x769.png",
+      "destination": "/media/2024/11/3-2-1024x769.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/4-1-1024x765.png",
+      "destination": "/media/2024/11/4-1-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/4.png",
+      "destination": "/media/2024/11/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/5-1-1024x770.png",
+      "destination": "/media/2024/11/5-1-1024x770.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/5.png",
+      "destination": "/media/2024/11/5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/6-1-1024x780.png",
+      "destination": "/media/2024/11/6-1-1024x780.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/6.png",
+      "destination": "/media/2024/11/6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/7.png",
+      "destination": "/media/2024/11/7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/A-1024x768.png",
+      "destination": "/media/2024/11/A-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/B-1024x764.png",
+      "destination": "/media/2024/11/B-1024x764.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/C-1024x763.png",
+      "destination": "/media/2024/11/C-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/D-1024x772.png",
+      "destination": "/media/2024/11/D-1024x772.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/E.png",
+      "destination": "/media/2024/11/E.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/F-1024x763.png",
+      "destination": "/media/2024/11/F-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/G-1024x757.png",
+      "destination": "/media/2024/11/G-1024x757.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/H-1024x763.png",
+      "destination": "/media/2024/11/H-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/J-1024x770.png",
+      "destination": "/media/2024/11/J-1024x770.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/K-1024x763.png",
+      "destination": "/media/2024/11/K-1024x763.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/L-1024x760.png",
+      "destination": "/media/2024/11/L-1024x760.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/Snímek-obrazovky-2024-11-27-v-13.55.14-e1732712254321.png",
+      "destination": "/media/2024/11/Snímek-obrazovky-2024-11-27-v-13.55.14-e1732712254321.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/text1.png",
+      "destination": "/media/2024/11/text1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/text2-1024x765.png",
+      "destination": "/media/2024/11/text2-1024x765.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/11/text3.png",
+      "destination": "/media/2024/11/text3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/0.png",
+      "destination": "/media/2024/12/0.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/1-1.png",
+      "destination": "/media/2024/12/1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/1-2.png",
+      "destination": "/media/2024/12/1-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/1-3.png",
+      "destination": "/media/2024/12/1-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/1.png",
+      "destination": "/media/2024/12/1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/10-1.png",
+      "destination": "/media/2024/12/10-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/10.png",
+      "destination": "/media/2024/12/10.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/11-1.png",
+      "destination": "/media/2024/12/11-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/11.png",
+      "destination": "/media/2024/12/11.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/12.png",
+      "destination": "/media/2024/12/12.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/13.png",
+      "destination": "/media/2024/12/13.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/2-1.png",
+      "destination": "/media/2024/12/2-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/2-2.png",
+      "destination": "/media/2024/12/2-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/2-3.png",
+      "destination": "/media/2024/12/2-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/2.png",
+      "destination": "/media/2024/12/2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/3-2.png",
+      "destination": "/media/2024/12/3-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/3-3.png",
+      "destination": "/media/2024/12/3-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/3.png",
+      "destination": "/media/2024/12/3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/4-1.png",
+      "destination": "/media/2024/12/4-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/4-2.png",
+      "destination": "/media/2024/12/4-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/4.png",
+      "destination": "/media/2024/12/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/5-1-1024x771.png",
+      "destination": "/media/2024/12/5-1-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/5.png",
+      "destination": "/media/2024/12/5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/6-1.png",
+      "destination": "/media/2024/12/6-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/6.png",
+      "destination": "/media/2024/12/6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/7-1.png",
+      "destination": "/media/2024/12/7-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/7-2.png",
+      "destination": "/media/2024/12/7-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/7.png",
+      "destination": "/media/2024/12/7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/8-1.png",
+      "destination": "/media/2024/12/8-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/8.png",
+      "destination": "/media/2024/12/8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/9-1.png",
+      "destination": "/media/2024/12/9-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2024/12/9.png",
+      "destination": "/media/2024/12/9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/02/VysledkovaListina_OK_MO_Z5_Zvyraznena_024-2025_1024x768.png",
+      "destination": "/media/2025/02/VysledkovaListina_OK_MO_Z5_Zvyraznena_024-2025_1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/02/VysledkovaListina_OK_MO_Z9_Zvyraznena_2024-2025_1024x768.png",
+      "destination": "/media/2025/02/VysledkovaListina_OK_MO_Z9_Zvyraznena_2024-2025_1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/03/1.png",
+      "destination": "/media/2025/03/1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/1-1.png",
+      "destination": "/media/2025/04/1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/1.png",
+      "destination": "/media/2025/04/1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/2-1.png",
+      "destination": "/media/2025/04/2-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/2-2-1024x771.png",
+      "destination": "/media/2025/04/2-2-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/3-1.png",
+      "destination": "/media/2025/04/3-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/3-2.png",
+      "destination": "/media/2025/04/3-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/3.png",
+      "destination": "/media/2025/04/3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/4-1.png",
+      "destination": "/media/2025/04/4-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/4.png",
+      "destination": "/media/2025/04/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/5-1-1024x771.png",
+      "destination": "/media/2025/04/5-1-1024x771.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/5.png",
+      "destination": "/media/2025/04/5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/6.png",
+      "destination": "/media/2025/04/6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/image-1.png",
+      "destination": "/media/2025/04/image-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/image-2.png",
+      "destination": "/media/2025/04/image-2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/image-3.png",
+      "destination": "/media/2025/04/image-3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/image-4.png",
+      "destination": "/media/2025/04/image-4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/image.png",
+      "destination": "/media/2025/04/image.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/keram1-1.png",
+      "destination": "/media/2025/04/keram1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/keram2.png",
+      "destination": "/media/2025/04/keram2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/keram3.png",
+      "destination": "/media/2025/04/keram3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/keram5.png",
+      "destination": "/media/2025/04/keram5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/04/les-koláž.png",
+      "destination": "/media/2025/04/les-koláž.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/05/big_co-tu-kvete-Aue-352551.png",
+      "destination": "/media/2025/05/big_co-tu-kvete-Aue-352551.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/1-1.png",
+      "destination": "/media/2025/06/1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/1.png",
+      "destination": "/media/2025/06/1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/2-1.png",
+      "destination": "/media/2025/06/2-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/2.png",
+      "destination": "/media/2025/06/2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/3-1.png",
+      "destination": "/media/2025/06/3-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/3-1024x768.png",
+      "destination": "/media/2025/06/3-1024x768-png.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/4-1.png",
+      "destination": "/media/2025/06/4-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/4.png",
+      "destination": "/media/2025/06/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/5-1.png",
+      "destination": "/media/2025/06/5-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/5.png",
+      "destination": "/media/2025/06/5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/6.png",
+      "destination": "/media/2025/06/6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/8.png",
+      "destination": "/media/2025/06/8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/9.png",
+      "destination": "/media/2025/06/9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/a.png",
+      "destination": "/media/2025/06/a.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/b.png",
+      "destination": "/media/2025/06/b.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/c-1.png",
+      "destination": "/media/2025/06/c-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/d.png",
+      "destination": "/media/2025/06/d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/f.png",
+      "destination": "/media/2025/06/f.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/g.png",
+      "destination": "/media/2025/06/g.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/h.png",
+      "destination": "/media/2025/06/h.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/i.png",
+      "destination": "/media/2025/06/i.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/j.png",
+      "destination": "/media/2025/06/j.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/k.png",
+      "destination": "/media/2025/06/k.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/l.png",
+      "destination": "/media/2025/06/l.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/m.png",
+      "destination": "/media/2025/06/m.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/06/n.png",
+      "destination": "/media/2025/06/n.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/1-1.png",
+      "destination": "/media/2025/11/1-1.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/10.png",
+      "destination": "/media/2025/11/10.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/2.png",
+      "destination": "/media/2025/11/2.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/3.png",
+      "destination": "/media/2025/11/3.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/4.png",
+      "destination": "/media/2025/11/4.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/5.png",
+      "destination": "/media/2025/11/5.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/6.png",
+      "destination": "/media/2025/11/6.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/7.png",
+      "destination": "/media/2025/11/7.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/8.png",
+      "destination": "/media/2025/11/8.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/9.png",
+      "destination": "/media/2025/11/9.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2025/11/intro_d.png",
+      "destination": "/media/2025/11/intro_d.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2026/02/pic2_c.png",
+      "destination": "/media/2026/02/pic2_c.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/2026/04/1-1024x768.png",
+      "destination": "/media/2026/04/1-1024x768.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/partneri/kladno-za-podpory-mesta.png",
+      "destination": "/media/partneri/kladno-za-podpory-mesta.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/media/partneri/logolink-op-vvv-eu-msmt.png",
+      "destination": "/media/partneri/logolink-op-vvv-eu-msmt.jpg",
+      "permanent": true
     }
   ],
   "functions": {

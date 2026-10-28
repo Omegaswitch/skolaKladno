@@ -351,6 +351,9 @@ def write_redirects(legacy):
     for k, dest in (("paged", "/aktuality/"), ("author", "/aktuality/"), ("feed", "/feed.xml"), ("m", "/aktuality/"), ("s", "/aktuality/")):
         rules.append({"source": "/:file(index\\.php)?", "has": [{"type": "query", "key": k}], "destination": urllib.parse.quote(dest), "permanent": True})
     rules.append({"source": "/wp-content/uploads/:path*", "destination": "/media/:path*", "permanent": True})
+    renamed = ROOT / "content" / "renamed-media.json"  # PNG photos converted to JPEG (smaller deploy); old addresses keep working
+    if renamed.exists():
+        rules += [{"source": a, "destination": b, "permanent": True} for a, b in json.loads(renamed.read_text(encoding="utf-8")).items()]
     f = ROOT / "vercel.json"
     v = json.loads(f.read_text(encoding="utf-8"))
     v["redirects"] = rules
